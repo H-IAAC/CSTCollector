@@ -1,6 +1,8 @@
 package br.org.eldorado.cst.collector;
 
+import static android.Manifest.permission.ACCESS_BACKGROUND_LOCATION;
 import static android.Manifest.permission.ACCESS_NETWORK_STATE;
+import static android.Manifest.permission.FOREGROUND_SERVICE;
 import static android.Manifest.permission.POST_NOTIFICATIONS;
 import static android.Manifest.permission.ACCESS_COARSE_LOCATION;
 import static android.Manifest.permission.ACCESS_FINE_LOCATION;
@@ -10,20 +12,25 @@ import static br.org.eldorado.cst.collector.constants.Constants.HANDLER_ACTION;
 import static br.org.eldorado.cst.collector.constants.Constants.HANDLER_MESSAGE;
 
 import android.app.ActivityManager;
+import android.app.AlertDialog;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 
 import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -31,11 +38,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 import java.util.Vector;
 
 import br.org.eldorado.cst.collector.foreground.ForegroundService;
+import br.org.eldorado.cst.collector.utils.Dialogs;
 
 /**
  * Main activity doesn't really do much, but start the service and then finish.
@@ -50,11 +60,12 @@ public class MainActivity extends AppCompatActivity {
     TextView alertTxt = null;
     ToggleButton startBtn = null;
 
-    private final Vector<String> REQUIRED_PERMISSIONS = new Vector<>(Arrays.asList(ACCESS_FINE_LOCATION,
-                                                                                   ACCESS_COARSE_LOCATION,
-                                                                                   POST_NOTIFICATIONS,
+    private final Vector<String> REQUIRED_PERMISSIONS = new Vector<>(Arrays.asList(ACCESS_BACKGROUND_LOCATION,
                                                                                    ACCESS_NETWORK_STATE,
-                                                                                   POST_NOTIFICATIONS));
+                                                                                   FOREGROUND_SERVICE,
+                                                                                   POST_NOTIFICATIONS,
+                                                                                   ACCESS_FINE_LOCATION,
+                                                                                   ACCESS_COARSE_LOCATION));
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,11 +87,21 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 if (isMyServiceRunning(ForegroundService.class)) {
-                    // Foreground already running...
+                    // Foreground already running, so stop it.
                     stopService(new Intent(getBaseContext(), ForegroundService.class));
 
                 } else {
-                    // Foreground not running...
+                    // Foreground service not running, start it.
+                    // Check permissions
+                    List<String> missingPermissions = getPermissionsNotGranted();
+                    if (missingPermissions.size() > 0) {
+                        alertTxt.setText(getString(R.string.msg_error_missing_permission) +
+                                ": " + missingPermissions);
+                        startBtn.setChecked(false);
+                        return;
+                    }
+
+                    // Start Foreground service
                     Intent startIntent = new Intent(getBaseContext(), ForegroundService.class);
                     startIntent.setAction(ForegroundService.ACTION_START_FOREGROUND_SERVICE);
                     startIntent.putExtra(HANDLER_MESSAGE.COMMAND, HANDLER_ACTION.START);
@@ -125,32 +146,55 @@ public class MainActivity extends AppCompatActivity {
                 new ActivityResultCallback<Map<String, Boolean>>() {
                     @Override
                     public void onActivityResult(Map<String, Boolean> isGranted) {
-                        boolean granted = true;
                         for (Map.Entry<String, Boolean> x : isGranted.entrySet()) {
                             Log.d(TAG, x.getKey() + " is " + x.getValue());
-                            if (!x.getValue()) granted = false;
-                        }
-                        if (granted) {
-                            alertTxt.setText("");
-                            Log.d(TAG, "Permissions granted!!!");
-                        } else {
-                            alertTxt.setText(R.string.msg_error_missing_permission);
-                            Log.e(TAG, "Failed! Permissions not granted by the user.");
+
+                            if (!x.getValue()) {
+                                // Missing required permissions
+                                Log.e(TAG, x.getKey() + " is not allowed.");
+
+                                if (x.getKey().equals(POST_NOTIFICATIONS)) {
+                                    requestNotificationPermission();
+                                } else if (x.getKey().equals(ACCESS_BACKGROUND_LOCATION)) {
+                                    requestLocationPermission();
+                                }
+                            }
                         }
                     }
                 }
         );
     }
 
-    //ask for permissions when we start.
+    private void requestNotificationPermission() {
+        ActivityCompat.requestPermissions(this,
+                new String[]{POST_NOTIFICATIONS}, 1);
+    }
+
+    private void requestLocationPermission() {
+        // API 30+ requires 'background location', that must be set as 'allow all the time'.
+        // Here it displays a dialog informing user to correctly set this permission.
+        Dialogs.goToSetting(this);
+    }
+
     private boolean allPermissionsGranted() {
         for (String permission : REQUIRED_PERMISSIONS) {
             if (ContextCompat.checkSelfPermission(this, permission) != PackageManager.PERMISSION_GRANTED) {
-                alertTxt.setText(R.string.msg_error_missing_permission);
                 return false;
             }
         }
+
         return true;
+    }
+
+    private List<String> getPermissionsNotGranted() {
+        List<String> missingPermissions = new ArrayList<>();
+        for (String permission : REQUIRED_PERMISSIONS) {
+            if (ContextCompat.checkSelfPermission(this, permission) != PackageManager.PERMISSION_GRANTED) {
+                missingPermissions.add(permission);
+            }
+        }
+
+        return missingPermissions;
     }
 
     private boolean isMyServiceRunning(Class<?> serviceClass) {

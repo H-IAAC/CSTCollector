@@ -9,6 +9,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
+import androidx.annotation.NonNull;
+
 import br.org.eldorado.cst.collector.constants.Constants;
 import br.org.eldorado.cst.collector.foreground.ForegroundService;
 import br.org.eldorado.cst.collector.foreground.handler.ServiceHandler;

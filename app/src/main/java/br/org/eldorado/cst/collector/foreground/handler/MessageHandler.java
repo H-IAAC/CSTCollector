@@ -2,6 +2,7 @@ package br.org.eldorado.cst.collector.foreground.handler;
 
 import static br.org.eldorado.cst.collector.constants.Constants.TAG;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -11,10 +12,14 @@ import android.util.Log;
 
 import br.org.eldorado.cst.collector.constants.Constants;
 import br.org.eldorado.cst.collector.foreground.ForegroundService;
+import br.org.eldorado.cst.collector.model.DataCollector;
 
 public class MessageHandler extends Handler {
-    public MessageHandler(Looper looper) {
+    private final Context context;
+    private final DataCollector dataCollector = new DataCollector();
+    public MessageHandler(Looper looper, Context context) {
         super(looper);
+        this.context = context;
     }
 
     @Override
@@ -45,19 +50,12 @@ public class MessageHandler extends Handler {
     }
 
     private void handleStop () {
+        Log.d(TAG, "Service stop...");
         this.getLooper().quitSafely();
+        dataCollector.stop(this.context);
     }
     private void handleStart () {
         Log.d(TAG, "Service starting...");
-        for (int i = 0; i < 3; i++) {
-            synchronized (this) {
-                try {
-                    wait(2000);
-                } catch (InterruptedException e) {
-                    Log.e(TAG, e.toString());
-                }
-            }
-            Log.e(TAG, "Starting... " + i);
-        }
+        dataCollector.start(this.context);
     }
 }

@@ -12,7 +12,7 @@ public final class ServiceHandler {
     private static MessageHandler messageHandler;
     public ServiceHandler(Context context, HandlerThread thread) {
         this.context = context;
-        messageHandler = new MessageHandler(thread.getLooper());
+        messageHandler = new MessageHandler(thread.getLooper(), this.context);
     }
 
     public static Message obtainMessage() {

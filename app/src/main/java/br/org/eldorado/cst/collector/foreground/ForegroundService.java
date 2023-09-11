@@ -9,14 +9,13 @@ import android.content.Intent;
 import android.os.HandlerThread;
 import android.os.IBinder;
 import android.os.Process;
-import android.os.Message;
 
 import android.util.Log;
 import android.widget.Toast;
 
-import br.org.eldorado.cst.collector.data.source.LocationMonitor;
 import br.org.eldorado.cst.collector.foreground.handler.ServiceHandler;
 import br.org.eldorado.cst.collector.foreground.notification.ForegroundNotification;
+
 
 /**
  * This is the background service that prompts itself to a foreground service with a persistent
@@ -28,7 +27,7 @@ public class ForegroundService extends Service {
     public static final String ACTION_START_FOREGROUND_SERVICE = "ACTION_START_FOREGROUND_SERVICE";
     public static final String ACTION_STOP_FOREGROUND_SERVICE = "ACTION_STOP_FOREGROUND_SERVICE";
     private ServiceHandler serviceHandler;
-    private LocationMonitor location = new LocationMonitor();
+
 
     @Override
     public void onCreate() {
@@ -46,8 +45,9 @@ public class ForegroundService extends Service {
                                                  Process.THREAD_PRIORITY_BACKGROUND);
         thread.start();
 
-        // Start location monitor
-        location.start(this);
+
+
+
 
         // Start HandlerThread's Looper, and use it as service Handler
         serviceHandler = new ServiceHandler(this, thread);
@@ -86,7 +86,9 @@ public class ForegroundService extends Service {
     public void onDestroy() {
         Log.d(TAG, "Service destroy");
         //unregisterReceiver(mActionReceiver);
-        location.stop(this);
+
+
+
         Toast.makeText(this, "service destroyed", Toast.LENGTH_SHORT).show();
     }
 }
