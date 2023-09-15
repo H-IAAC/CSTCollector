@@ -3,7 +3,6 @@ package br.org.eldorado.cst.collector.foreground.handler;
 import static br.org.eldorado.cst.collector.constants.Constants.TAG;
 
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -11,8 +10,7 @@ import android.os.Message;
 import android.util.Log;
 
 import br.org.eldorado.cst.collector.constants.Constants;
-import br.org.eldorado.cst.collector.foreground.ForegroundService;
-import br.org.eldorado.cst.collector.model.DataCollector;
+import br.org.eldorado.cst.collector.domain.DataCollector;
 
 public class MessageHandler extends Handler {
     private final Context context;
@@ -43,6 +41,10 @@ public class MessageHandler extends Handler {
             case Constants.HANDLER_ACTION.STOP:
                 Log.d(TAG, "Service handler received command: " + msgCommand);
                 handleStop();
+                break;
+            case Constants.HANDLER_ACTION.COLLECT:
+                Log.d(TAG, "Service handler received command: " + msgCommand);
+                dataCollector.collect();
                 break;
             default:
                 Log.d(TAG, "Invalid service handler received command: " + msgCommand);

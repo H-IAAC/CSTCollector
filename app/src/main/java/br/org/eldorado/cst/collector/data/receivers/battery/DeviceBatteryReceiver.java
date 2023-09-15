@@ -9,7 +9,7 @@ import android.content.IntentFilter;
 import android.os.BatteryManager;
 import android.util.Log;
 
-import br.org.eldorado.cst.collector.model.mapper.IBattery;
+import br.org.eldorado.cst.collector.domain.mapper.IBattery;
 
 public class DeviceBatteryReceiver extends BroadcastReceiver implements IBatteryMonitor {
 

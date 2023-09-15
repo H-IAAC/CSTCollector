@@ -19,7 +19,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ReportActivity"
+            android:name=".StatsActivity"
             android:exported="false"
             android:label="@string/title_activity_report"
             android:theme="@style/AppTheme" />

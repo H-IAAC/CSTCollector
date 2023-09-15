@@ -2,7 +2,7 @@ package br.org.eldorado.cst.collector.data.receivers.location;
 
 import android.content.Context;
 
-import br.org.eldorado.cst.collector.model.mapper.ILocation;
+import br.org.eldorado.cst.collector.domain.mapper.ILocation;
 
 public interface ILocationMonitor {
     public boolean start(Context context);

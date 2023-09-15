@@ -4,7 +4,7 @@ import android.content.Context;
 
 import br.org.eldorado.cst.collector.data.receivers.wifi.DeviceWifiReceiver;
 import br.org.eldorado.cst.collector.data.receivers.wifi.IWifiMonitor;
-import br.org.eldorado.cst.collector.model.mapper.IWifi;
+import br.org.eldorado.cst.collector.domain.mapper.IWifi;
 
 public class WifiMonitor {
 

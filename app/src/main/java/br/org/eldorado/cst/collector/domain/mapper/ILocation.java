@@ -1,4 +1,4 @@
-package br.org.eldorado.cst.collector.model.mapper;
+package br.org.eldorado.cst.collector.domain.mapper;
 
 public interface ILocation {
     long getTimestamp();

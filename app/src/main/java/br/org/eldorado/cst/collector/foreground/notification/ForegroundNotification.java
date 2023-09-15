@@ -15,7 +15,7 @@ import androidx.core.app.NotificationCompat;
 
 import br.org.eldorado.cst.collector.MainActivity;
 import br.org.eldorado.cst.collector.R;
-import br.org.eldorado.cst.collector.ReportActivity;
+import br.org.eldorado.cst.collector.StatsActivity;
 import br.org.eldorado.cst.collector.foreground.receiver.ActionReceiver;
 
 public class ForegroundNotification {
@@ -36,7 +36,7 @@ public class ForegroundNotification {
                         PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
 
         // Open ReportActivity
-        Intent reportActivityIntent = new Intent(context, ReportActivity.class);
+        Intent reportActivityIntent = new Intent(context, StatsActivity.class);
         TaskStackBuilder reportActivityStackBuilder = TaskStackBuilder.create(context);
         reportActivityStackBuilder.addNextIntentWithParentStack(reportActivityIntent);
         PendingIntent reportPendingIntent =

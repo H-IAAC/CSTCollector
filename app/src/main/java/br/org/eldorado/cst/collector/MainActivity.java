@@ -6,11 +6,14 @@ import static android.Manifest.permission.FOREGROUND_SERVICE;
 import static android.Manifest.permission.POST_NOTIFICATIONS;
 import static android.Manifest.permission.ACCESS_COARSE_LOCATION;
 import static android.Manifest.permission.ACCESS_FINE_LOCATION;
+import static br.org.eldorado.cst.collector.constants.Constants.APP_VERSION;
+import static br.org.eldorado.cst.collector.constants.Constants.DB_VERSION;
 import static br.org.eldorado.cst.collector.constants.Constants.NOTIFICATION_CHANNEL_ID;
 import static br.org.eldorado.cst.collector.constants.Constants.TAG;
 import static br.org.eldorado.cst.collector.constants.Constants.HANDLER_ACTION;
 import static br.org.eldorado.cst.collector.constants.Constants.HANDLER_MESSAGE;
 
+import android.annotation.SuppressLint;
 import android.app.ActivityManager;
 import android.app.AlertDialog;
 import android.app.NotificationChannel;
@@ -58,6 +61,7 @@ import br.org.eldorado.cst.collector.utils.Dialogs;
 public class MainActivity extends AppCompatActivity {
     ActivityResultLauncher<String[]> rpl;
     TextView alertTxt = null;
+    TextView versionTxt = null;
     ToggleButton startBtn = null;
 
     private final Vector<String> REQUIRED_PERMISSIONS = new Vector<>(Arrays.asList(ACCESS_BACKGROUND_LOCATION,
@@ -72,8 +76,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        setTitle("CST Collector");
+
         alertTxt = findViewById(R.id.alertTxt);
         startBtn = findViewById(R.id.startBtn);
+        versionTxt = findViewById(R.id.versionTxt);
+
+        versionTxt.setText(APP_VERSION + "." + DB_VERSION);
 
         // Request necessary permission to the users
         requestPermission();
@@ -83,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
 
         //IntentService start with 5 random number toasts
         startBtn.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View view) {
 

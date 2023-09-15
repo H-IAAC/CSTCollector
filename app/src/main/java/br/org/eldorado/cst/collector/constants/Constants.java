@@ -2,7 +2,9 @@ package br.org.eldorado.cst.collector.constants;
 
 public class Constants {
     public static final String TAG = "CST";
-
+    public static final int APP_VERSION = 0;
+    // If you change the database schema, you must increment the database version.
+    public static final int DB_VERSION = (APP_VERSION * 10) + 1;
     //  Notification channel id must be unique per package.
     public static final String NOTIFICATION_CHANNEL_ID = "br.org.eldorado.cst.channelId";
     // The identifier for the notification needs to be changeable
@@ -16,6 +18,7 @@ public class Constants {
     public static class HANDLER_ACTION {
         public static final String START = "service.handler.msg.start";
         public static final String STOP = "service.handler.msg.stop";
+        public static final String COLLECT = "service.handler.msg.collect";
     }
 }
 

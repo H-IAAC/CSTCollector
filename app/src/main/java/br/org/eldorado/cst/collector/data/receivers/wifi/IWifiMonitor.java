@@ -2,7 +2,7 @@ package br.org.eldorado.cst.collector.data.receivers.wifi;
 
 import android.content.Context;
 
-import br.org.eldorado.cst.collector.model.mapper.IWifi;
+import br.org.eldorado.cst.collector.domain.mapper.IWifi;
 
 public interface IWifiMonitor {
     public boolean start(Context context);

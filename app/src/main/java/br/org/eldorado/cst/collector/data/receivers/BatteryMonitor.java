@@ -4,7 +4,7 @@ import android.content.Context;
 
 import br.org.eldorado.cst.collector.data.receivers.battery.DeviceBatteryReceiver;
 import br.org.eldorado.cst.collector.data.receivers.battery.IBatteryMonitor;
-import br.org.eldorado.cst.collector.model.mapper.IBattery;
+import br.org.eldorado.cst.collector.domain.mapper.IBattery;
 
 public class BatteryMonitor {
 

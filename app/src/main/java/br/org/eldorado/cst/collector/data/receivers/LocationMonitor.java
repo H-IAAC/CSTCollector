@@ -1,11 +1,10 @@
 package br.org.eldorado.cst.collector.data.receivers;
 
 import android.content.Context;
-import android.location.LocationListener;
 
 import br.org.eldorado.cst.collector.data.receivers.location.DeviceLocationListener;
 import br.org.eldorado.cst.collector.data.receivers.location.ILocationMonitor;
-import br.org.eldorado.cst.collector.model.mapper.ILocation;
+import br.org.eldorado.cst.collector.domain.mapper.ILocation;
 
 public class LocationMonitor {
 

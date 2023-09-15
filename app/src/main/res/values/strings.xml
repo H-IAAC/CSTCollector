@@ -12,4 +12,6 @@
     <string name="title_activity_report">ReportActivity</string>
     <string name="msg_error_missing_permission">Please grant all necessary permissions</string>
     <string name="msg_info_set_location_permission">Location Permission must be set as \"Allow all the time\".</string>
+    <string name="synced">Synced</string>
+    <string name="not_synced">Not Synced</string>
 </resources>

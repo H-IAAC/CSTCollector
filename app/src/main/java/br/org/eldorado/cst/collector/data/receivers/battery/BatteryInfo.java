@@ -1,7 +1,6 @@
 package br.org.eldorado.cst.collector.data.receivers.battery;
 
-import br.org.eldorado.cst.collector.data.receivers.location.LocationInfo;
-import br.org.eldorado.cst.collector.model.mapper.IBattery;
+import br.org.eldorado.cst.collector.domain.mapper.IBattery;
 
 public class BatteryInfo implements IBattery {
     private int level = 0;

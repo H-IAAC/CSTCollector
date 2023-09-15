@@ -1,6 +1,6 @@
 package br.org.eldorado.cst.collector.data.receivers.location;
 
-import br.org.eldorado.cst.collector.model.mapper.ILocation;
+import br.org.eldorado.cst.collector.domain.mapper.ILocation;
 
 public class LocationInfo implements ILocation {
 

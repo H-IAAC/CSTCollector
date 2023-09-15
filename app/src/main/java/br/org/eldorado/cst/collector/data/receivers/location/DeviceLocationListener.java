@@ -4,12 +4,12 @@ import static br.org.eldorado.cst.collector.constants.Constants.TAG;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
-import android.location.LocationRequest;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -18,7 +18,9 @@ import androidx.core.app.ActivityCompat;
 
 import java.util.List;
 
-import br.org.eldorado.cst.collector.model.mapper.ILocation;
+import br.org.eldorado.cst.collector.constants.Constants;
+import br.org.eldorado.cst.collector.domain.mapper.ILocation;
+import br.org.eldorado.cst.collector.foreground.handler.ServiceHandler;
 
 
 public class DeviceLocationListener implements LocationListener, ILocationMonitor {
@@ -43,16 +45,11 @@ public class DeviceLocationListener implements LocationListener, ILocationMonito
         Criteria criteria = new Criteria();
         criteria.setAccuracy(Criteria.ACCURACY_FINE);
 
-
         List<String> providers = locationManager.getProviders(criteria, true);
         Log.d(TAG, "Location providers: " + providers.toString());
         String provider = locationManager.getBestProvider(criteria, true);
         Log.d(TAG, "Location using provider: " + provider);
         locationManager.requestLocationUpdates(provider, 3000, 1F, this);
-
-
-
-
 
         return true;
     }
@@ -84,6 +81,10 @@ public class DeviceLocationListener implements LocationListener, ILocationMonito
                         " altitude: " + location.getAltitude() + " accuracy: " + location.getAccuracy() +
                         " speed: " + location.getSpeed() +
                         " speedAccuracyMetersPerSecond: " + location.getSpeedAccuracyMetersPerSecond());
+
+        Intent intent = new Intent();
+        intent.putExtra(Constants.HANDLER_MESSAGE.COMMAND, Constants.HANDLER_ACTION.COLLECT);
+        ServiceHandler.sendMessage(intent.getExtras());
     }
 
     @Override

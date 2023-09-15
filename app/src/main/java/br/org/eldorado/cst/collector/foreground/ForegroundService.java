@@ -45,10 +45,6 @@ public class ForegroundService extends Service {
                                                  Process.THREAD_PRIORITY_BACKGROUND);
         thread.start();
 
-
-
-
-
         // Start HandlerThread's Looper, and use it as service Handler
         serviceHandler = new ServiceHandler(this, thread);
     }
@@ -87,8 +83,6 @@ public class ForegroundService extends Service {
         Log.d(TAG, "Service destroy");
         //unregisterReceiver(mActionReceiver);
 
-
-
-        Toast.makeText(this, "service destroyed", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "CST Collect finish", Toast.LENGTH_SHORT).show();
     }
 }
