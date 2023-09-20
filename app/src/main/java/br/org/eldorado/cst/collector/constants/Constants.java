@@ -20,5 +20,11 @@ public class Constants {
         public static final String STOP = "service.handler.msg.stop";
         public static final String COLLECT = "service.handler.msg.collect";
     }
+
+    public static class SYNCED_DATA {
+        public static final int YES = 1;
+        public static final int NO = 0;
+        public static final int ON_GOING = 2;
+    }
 }
 

@@ -35,7 +35,7 @@ public class ForegroundNotification {
                 mainActivityStackBuilder.getPendingIntent(0,
                         PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
 
-        // Open ReportActivity
+        // Open StatsActivity
         Intent reportActivityIntent = new Intent(context, StatsActivity.class);
         TaskStackBuilder reportActivityStackBuilder = TaskStackBuilder.create(context);
         reportActivityStackBuilder.addNextIntentWithParentStack(reportActivityIntent);

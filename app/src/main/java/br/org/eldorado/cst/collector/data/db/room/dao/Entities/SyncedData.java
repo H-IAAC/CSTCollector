@@ -23,9 +23,9 @@ public class SyncedData {
 
     @NonNull
     @ColumnInfo(name = "synced")
-    public boolean synced;
+    public int synced;
 
-    public SyncedData(@NonNull long uuid, boolean synced) {
+    public SyncedData(@NonNull long uuid, int synced) {
         this.uuid = uuid;
         this.synced = synced;
     }

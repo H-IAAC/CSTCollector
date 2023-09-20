@@ -1,15 +1,20 @@
 package br.org.eldorado.cst.collector.domain.model;
 
 public class CollectInfo {
-    private final long startDate, endDate;
+    private final long uuid, startDate, endDate;
     private final int numberOfItems;
-    private final boolean synced;
+    private final int synced;
 
-    public CollectInfo(long startDate, long endDate, int numberOfItems, boolean synced) {
+    public CollectInfo(long uuid, long startDate, long endDate, int numberOfItems, int synced) {
+        this.uuid = uuid;
         this.startDate = startDate;
         this.endDate = endDate;
         this.numberOfItems = numberOfItems;
         this.synced = synced;
+    }
+
+    public long getUuid() {
+        return uuid;
     }
 
     public long getStartDate() {
@@ -24,7 +29,7 @@ public class CollectInfo {
         return numberOfItems;
     }
 
-    public boolean idSynced() {
+    public int getSyncedState() {
         return synced;
     }
 }
