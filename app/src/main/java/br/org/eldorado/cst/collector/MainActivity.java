@@ -13,6 +13,7 @@ import static br.org.eldorado.cst.collector.constants.Constants.TAG;
 import static br.org.eldorado.cst.collector.constants.Constants.HANDLER_ACTION;
 import static br.org.eldorado.cst.collector.constants.Constants.HANDLER_MESSAGE;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.ActivityManager;
 import android.app.AlertDialog;
@@ -63,9 +64,9 @@ public class MainActivity extends AppCompatActivity {
     TextView alertTxt = null;
     TextView versionTxt = null;
     ToggleButton startBtn = null;
+    Button statReportBtn = null;
 
-    private final Vector<String> REQUIRED_PERMISSIONS = new Vector<>(Arrays.asList(ACCESS_BACKGROUND_LOCATION,
-                                                                                   ACCESS_NETWORK_STATE,
+    private final Vector<String> REQUIRED_PERMISSIONS = new Vector<>(Arrays.asList(ACCESS_NETWORK_STATE,
                                                                                    FOREGROUND_SERVICE,
                                                                                    POST_NOTIFICATIONS,
                                                                                    ACCESS_FINE_LOCATION,
@@ -81,8 +82,14 @@ public class MainActivity extends AppCompatActivity {
         alertTxt = findViewById(R.id.alertTxt);
         startBtn = findViewById(R.id.startBtn);
         versionTxt = findViewById(R.id.versionTxt);
+        statReportBtn = findViewById(R.id.statReportBtn);
 
         versionTxt.setText(APP_VERSION + "." + DB_VERSION);
+
+        // Check if all permissions are granted
+        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            REQUIRED_PERMISSIONS.add(ACCESS_BACKGROUND_LOCATION);
+        }
 
         // Request necessary permission to the users
         requestPermission();
@@ -124,6 +131,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        statReportBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), StatsActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK |
+                                Intent.FLAG_ACTIVITY_SINGLE_TOP |
+                                Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                getApplicationContext().startActivity(intent);
+            }
+        });
+
         // Needed for the persistent notification created in service.
         createChannel();
 
@@ -152,27 +170,38 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void requestPermission() {
-        rpl = registerForActivityResult(new ActivityResultContracts.RequestMultiplePermissions(),
-                new ActivityResultCallback<Map<String, Boolean>>() {
-                    @Override
-                    public void onActivityResult(Map<String, Boolean> isGranted) {
-                        for (Map.Entry<String, Boolean> x : isGranted.entrySet()) {
-                            Log.d(TAG, x.getKey() + " is " + x.getValue());
+        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            rpl = registerForActivityResult(new ActivityResultContracts.RequestMultiplePermissions(),
+                    new ActivityResultCallback<Map<String, Boolean>>() {
+                        @Override
+                        public void onActivityResult(Map<String, Boolean> isGranted) {
+                            for (Map.Entry<String, Boolean> x : isGranted.entrySet()) {
+                                Log.d(TAG, x.getKey() + " is " + x.getValue());
 
-                            if (!x.getValue()) {
-                                // Missing required permissions
-                                Log.e(TAG, x.getKey() + " is not allowed.");
+                                if (!x.getValue()) {
+                                    // Missing required permissions
+                                    Log.e(TAG, x.getKey() + " is not allowed.");
 
-                                if (x.getKey().equals(POST_NOTIFICATIONS)) {
-                                    requestNotificationPermission();
-                                } else if (x.getKey().equals(ACCESS_BACKGROUND_LOCATION)) {
-                                    requestLocationPermission();
+                                    if (x.getKey().equals(POST_NOTIFICATIONS)) {
+                                        requestNotificationPermission();
+                                    } else if (x.getKey().equals(ACCESS_BACKGROUND_LOCATION)) {
+                                        requestLocationPermission();
+                                    }
                                 }
                             }
                         }
                     }
+            );
+        } else {
+            // Checking if permission is not granted
+            for (String permission : REQUIRED_PERMISSIONS) {
+                if (ContextCompat.checkSelfPermission(this, permission) != PackageManager.PERMISSION_GRANTED){
+                    if(!ActivityCompat.shouldShowRequestPermissionRationale(this, permission)){
+                        requestPermissions(new String[]{permission}, 123);
+                    }
                 }
-        );
+            }
+        }
     }
 
     private void requestNotificationPermission() {
@@ -183,7 +212,10 @@ public class MainActivity extends AppCompatActivity {
     private void requestLocationPermission() {
         // API 30+ requires 'background location', that must be set as 'allow all the time'.
         // Here it displays a dialog informing user to correctly set this permission.
-        Dialogs.goToSetting(this);
+        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU){
+            Dialogs.goToSetting(this);
+        }
+
     }
 
     private boolean allPermissionsGranted() {
