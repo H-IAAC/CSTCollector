@@ -1,6 +1,6 @@
 package br.org.eldorado.cst.collector.data.db.room.dao.Entities;
 
-import static br.org.eldorado.cst.collector.data.db.room.dao.Entities.LocationData.TABLE_NAME;
+import static br.org.eldorado.cst.collector.data.db.room.dao.Entities.CollectedData.TABLE_NAME;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
@@ -8,8 +8,8 @@ import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 @Entity(tableName = TABLE_NAME)
-public class LocationData {
-    public static final String TABLE_NAME = "Location";
+public class CollectedData {
+    public static final String TABLE_NAME = "Collected";
     @NonNull
     @PrimaryKey(autoGenerate = true)
     public int _id;
@@ -38,7 +38,7 @@ public class LocationData {
     @ColumnInfo(name = "longitude")
     public double longitude;
 
-    public LocationData(@NonNull long uuid, int batteryLevel, boolean wifiState, long timestamp, double latitude, double longitude) {
+    public CollectedData(@NonNull long uuid, int batteryLevel, boolean wifiState, long timestamp, double latitude, double longitude) {
         this.uuid = uuid;
         this.batteryLevel = batteryLevel;
         this.wifiState = wifiState;

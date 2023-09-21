@@ -10,14 +10,15 @@ import android.os.Message;
 import android.util.Log;
 
 import br.org.eldorado.cst.collector.constants.Constants;
-import br.org.eldorado.cst.collector.domain.DataCollector;
+import br.org.eldorado.cst.collector.foreground.collector.Collector;
 
 public class MessageHandler extends Handler {
     private final Context context;
-    private final DataCollector dataCollector = new DataCollector();
+    private final Collector dataCollector;
     public MessageHandler(Looper looper, Context context) {
         super(looper);
         this.context = context;
+        this.dataCollector = new Collector(context);
     }
 
     @Override

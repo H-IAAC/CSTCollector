@@ -1,4 +1,4 @@
-package br.org.eldorado.cst.collector.domain;
+package br.org.eldorado.cst.collector.foreground.collector;
 
 import android.content.Context;
 
@@ -7,9 +7,9 @@ import java.util.Random;
 import br.org.eldorado.cst.collector.data.receivers.BatteryMonitor;
 import br.org.eldorado.cst.collector.data.receivers.LocationMonitor;
 import br.org.eldorado.cst.collector.data.receivers.WifiMonitor;
-import br.org.eldorado.cst.collector.domain.model.DataCollected;
+import br.org.eldorado.cst.collector.domain.model.CollectedData;
 
-public class DeviceMonitor {
+public class Monitor {
 
     // Every time when Device Monitor start, it creates a different 'uuid', it is used to relate the
     // collected data, into the same monitor.
@@ -18,9 +18,9 @@ public class DeviceMonitor {
     private final WifiMonitor wifiMonitor;
     private final BatteryMonitor batteryMonitor;
 
-    public DeviceMonitor(LocationMonitor locationMonitor,
-                         WifiMonitor wifiMonitor,
-                         BatteryMonitor batteryMonitor) {
+    public Monitor(LocationMonitor locationMonitor,
+                   WifiMonitor wifiMonitor,
+                   BatteryMonitor batteryMonitor) {
         this.locationMonitor = locationMonitor;
         this.wifiMonitor = wifiMonitor;
         this.batteryMonitor = batteryMonitor;
@@ -43,8 +43,8 @@ public class DeviceMonitor {
                 wifiMonitor.get().isConnected();
     }
 
-    public DataCollected getState() {
-        return new DataCollected(this.uuid,
+    public CollectedData getState() {
+        return new CollectedData(this.uuid,
                                  locationMonitor.get(),
                                  wifiMonitor.get(),
                                  batteryMonitor.get());

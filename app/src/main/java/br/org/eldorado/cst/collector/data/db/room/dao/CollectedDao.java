@@ -1,6 +1,6 @@
 package br.org.eldorado.cst.collector.data.db.room.dao;
 
-import static br.org.eldorado.cst.collector.data.db.room.dao.Entities.LocationData.TABLE_NAME;
+import static br.org.eldorado.cst.collector.data.db.room.dao.Entities.CollectedData.TABLE_NAME;
 
 import androidx.room.Dao;
 import androidx.room.Insert;
@@ -9,15 +9,15 @@ import androidx.room.Query;
 
 import java.util.List;
 
-import br.org.eldorado.cst.collector.data.db.room.dao.Entities.LocationData;
-import br.org.eldorado.cst.collector.data.db.room.dao.Entities.LocationStats;
+import br.org.eldorado.cst.collector.data.db.room.dao.Entities.CollectedData;
+import br.org.eldorado.cst.collector.data.db.room.dao.Entities.CollectionStats;
 import br.org.eldorado.cst.collector.data.db.room.dao.Entities.SyncedData;
 
 @Dao
-public interface LocationDataDao {
+public interface CollectedDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    void insert(LocationData data);
+    void insert(CollectedData data);
 
     @Query("DELETE FROM " + TABLE_NAME + " WHERE uuid = :uuid")
     void deleteByUuid(long uuid);
@@ -28,5 +28,5 @@ public interface LocationDataDao {
             " WHERE loc.uuid = sync.uuid" +
             " GROUP BY loc.uuid" +
             " ORDER BY startDate DESC")
-    List<LocationStats> getLocationStats();
+    List<CollectionStats> getLocationStats();
 }

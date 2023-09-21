@@ -20,13 +20,13 @@ import androidx.annotation.Nullable;
 
 import br.org.eldorado.cst.collector.R;
 import br.org.eldorado.cst.collector.constants.Constants;
-import br.org.eldorado.cst.collector.domain.StatsReport;
+import br.org.eldorado.cst.collector.domain.DataCollectionModel;
 import br.org.eldorado.cst.collector.domain.model.CollectInfo;
 
 public class StatsListAdapter extends ArrayAdapter<CollectInfo> {
-    private final StatsReport statsReport;
+    private final DataCollectionModel statsReport;
     private final Context context;
-    public StatsListAdapter(@NonNull Context context, ArrayList<CollectInfo> dataArrayList, StatsReport statsReport) {
+    public StatsListAdapter(@NonNull Context context, ArrayList<CollectInfo> dataArrayList, DataCollectionModel statsReport) {
         super(context, R.layout.stat_item, dataArrayList);
         this.statsReport = statsReport;
         this.context = context;
@@ -70,7 +70,7 @@ public class StatsListAdapter extends ArrayAdapter<CollectInfo> {
             public void onClick(View view) {
                 if (listData.getSyncedState() != Constants.SYNCED_DATA.ON_GOING) {
                     synchronized (this) {
-                        statsReport.deleteCollectedData(listData.getUuid());
+                        statsReport.delete(listData.getUuid());
                         remove(listData);
                     }
                 } else {

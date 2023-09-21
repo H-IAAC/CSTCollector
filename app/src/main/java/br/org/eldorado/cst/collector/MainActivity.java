@@ -13,14 +13,10 @@ import static br.org.eldorado.cst.collector.constants.Constants.TAG;
 import static br.org.eldorado.cst.collector.constants.Constants.HANDLER_ACTION;
 import static br.org.eldorado.cst.collector.constants.Constants.HANDLER_MESSAGE;
 
-import android.Manifest;
 import android.annotation.SuppressLint;
-import android.app.ActivityManager;
-import android.app.AlertDialog;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 
 import androidx.activity.result.ActivityResultCallback;
@@ -31,15 +27,12 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import android.content.pm.PackageManager;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import java.util.ArrayList;
@@ -50,6 +43,7 @@ import java.util.Vector;
 
 import br.org.eldorado.cst.collector.foreground.ForegroundService;
 import br.org.eldorado.cst.collector.utils.Dialogs;
+import br.org.eldorado.cst.collector.utils.Utils;
 
 /**
  * Main activity doesn't really do much, but start the service and then finish.
@@ -95,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         requestPermission();
 
         // Check service state
-        startBtn.setChecked(isMyServiceRunning(ForegroundService.class));
+        startBtn.setChecked(Utils.isServiceRunning(this));
 
         //IntentService start with 5 random number toasts
         startBtn.setOnClickListener(new View.OnClickListener() {
@@ -103,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                if (isMyServiceRunning(ForegroundService.class)) {
+                if (Utils.isServiceRunning(getApplicationContext())) {
                     // Foreground already running, so stop it.
                     stopService(new Intent(getBaseContext(), ForegroundService.class));
 
@@ -237,15 +231,5 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return missingPermissions;
-    }
-
-    private boolean isMyServiceRunning(Class<?> serviceClass) {
-        ActivityManager manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
-        for (ActivityManager.RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE)) {
-            if (serviceClass.getName().equals(service.service.getClassName())) {
-                return true;
-            }
-        }
-        return false;
     }
 }
