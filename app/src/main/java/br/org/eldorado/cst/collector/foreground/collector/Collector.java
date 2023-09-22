@@ -11,7 +11,7 @@ import br.org.eldorado.cst.collector.data.receivers.LocationMonitor;
 import br.org.eldorado.cst.collector.data.receivers.WifiMonitor;
 import br.org.eldorado.cst.collector.domain.DataCollectionModel;
 import br.org.eldorado.cst.collector.domain.SyncedModel;
-import br.org.eldorado.cst.collector.domain.model.CollectedData;
+import br.org.eldorado.cst.collector.domain.model.CollectionState;
 
 public class Collector {
 
@@ -38,7 +38,7 @@ public class Collector {
     public void collect() {
         if (deviceMonitor.checkRules()) {
             Log.d(TAG, "Collecting data...");
-            CollectedData data = deviceMonitor.getState();
+            CollectionState data = deviceMonitor.getState();
 
             // When starting Location Service, Android may return invalid GPS data
             // with timestamp as '0'. We need to check if data is valid, and discard it

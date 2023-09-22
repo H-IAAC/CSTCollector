@@ -9,6 +9,7 @@ import br.org.eldorado.cst.collector.data.db.room.dao.Entities.CollectedData;
 import br.org.eldorado.cst.collector.data.db.room.dao.Entities.CollectionStats;
 import br.org.eldorado.cst.collector.data.db.room.dao.Entities.SyncedData;
 import br.org.eldorado.cst.collector.data.db.room.dao.SyncedDao;
+import br.org.eldorado.cst.collector.domain.model.CollectionState;
 
 public class Db {
     private final SyncedDao syncedDao;
@@ -20,7 +21,7 @@ public class Db {
         collectedDao = db.collectedDao();
     }
 
-    public void insert(br.org.eldorado.cst.collector.domain.model.CollectedData data, int synced) {
+    public void insert(CollectionState data, int synced) {
         collectedDao.insert(new CollectedData(data.uuid,
                 data.getBattery().getLevel(),
                 data.getWifi().isConnected(),
@@ -33,6 +34,10 @@ public class Db {
     public void delete(long uuid) {
         collectedDao.deleteByUuid(uuid);
         syncedDao.deleteByUuid(uuid);
+    }
+
+    public List<CollectedData> get(long uuid) {
+         return collectedDao.getByUuid(uuid);
     }
 
     public void updateSynced(long uuid, int synced) {

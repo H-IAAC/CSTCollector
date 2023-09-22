@@ -7,7 +7,7 @@ import java.util.Random;
 import br.org.eldorado.cst.collector.data.receivers.BatteryMonitor;
 import br.org.eldorado.cst.collector.data.receivers.LocationMonitor;
 import br.org.eldorado.cst.collector.data.receivers.WifiMonitor;
-import br.org.eldorado.cst.collector.domain.model.CollectedData;
+import br.org.eldorado.cst.collector.domain.model.CollectionState;
 
 public class Monitor {
 
@@ -43,8 +43,8 @@ public class Monitor {
                 wifiMonitor.get().isConnected();
     }
 
-    public CollectedData getState() {
-        return new CollectedData(this.uuid,
+    public CollectionState getState() {
+        return new CollectionState(this.uuid,
                                  locationMonitor.get(),
                                  wifiMonitor.get(),
                                  batteryMonitor.get());

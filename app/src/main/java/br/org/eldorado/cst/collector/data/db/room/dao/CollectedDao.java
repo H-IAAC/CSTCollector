@@ -22,6 +22,9 @@ public interface CollectedDao {
     @Query("DELETE FROM " + TABLE_NAME + " WHERE uuid = :uuid")
     void deleteByUuid(long uuid);
 
+    @Query("SELECT * FROM " + TABLE_NAME + " WHERE uuid = :uuid")
+    List<CollectedData> getByUuid(long uuid);
+
     @Query("SELECT loc.uuid, COUNT(loc.uuid) as numberOfItems, MIN(timestamp) AS startDate, MAX(timestamp) AS endDate, sync.synced" +
             " FROM " + TABLE_NAME + " as loc," +
             SyncedData.TABLE_NAME + " as sync" +

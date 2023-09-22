@@ -175,7 +175,7 @@ public class MainActivity extends AppCompatActivity {
         portTxt.addTextChangedListener(new TextWatcher() {
 
             public void afterTextChanged(Editable s) {
-                preferences.setAddress(portTxt.getText().toString());
+                preferences.setPort(Integer.parseInt(portTxt.getText().toString()));
             }
 
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {}

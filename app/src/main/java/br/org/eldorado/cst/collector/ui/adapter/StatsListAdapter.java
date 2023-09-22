@@ -21,12 +21,12 @@ import androidx.annotation.Nullable;
 import br.org.eldorado.cst.collector.R;
 import br.org.eldorado.cst.collector.constants.Constants;
 import br.org.eldorado.cst.collector.domain.DataCollectionModel;
-import br.org.eldorado.cst.collector.domain.model.CollectInfo;
+import br.org.eldorado.cst.collector.domain.model.CollectionInfo;
 
-public class StatsListAdapter extends ArrayAdapter<CollectInfo> {
+public class StatsListAdapter extends ArrayAdapter<CollectionInfo> {
     private final DataCollectionModel statsReport;
     private final Context context;
-    public StatsListAdapter(@NonNull Context context, ArrayList<CollectInfo> dataArrayList, DataCollectionModel statsReport) {
+    public StatsListAdapter(@NonNull Context context, ArrayList<CollectionInfo> dataArrayList, DataCollectionModel statsReport) {
         super(context, R.layout.stat_item, dataArrayList);
         this.statsReport = statsReport;
         this.context = context;
@@ -34,7 +34,7 @@ public class StatsListAdapter extends ArrayAdapter<CollectInfo> {
     @NonNull
     @Override
     public View getView(int position, @Nullable View view, @NonNull ViewGroup parent) {
-        CollectInfo listData = getItem(position);
+        CollectionInfo listData = getItem(position);
         if (view == null){
             view = LayoutInflater.from(getContext()).inflate(R.layout.stat_item, parent, false);
         }
@@ -76,6 +76,13 @@ public class StatsListAdapter extends ArrayAdapter<CollectInfo> {
                 } else {
                     Toast.makeText(context, "Can't delete on going...", Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+
+        syncBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                statsReport.send(listData.getUuid());
             }
         });
 

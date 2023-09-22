@@ -33,7 +33,7 @@ public class Constants {
         public static final String PORT_KEY = "network_port";
         public static final Boolean PROTOCOL_VALUE = false;
         public static final String ADDRESS_VALUE = "vm.hiaac.ic.unicamp.br";
-        public static final Integer PORT_VALUE = 8889;
+        public static final Integer PORT_VALUE = 8089;
     }
 }
 

@@ -12,11 +12,11 @@ import br.org.eldorado.cst.collector.data.db.room.dao.Entities.CollectionStats;
 import br.org.eldorado.cst.collector.domain.DataCollectionModel;
 import br.org.eldorado.cst.collector.domain.SyncedModel;
 import br.org.eldorado.cst.collector.ui.adapter.StatsListAdapter;
-import br.org.eldorado.cst.collector.domain.model.CollectInfo;
+import br.org.eldorado.cst.collector.domain.model.CollectionInfo;
 
 public class StatsActivity extends AppCompatActivity {
     StatsListAdapter listAdapter;
-    ArrayList<CollectInfo> dataArrayList = new ArrayList<>();
+    ArrayList<CollectionInfo> dataArrayList = new ArrayList<>();
     DataCollectionModel statsReport;
     SyncedModel syncedModel;
     SwipeRefreshLayout swipeRefreshLayout;
@@ -62,7 +62,7 @@ public class StatsActivity extends AppCompatActivity {
         dataArrayList.clear();
 
         for (CollectionStats location : statsReport.getListOfCollectedData()){
-            dataArrayList.add(new CollectInfo(location.uuid, location.startDate, location.endDate, location.numberOfItems, location.synced));
+            dataArrayList.add(new CollectionInfo(location.uuid, location.startDate, location.endDate, location.numberOfItems, location.synced));
         }
 
         listAdapter = new StatsListAdapter(StatsActivity.this, dataArrayList, statsReport);

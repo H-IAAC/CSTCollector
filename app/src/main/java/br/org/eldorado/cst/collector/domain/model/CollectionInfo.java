@@ -1,11 +1,11 @@
 package br.org.eldorado.cst.collector.domain.model;
 
-public class CollectInfo {
+public class CollectionInfo {
     private final long uuid, startDate, endDate;
     private final int numberOfItems;
     private final int synced;
 
-    public CollectInfo(long uuid, long startDate, long endDate, int numberOfItems, int synced) {
+    public CollectionInfo(long uuid, long startDate, long endDate, int numberOfItems, int synced) {
         this.uuid = uuid;
         this.startDate = startDate;
         this.endDate = endDate;

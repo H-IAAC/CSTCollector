@@ -14,19 +14,26 @@ public class Preferences {
         this.context = context;
         this.prefs = context.getSharedPreferences(context.getPackageName(), Context.MODE_PRIVATE);
 
-        if (notContains(context, Constants.PREFERENCES.PROTOCOL_KEY))
+        if (notContains(Constants.PREFERENCES.PROTOCOL_KEY))
             setProtocol(Constants.PREFERENCES.PROTOCOL_VALUE);
 
-        if (notContains(context, Constants.PREFERENCES.ADDRESS_KEY))
+        if (notContains(Constants.PREFERENCES.ADDRESS_KEY))
             setAddress(Constants.PREFERENCES.ADDRESS_VALUE);
 
-        if (notContains(context, Constants.PREFERENCES.PORT_KEY))
+        if (notContains(Constants.PREFERENCES.PORT_KEY))
             setPort(Constants.PREFERENCES.PORT_VALUE);
     }
 
     public Boolean getProtocol() {
         return prefs.getBoolean(Constants.PREFERENCES.PROTOCOL_KEY,
                                 Constants.PREFERENCES.PROTOCOL_VALUE);
+    }
+
+    public String getProtocolAsString() {
+        if (getProtocol())
+            return "https";
+        else
+            return "http";
     }
 
     public String getAddress() {
@@ -54,7 +61,7 @@ public class Preferences {
                                value).apply();
     }
 
-    private Boolean notContains(Context ctx, String key) {
+    private Boolean notContains(String key) {
         return !prefs.contains(key);
     }
 }
