@@ -29,9 +29,13 @@ import androidx.core.content.ContextCompat;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
@@ -44,6 +48,7 @@ import java.util.Vector;
 import br.org.eldorado.cst.collector.foreground.ForegroundService;
 import br.org.eldorado.cst.collector.utils.Dialogs;
 import br.org.eldorado.cst.collector.utils.Utils;
+import br.org.eldorado.cst.collector.utils.Preferences;
 
 /**
  * Main activity doesn't really do much, but start the service and then finish.
@@ -54,11 +59,15 @@ import br.org.eldorado.cst.collector.utils.Utils;
  */
 
 public class MainActivity extends AppCompatActivity {
-    ActivityResultLauncher<String[]> rpl;
-    TextView alertTxt = null;
-    TextView versionTxt = null;
-    ToggleButton startBtn = null;
-    Button statReportBtn = null;
+    private ActivityResultLauncher<String[]> rpl;
+    private TextView alertTxt = null;
+    private TextView versionTxt = null;
+    private ToggleButton startBtn = null;
+    private Button statReportBtn = null;
+    private ToggleButton protocolBtn = null;
+    private EditText addressTxt = null;
+    private EditText portTxt = null;
+    private Preferences preferences;
 
     private final Vector<String> REQUIRED_PERMISSIONS = new Vector<>(Arrays.asList(ACCESS_NETWORK_STATE,
                                                                                    FOREGROUND_SERVICE,
@@ -73,12 +82,22 @@ public class MainActivity extends AppCompatActivity {
 
         setTitle("CST Collector");
 
+        // Set class attributes
         alertTxt = findViewById(R.id.alertTxt);
         startBtn = findViewById(R.id.startBtn);
         versionTxt = findViewById(R.id.versionTxt);
         statReportBtn = findViewById(R.id.statReportBtn);
+        protocolBtn = findViewById(R.id.protocolBtn);
+        addressTxt = findViewById(R.id.addressTxt);
+        portTxt = findViewById(R.id.portTxt);
 
+        preferences = new Preferences(this);
+
+        // Set UI texts
         versionTxt.setText(APP_VERSION + "." + DB_VERSION);
+        portTxt.setText(preferences.getPort() + "");
+        addressTxt.setText(preferences.getAddress());
+        protocolBtn.setChecked(preferences.getProtocol());
 
         // Check if all permissions are granted
         if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
@@ -134,6 +153,34 @@ public class MainActivity extends AppCompatActivity {
                                 Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 getApplicationContext().startActivity(intent);
             }
+        });
+
+        protocolBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                preferences.setProtocol(isChecked);
+            }
+        });
+
+        addressTxt.addTextChangedListener(new TextWatcher() {
+            public void afterTextChanged(Editable s) {
+                preferences.setAddress(addressTxt.getText().toString());
+            }
+
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+
+            public void onTextChanged(CharSequence s, int start, int before, int count) {}
+        });
+
+        portTxt.addTextChangedListener(new TextWatcher() {
+
+            public void afterTextChanged(Editable s) {
+                preferences.setAddress(portTxt.getText().toString());
+            }
+
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+
+            public void onTextChanged(CharSequence s, int start, int before, int count) {}
         });
 
         // Needed for the persistent notification created in service.
