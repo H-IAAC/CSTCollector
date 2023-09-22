@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:screenOrientation="portrait"
     tools:context=".MainActivity">
 
     <ToggleButton
@@ -46,5 +47,46 @@
         android:textAlignment="center"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/networkConfig"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statReportBtn">
+
+        <ToggleButton
+            android:id="@+id/protocolBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:textOff="@string/http" />
+
+        <EditText
+            android:id="@+id/addressTxt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="55"
+            android:hint="Address"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/portTxt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:hint="Port"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textAlignment="center" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
