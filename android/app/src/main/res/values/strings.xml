@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CST Collector</string>
+
+    <string name="channel_name">Service running</string>
+    <string name="channel_description">This is the channel used by CST Collector foreground service.</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="http">HTTP</string>
+    <string name="https">HTTPS</string>
+    <string name="statistics">Statistics</string>
+    <string name="settings_permission">go to settings</string>
+    <string name="activities">Activities</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="msg_error_missing_permission">Please grant all necessary permissions</string>
+    <string name="msg_info_set_location_permission">Location Permission must be set as \"Allow all the time\".</string>
+    <string name="gps_is_disabled">GPS is disabled!</string>
+    <string name="synced">Synced</string>
+    <string name="not_synced">Not Synced</string>
+    <string name="on_going">On Going</string>
+</resources>
