@@ -1,0 +1,18 @@
+* {
+    font-weight: bold;
+}
+
+h1 {
+    text-indent: 50px;
+}
+
+label {
+    min-height: 30px;
+    margin-left: 15px;
+}
+
+textarea {
+   font-size: 14px;
+   line-height: 1.5;
+   width: 100%;
+}

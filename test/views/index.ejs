@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>H-IAAC - Federated Test</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
+    <link href="/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src='/autosize.js'></script>
+</head>
+
+<body>
+
+    <h1>H-IAAC - CST Collector Tester</h1>
+
+    <label id="timestamp">Timestamp</label>
+    </br>
+    <textarea id="body" readonly></textarea>
+ 
+</body>
+
+<script type="text/javascript">
+
+    var body = $('#body')[0];
+    var timestamp = $('#timestamp')[0];
+
+    // Refresh the "Remote Devices" list every 3 secs.
+    var interval = 3000;
+    function doAjax() {
+        $.ajax({
+            type: 'GET',
+            url: '/getValues',
+            data: $(this).serialize(),
+            dataType: 'json',
+            success: function (data) {
+                // Update UI with timestamp and body
+                body.innerHTML = data.body;
+                timestamp.innerHTML = data.timestamp;
+                resize(body);
+
+            },
+            complete: function (data) {
+                // Schedule the next
+                setTimeout(doAjax, interval);
+            }
+        });
+    }
+    setTimeout(doAjax, interval);
+    
+    function resize(element) {
+       autosize(element);
+    }
+
+</script>
+
+</html>

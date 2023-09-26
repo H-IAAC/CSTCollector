@@ -1,0 +1,4225 @@
+--- H-IAAC - CST COLLECTOR TESTER ---
+server is running on port 8089
+--- H-IAAC - CST COLLECTOR TESTER ---
+server is running on port 8089
+--- H-IAAC - CST COLLECTOR TESTER ---
+server is running on port 8089
+--- H-IAAC - CST COLLECTOR TESTER ---
+server is running on port 8089
+Received values body: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] at timestamp: 2023-09-26 00:15:10
+--- H-IAAC - CST COLLECTOR TESTER ---
+server is running on port 8089
+Received values body: [{"latitude":37.4220936,"longitude":-122.083922,"timestamp":1695685473452},{"latitude":37.60659833333333,"longitude":-122.061455,"timestamp":1695685476902},{"latitude":37.60670833333333,"longitude":-122.06141,"timestamp":1695685479760},{"latitude":37.60691,"longitude":-122.06133,"timestamp":1695685483226},{"latitude":37.607169999999996,"longitude":-122.06128,"timestamp":1695685486659},{"latitude":37.60735666666667,"longitude":-122.06128833333334,"timestamp":1695685489813},{"latitude":37.60756666666666,"longitude":-122.06129,"timestamp":1695685493321},{"latitude":37.607755,"longitude":-122.06129,"timestamp":1695685496313},{"latitude":37.607895,"longitude":-122.06129333333334,"timestamp":1695685499675},{"latitude":37.60810166666667,"longitude":-122.0613,"timestamp":1695685503240},{"latitude":37.60835333333333,"longitude":-122.0613,"timestamp":1695685506310},{"latitude":37.60846166666666,"longitude":-122.061295,"timestamp":1695685509224},{"latitude":37.60858,"longitude":-122.06126166666667,"timestamp":1695685512167},{"latitude":37.60858,"longitude":-122.06112166666666,"timestamp":1695685516313},{"latitude":37.60858,"longitude":-122.06098333333334,"timestamp":1695685521323},{"latitude":37.608713333333334,"longitude":-122.06099333333333,"timestamp":1695685524386},{"latitude":37.60881333333333,"longitude":-122.06099833333333,"timestamp":1695685527692},{"latitude":37.608938333333334,"longitude":-122.06087166666667,"timestamp":1695685531319},{"latitude":37.608936666666665,"longitude":-122.06070166666667,"timestamp":1695685534321},{"latitude":37.608935,"longitude":-122.06053166666666,"timestamp":1695685537322},{"latitude":37.60893333333333,"longitude":-122.06036166666667,"timestamp":1695685540322},{"latitude":37.60893,"longitude":-122.06019166666667,"timestamp":1695685543314},{"latitude":37.50747,"longitude":-121.99996,"timestamp":1695685546679},{"latitude":37.50743833333333,"longitude":-121.99981166666667,"timestamp":1695685549822},{"latitude":37.507415,"longitude":-121.99970166666667,"timestamp":1695685552822},{"latitude":37.50739166666666,"longitude":-121.99959166666666,"timestamp":1695685555820},{"latitude":37.50736833333333,"longitude":-121.99948166666667,"timestamp":1695685558821},{"latitude":37.507443333333335,"longitude":-121.99941166666666,"timestamp":1695685562895},{"latitude":37.507554999999996,"longitude":-121.99937666666666,"timestamp":1695685566822},{"latitude":37.507578333333335,"longitude":-121.99924166666666,"timestamp":1695685570817},{"latitude":37.507531666666665,"longitude":-121.99906666666666,"timestamp":1695685573842},{"latitude":37.50749,"longitude":-121.99890166666667,"timestamp":1695685576813},{"latitude":37.50744666666667,"longitude":-121.99872333333333,"timestamp":1695685579819},{"latitude":37.507403333333336,"longitude":-121.99854666666667,"timestamp":1695685582821},{"latitude":37.507375,"longitude":-121.99842833333334,"timestamp":1695685585813},{"latitude":37.50731666666667,"longitude":-121.99819166666667,"timestamp":1695685588809},{"latitude":37.50727333333333,"longitude":-121.998015,"timestamp":1695685591821},{"latitude":37.50723,"longitude":-121.99783166666667,"timestamp":1695685594947},{"latitude":37.50718666666667,"longitude":-121.99765333333333,"timestamp":1695685597856},{"latitude":37.50714166666667,"longitude":-121.99747666666667,"timestamp":1695685600820},{"latitude":37.50709833333333,"longitude":-121.9973,"timestamp":1695685603812},{"latitude":37.507055,"longitude":-121.99712333333333,"timestamp":1695685606820},{"latitude":37.507016666666665,"longitude":-121.99696,"timestamp":1695685609685},{"latitude":37.50697,"longitude":-121.99674,"timestamp":1695685612858},{"latitude":37.507175,"longitude":-121.99666166666667,"timestamp":1695685615874},{"latitude":37.507375,"longitude":-121.99657833333333,"timestamp":1695685618810},{"latitude":37.507575,"longitude":-121.996495,"timestamp":1695685621808},{"latitude":37.50772666666667,"longitude":-121.99643333333333,"timestamp":1695685625192},{"latitude":37.50797,"longitude":-121.99634,"timestamp":1695685627958},{"latitude":37.50817,"longitude":-121.99626,"timestamp":1695685630856},{"latitude":37.508383333333335,"longitude":-121.99617666666667,"timestamp":1695685633947},{"latitude":37.508583333333334,"longitude":-121.99609833333334,"timestamp":1695685636853},{"latitude":37.508783333333334,"longitude":-121.99602,"timestamp":1695685639808},{"latitude":37.508985,"longitude":-121.99594,"timestamp":1695685642807},{"latitude":37.50910666666667,"longitude":-121.99589333333333,"timestamp":1695685645728},{"latitude":37.509373333333336,"longitude":-121.99579,"timestamp":1695685648812},{"latitude":37.509496666666664,"longitude":-121.99574333333334,"timestamp":1695685651757},{"latitude":37.50974333333333,"longitude":-121.99564666666667,"timestamp":1695685654477},{"latitude":37.50994333333333,"longitude":-121.99556666666666,"timestamp":1695685657396},{"latitude":37.51014333333333,"longitude":-121.99548833333333,"timestamp":1695685660319},{"latitude":37.51034333333333,"longitude":-121.99540833333333,"timestamp":1695685663321},{"latitude":37.510545,"longitude":-121.99532833333333,"timestamp":1695685666321},{"latitude":37.510753333333334,"longitude":-121.995245,"timestamp":1695685669429},{"latitude":37.51093,"longitude":-121.99518,"timestamp":1695685672220},{"latitude":37.511136666666665,"longitude":-121.99513666666667,"timestamp":1695685675312},{"latitude":37.511343333333336,"longitude":-121.99509333333333,"timestamp":1695685678311},{"latitude":37.51155166666667,"longitude":-121.99505,"timestamp":1695685681308},{"latitude":37.51175833333333,"longitude":-121.99500833333333,"timestamp":1695685684307},{"latitude":37.512006666666665,"longitude":-121.99496333333333,"timestamp":1695685687827},{"latitude":37.51219833333333,"longitude":-121.99493,"timestamp":1695685690597},{"latitude":37.51233833333333,"longitude":-121.99490666666667,"timestamp":1695685693742},{"latitude":37.512616666666666,"longitude":-121.99486333333333,"timestamp":1695685696819},{"latitude":37.512838333333335,"longitude":-121.99482666666667,"timestamp":1695685700020},{"latitude":37.51304833333333,"longitude":-121.99479,"timestamp":1695685703062},{"latitude":37.51318833333333,"longitude":-121.99477166666667,"timestamp":1695685706208},{"latitude":37.51349833333333,"longitude":-121.99473,"timestamp":1695685709820},{"latitude":37.513708333333334,"longitude":-121.9947,"timestamp":1695685712812},{"latitude":37.51392666666667,"longitude":-121.994655,"timestamp":1695685715940},{"latitude":37.51412666666667,"longitude":-121.99450833333333,"timestamp":1695685719318},{"latitude":37.51429,"longitude":-121.99438,"timestamp":1695685722070},{"latitude":37.514408333333336,"longitude":-121.99428666666667,"timestamp":1695685725221},{"latitude":37.514646666666664,"longitude":-121.9941,"timestamp":1695685728319},{"latitude":37.51475,"longitude":-121.99402,"timestamp":1695685731093},{"latitude":37.51492666666667,"longitude":-121.99387666666667,"timestamp":1695685734292},{"latitude":37.515161666666664,"longitude":-121.99368666666666,"timestamp":1695685737318},{"latitude":37.515366666666665,"longitude":-121.99351833333333,"timestamp":1695685740816},{"latitude":37.51556,"longitude":-121.99334,"timestamp":1695685744245},{"latitude":37.515663333333336,"longitude":-121.99323333333334,"timestamp":1695685747279},{"latitude":37.515885,"longitude":-121.99300666666667,"timestamp":1695685750401},{"latitude":37.516018333333335,"longitude":-121.99289166666667,"timestamp":1695685753764},{"latitude":37.51618666666667,"longitude":-121.99274833333334,"timestamp":1695685756787},{"latitude":37.516445,"longitude":-121.99251833333334,"timestamp":1695685760320},{"latitude":37.516616666666664,"longitude":-121.99236833333333,"timestamp":1695685763320},{"latitude":37.51672,"longitude":-121.99228,"timestamp":1695685766131},{"latitude":37.51696,"longitude":-121.99209666666667,"timestamp":1695685769320},{"latitude":37.51714,"longitude":-121.99196166666667,"timestamp":1695685772319},{"latitude":37.51732,"longitude":-121.991825,"timestamp":1695685775318},{"latitude":37.517541666666666,"longitude":-121.99166333333334,"timestamp":1695685778946},{"latitude":37.517725,"longitude":-121.99153333333334,"timestamp":1695685781864},{"latitude":37.51790833333333,"longitude":-121.99140333333334,"timestamp":1695685784819},{"latitude":37.51812666666667,"longitude":-121.99124,"timestamp":1695685788454},{"latitude":37.51832666666667,"longitude":-121.99111,"timestamp":1695685791820},{"latitude":37.51851,"longitude":-121.991,"timestamp":1695685794687},{"latitude":37.51869,"longitude":-121.990865,"timestamp":1695685797811},{"latitude":37.51887166666667,"longitude":-121.99073166666666,"timestamp":1695685800820},{"latitude":37.519005,"longitude":-121.99061833333333,"timestamp":1695685804263},{"latitude":37.519235,"longitude":-121.99041833333334,"timestamp":1695685807310},{"latitude":37.51940666666667,"longitude":-121.99026833333333,"timestamp":1695685810312},{"latitude":37.51951833333333,"longitude":-121.99018,"timestamp":1695685813232},{"latitude":37.519753333333334,"longitude":-121.989985,"timestamp":1695685816308},{"latitude":37.51992833333333,"longitude":-121.989845,"timestamp":1695685819318},{"latitude":37.52009,"longitude":-121.98972,"timestamp":1695685822045},{"latitude":37.520208333333336,"longitude":-121.989625,"timestamp":1695685825195},{"latitude":37.52038,"longitude":-121.98949,"timestamp":1695685828235},{"latitude":37.520581666666665,"longitude":-121.98930166666666,"timestamp":1695685830956},{"latitude":37.520741666666666,"longitude":-121.98913,"timestamp":1695685833856},{"latitude":37.52083,"longitude":-121.98902833333334,"timestamp":1695685836648},{"latitude":37.521033333333335,"longitude":-121.98878500000001,"timestamp":1695685839810},{"latitude":37.52119833333333,"longitude":-121.98861,"timestamp":1695685842876},{"latitude":37.52136333333333,"longitude":-121.988445,"timestamp":1695685845818},{"latitude":37.52153666666667,"longitude":-121.98829166666667,"timestamp":1695685848819},{"latitude":37.52171166666667,"longitude":-121.988145,"timestamp":1695685851811},{"latitude":37.52191666666667,"longitude":-121.98795833333334,"timestamp":1695685855404},{"latitude":37.522126666666665,"longitude":-121.98778833333333,"timestamp":1695685858979},{"latitude":37.52226,"longitude":-121.98767,"timestamp":1695685862285},{"latitude":37.52248,"longitude":-121.98752,"timestamp":1695685865093},{"latitude":37.52264,"longitude":-121.98742,"timestamp":1695685868732},{"latitude":37.52297,"longitude":-121.98713,"timestamp":1695685871469},{"latitude":37.52302,"longitude":-121.98636,"timestamp":1695685874669},{"latitude":37.52239,"longitude":-121.9865,"timestamp":1695685878016},{"latitude":37.52245,"longitude":-121.98706,"timestamp":1695685881707},{"latitude":37.52283,"longitude":-121.98815,"timestamp":1695685885018},{"latitude":37.523179999999996,"longitude":-121.98886,"timestamp":1695685887769},{"latitude":37.52352,"longitude":-121.98955,"timestamp":1695685890594},{"latitude":37.523851666666665,"longitude":-121.99023333333334,"timestamp":1695685893318},{"latitude":37.5242,"longitude":-121.99095,"timestamp":1695685896245},{"latitude":37.52466166666667,"longitude":-121.99187666666667,"timestamp":1695685899897},{"latitude":37.52501,"longitude":-121.99258,"timestamp":1695685902817},{"latitude":37.52538,"longitude":-121.99334,"timestamp":1695685905942},{"latitude":37.52571833333333,"longitude":-121.99404,"timestamp":1695685908794},{"latitude":37.52608,"longitude":-121.99477,"timestamp":1695685911781},{"latitude":37.52641,"longitude":-121.99543,"timestamp":1695685914482},{"latitude":37.52676,"longitude":-121.99615,"timestamp":1695685917367},{"latitude":37.52708,"longitude":-121.99679,"timestamp":1695685920071},{"latitude":37.52747,"longitude":-121.99758,"timestamp":1695685923317},{"latitude":37.5278,"longitude":-121.99825,"timestamp":1695685926116},{"latitude":37.52815,"longitude":-121.99894,"timestamp":1695685928993},{"latitude":37.52852,"longitude":-121.99965,"timestamp":1695685931965},{"latitude":37.52889,"longitude":-122.00032,"timestamp":1695685934733},{"latitude":37.52926,"longitude":-122.001,"timestamp":1695685937718},{"latitude":37.52963,"longitude":-122.00169,"timestamp":1695685940694},{"latitude":37.53,"longitude":-122.00238,"timestamp":1695685943559},{"latitude":37.53036,"longitude":-122.00304,"timestamp":1695685946443},{"latitude":37.53073,"longitude":-122.00373,"timestamp":1695685949443},{"latitude":37.53108,"longitude":-122.00436,"timestamp":1695685952158},{"latitude":37.53146,"longitude":-122.00507,"timestamp":1695685955066},{"latitude":37.53185,"longitude":-122.0058,"timestamp":1695685958193},{"latitude":37.53218833333333,"longitude":-122.00643,"timestamp":1695685960917},{"latitude":37.53259,"longitude":-122.00715,"timestamp":1695685963945},{"latitude":37.53294833333333,"longitude":-122.00782,"timestamp":1695685966810},{"latitude":37.53331,"longitude":-122.0085,"timestamp":1695685969619},{"latitude":37.5337,"longitude":-122.00921,"timestamp":1695685972683},{"latitude":37.534121666666664,"longitude":-122.00998666666666,"timestamp":1695685975810},{"latitude":37.53443,"longitude":-122.01056,"timestamp":1695685979207},{"latitude":37.53496,"longitude":-122.01153,"timestamp":1695685982243},{"latitude":37.53531,"longitude":-122.01219,"timestamp":1695685985010},{"latitude":37.53568,"longitude":-122.01286,"timestamp":1695685987864},{"latitude":37.53607,"longitude":-122.01355,"timestamp":1695685990867},{"latitude":37.53647,"longitude":-122.0142,"timestamp":1695685993808},{"latitude":37.53688,"longitude":-122.01477,"timestamp":1695685996560},{"latitude":37.5373,"longitude":-122.01531,"timestamp":1695685999360},{"latitude":37.53777,"longitude":-122.01584,"timestamp":1695686002218},{"latitude":37.53827,"longitude":-122.01635,"timestamp":1695686005115},{"latitude":37.5388,"longitude":-122.01681,"timestamp":1695686007941},{"latitude":37.539476666666665,"longitude":-122.01734,"timestamp":1695686011377},{"latitude":37.54002,"longitude":-122.01775,"timestamp":1695686014261},{"latitude":37.54058,"longitude":-122.01817,"timestamp":1695686017191},{"latitude":37.54115,"longitude":-122.0186,"timestamp":1695686020141},{"latitude":37.54172,"longitude":-122.01902,"timestamp":1695686023063},{"latitude":37.54228,"longitude":-122.01945,"timestamp":1695686026043},{"latitude":37.542699999999996,"longitude":-122.01976,"timestamp":1695686029280},{"latitude":37.54344,"longitude":-122.02031,"timestamp":1695686032070},{"latitude":37.54399,"longitude":-122.02073,"timestamp":1695686035034},{"latitude":37.54457,"longitude":-122.02116,"timestamp":1695686038090},{"latitude":37.54513,"longitude":-122.02158,"timestamp":1695686040931},{"latitude":37.54570833333333,"longitude":-122.02202,"timestamp":1695686043940},{"latitude":37.54626833333333,"longitude":-122.02243,"timestamp":1695686046839},{"latitude":37.54682,"longitude":-122.02285,"timestamp":1695686049717},{"latitude":37.54735,"longitude":-122.02325,"timestamp":1695686052442},{"latitude":37.54788,"longitude":-122.02364,"timestamp":1695686055267},{"latitude":37.54839,"longitude":-122.02403,"timestamp":1695686057972},{"latitude":37.54897,"longitude":-122.02446,"timestamp":1695686060905},{"latitude":37.54954,"longitude":-122.02488,"timestamp":1695686063747},{"latitude":37.55007,"longitude":-122.02529,"timestamp":1695686066454},{"latitude":37.55079666666666,"longitude":-122.02583,"timestamp":1695686069870},{"latitude":37.55134,"longitude":-122.02624,"timestamp":1695686072616},{"latitude":37.55192,"longitude":-122.02668,"timestamp":1695686075516},{"latitude":37.55245,"longitude":-122.02707,"timestamp":1695686078228},{"latitude":37.55291,"longitude":-122.02741,"timestamp":1695686081554},{"latitude":37.55367,"longitude":-122.028,"timestamp":1695686084463},{"latitude":37.55419,"longitude":-122.02845,"timestamp":1695686087193},{"latitude":37.55477,"longitude":-122.029,"timestamp":1695686090417},{"latitude":37.555413333333334,"longitude":-122.02965833333333,"timestamp":1695686093929},{"latitude":37.556045,"longitude":-122.03032666666667,"timestamp":1695686097307},{"latitude":37.556625,"longitude":-122.030945,"timestamp":1695686100443},{"latitude":37.55724,"longitude":-122.0316,"timestamp":1695686103863},{"latitude":37.557903333333336,"longitude":-122.03231166666667,"timestamp":1695686107392},{"latitude":37.55821,"longitude":-122.03264,"timestamp":1695686110182},{"latitude":37.55876,"longitude":-122.03323,"timestamp":1695686113253},{"latitude":37.55956,"longitude":-122.0341,"timestamp":1695686116866},{"latitude":37.56007,"longitude":-122.03464,"timestamp":1695686119767},{"latitude":37.56051,"longitude":-122.0351,"timestamp":1695686123206},{"latitude":37.56117,"longitude":-122.03582,"timestamp":1695686125942},{"latitude":37.56168,"longitude":-122.03636,"timestamp":1695686128832},{"latitude":37.56209333333334,"longitude":-122.03680833333334,"timestamp":1695686132161},{"latitude":37.56278833333333,"longitude":-122.03755,"timestamp":1695686135039},{"latitude":37.56317,"longitude":-122.03796,"timestamp":1695686138266},{"latitude":37.5639,"longitude":-122.03874,"timestamp":1695686141467},{"latitude":37.56445,"longitude":-122.03932,"timestamp":1695686144566},{"latitude":37.56496,"longitude":-122.03987,"timestamp":1695686147491},{"latitude":37.565331666666665,"longitude":-122.04026166666667,"timestamp":1695686150442},{"latitude":37.566155,"longitude":-122.04114833333334,"timestamp":1695686154004},{"latitude":37.56669333333333,"longitude":-122.04172,"timestamp":1695686156903},{"latitude":37.5673,"longitude":-122.04237,"timestamp":1695686160258},{"latitude":37.56778,"longitude":-122.04288,"timestamp":1695686162991},{"latitude":37.56831,"longitude":-122.0434,"timestamp":1695686165915},{"latitude":37.56888,"longitude":-122.04391,"timestamp":1695686168866},{"latitude":37.56939,"longitude":-122.04431,"timestamp":1695686171567},{"latitude":37.56998,"longitude":-122.04473333333334,"timestamp":1695686174444},{"latitude":37.57054,"longitude":-122.04509,"timestamp":1695686177156},{"latitude":37.57113833333333,"longitude":-122.04542,"timestamp":1695686179966},{"latitude":37.57176,"longitude":-122.04573,"timestamp":1695686182765},{"latitude":37.57236,"longitude":-122.04598,"timestamp":1695686185513},{"latitude":37.57275,"longitude":-122.04613,"timestamp":1695686188293},{"latitude":37.573395,"longitude":-122.04634666666666,"timestamp":1695686191192},{"latitude":37.57426,"longitude":-122.04664,"timestamp":1695686194091},{"latitude":37.57492,"longitude":-122.04687,"timestamp":1695686197090},{"latitude":37.575673333333334,"longitude":-122.04712166666667,"timestamp":1695686200444},{"latitude":37.57614,"longitude":-122.04728,"timestamp":1695686203556},{"latitude":37.57695,"longitude":-122.04756,"timestamp":1695686207256},{"latitude":37.57788,"longitude":-122.04788,"timestamp":1695686210467},{"latitude":37.57868833333333,"longitude":-122.04814833333333,"timestamp":1695686213879},{"latitude":37.57940166666667,"longitude":-122.048395,"timestamp":1695686216994},{"latitude":37.580063333333335,"longitude":-122.04862666666666,"timestamp":1695686219852},{"latitude":37.58071,"longitude":-122.04885,"timestamp":1695686222782},{"latitude":37.581421666666664,"longitude":-122.04911666666666,"timestamp":1695686225906},{"latitude":37.58206,"longitude":-122.04939,"timestamp":1695686228866},{"latitude":37.58267,"longitude":-122.04968,"timestamp":1695686231704},{"latitude":37.58324833333333,"longitude":-122.04997,"timestamp":1695686234457},{"latitude":37.58385,"longitude":-122.05030833333333,"timestamp":1695686237316},{"latitude":37.58431,"longitude":-122.05058,"timestamp":1695686240652},{"latitude":37.58511,"longitude":-122.05111,"timestamp":1695686243641},{"latitude":37.58566166666667,"longitude":-122.05149666666667,"timestamp":1695686246377},{"latitude":37.58602,"longitude":-122.05176,"timestamp":1695686249205},{"latitude":37.5868,"longitude":-122.05232,"timestamp":1695686252087},{"latitude":37.58736,"longitude":-122.05272,"timestamp":1695686254915},{"latitude":37.58782,"longitude":-122.05305,"timestamp":1695686258179},{"latitude":37.58849,"longitude":-122.05352,"timestamp":1695686261554},{"latitude":37.58923,"longitude":-122.05405,"timestamp":1695686264259},{"latitude":37.58962,"longitude":-122.05432,"timestamp":1695686267204},{"latitude":37.5904,"longitude":-122.05488,"timestamp":1695686270065},{"latitude":37.59097,"longitude":-122.05528,"timestamp":1695686272915},{"latitude":37.59152,"longitude":-122.05568,"timestamp":1695686275738},{"latitude":37.59209,"longitude":-122.05609,"timestamp":1695686278581},{"latitude":37.59265,"longitude":-122.05648,"timestamp":1695686281384},{"latitude":37.59322,"longitude":-122.05689,"timestamp":1695686284291},{"latitude":37.59378,"longitude":-122.05729,"timestamp":1695686287040},{"latitude":37.59431333333333,"longitude":-122.05766833333334,"timestamp":1695686289748},{"latitude":37.595083333333335,"longitude":-122.05822333333333,"timestamp":1695686293370},{"latitude":37.59573,"longitude":-122.05868,"timestamp":1695686296565},{"latitude":37.59634,"longitude":-122.05911,"timestamp":1695686299681},{"latitude":37.5969,"longitude":-122.05951,"timestamp":1695686302423},{"latitude":37.5975,"longitude":-122.05994,"timestamp":1695686305307},{"latitude":37.59805,"longitude":-122.06034,"timestamp":1695686308089},{"latitude":37.59871,"longitude":-122.06081,"timestamp":1695686311316},{"latitude":37.59906,"longitude":-122.06106,"timestamp":1695686314180},{"latitude":37.599761666666666,"longitude":-122.06155833333334,"timestamp":1695686317742},{"latitude":37.60061,"longitude":-122.06217,"timestamp":1695686320865},{"latitude":37.60119,"longitude":-122.06258,"timestamp":1695686323791},{"latitude":37.60185,"longitude":-122.06305,"timestamp":1695686326966},{"latitude":37.60242,"longitude":-122.06345,"timestamp":1695686329742},{"latitude":37.60297,"longitude":-122.06385,"timestamp":1695686332489},{"latitude":37.60332,"longitude":-122.06409,"timestamp":1695686335251},{"latitude":37.603948333333335,"longitude":-122.06446666666666,"timestamp":1695686337977},{"latitude":37.60418,"longitude":-122.064515,"timestamp":1695686341379},{"latitude":37.604411666666664,"longitude":-122.06465833333333,"timestamp":1695686344935},{"latitude":37.60453,"longitude":-122.06473,"timestamp":1695686347770},{"latitude":37.60481,"longitude":-122.06489,"timestamp":1695686351165},{"latitude":37.605,"longitude":-122.065,"timestamp":1695686354228},{"latitude":37.60517,"longitude":-122.0651,"timestamp":1695686356989},{"latitude":37.60532,"longitude":-122.06516,"timestamp":1695686360251},{"latitude":37.60555,"longitude":-122.06521,"timestamp":1695686363702},{"latitude":37.60579,"longitude":-122.06521,"timestamp":1695686367229},{"latitude":37.605988333333336,"longitude":-122.06516,"timestamp":1695686370244},{"latitude":37.60621,"longitude":-122.06508,"timestamp":1695686373543},{"latitude":37.606498333333334,"longitude":-122.06499,"timestamp":1695686376819},{"latitude":37.60663,"longitude":-122.06497,"timestamp":1695686379679},{"latitude":37.60686,"longitude":-122.06498666666667,"timestamp":1695686383148},{"latitude":37.60718,"longitude":-122.065015,"timestamp":1695686386814},{"latitude":37.607225,"longitude":-122.06490166666667,"timestamp":1695686389706},{"latitude":37.607216666666666,"longitude":-122.064725,"timestamp":1695686392813},{"latitude":37.60721,"longitude":-122.06454833333333,"timestamp":1695686395811},{"latitude":37.607169999999996,"longitude":-122.06437,"timestamp":1695686398879},{"latitude":37.60713,"longitude":-122.0642,"timestamp":1695686401809},{"latitude":37.607078333333334,"longitude":-122.06399833333333,"timestamp":1695686405379},{"latitude":37.60704833333333,"longitude":-122.06387166666667,"timestamp":1695686408686},{"latitude":37.60700166666667,"longitude":-122.06364333333333,"timestamp":1695686411805},{"latitude":37.60698,"longitude":-122.06352,"timestamp":1695686415079},{"latitude":37.606941666666664,"longitude":-122.06334833333334,"timestamp":1695686418278},{"latitude":37.60688833333333,"longitude":-122.06313,"timestamp":1695686421181},{"latitude":37.606851666666664,"longitude":-122.06295833333333,"timestamp":1695686424314},{"latitude":37.606813333333335,"longitude":-122.06278833333333,"timestamp":1695686427313},{"latitude":37.60677333333334,"longitude":-122.06259833333333,"timestamp":1695686430815},{"latitude":37.60673833333333,"longitude":-122.06242666666667,"timestamp":1695686433813},{"latitude":37.606698333333334,"longitude":-122.06226166666667,"timestamp":1695686436826},{"latitude":37.606665,"longitude":-122.062105,"timestamp":1695686439748},{"latitude":37.60663,"longitude":-122.06194,"timestamp":1695686442763},{"latitude":37.606593333333336,"longitude":-122.06176833333333,"timestamp":1695686445813},{"latitude":37.60655833333333,"longitude":-122.06159666666667,"timestamp":1695686448805},{"latitude":37.60659833333333,"longitude":-122.061455,"timestamp":1695686451894},{"latitude":37.60670833333333,"longitude":-122.06141,"timestamp":1695686454753},{"latitude":37.60691,"longitude":-122.06133,"timestamp":1695686458229},{"latitude":37.607169999999996,"longitude":-122.06128,"timestamp":1695686461732},{"latitude":37.60735666666667,"longitude":-122.06128833333334,"timestamp":1695686464813},{"latitude":37.60756666666666,"longitude":-122.06129,"timestamp":1695686468314},{"latitude":37.607755,"longitude":-122.06129,"timestamp":1695686471313},{"latitude":37.607895,"longitude":-122.06129333333334,"timestamp":1695686474705},{"latitude":37.60810166666667,"longitude":-122.0613,"timestamp":1695686478216},{"latitude":37.60835333333333,"longitude":-122.0613,"timestamp":1695686481312},{"latitude":37.60846166666666,"longitude":-122.061295,"timestamp":1695686484165},{"latitude":37.60858,"longitude":-122.06126166666667,"timestamp":1695686487217},{"latitude":37.60858,"longitude":-122.06112166666666,"timestamp":1695686491314},{"latitude":37.60858,"longitude":-122.06098333333334,"timestamp":1695686496313},{"latitude":37.608713333333334,"longitude":-122.06099333333333,"timestamp":1695686499394},{"latitude":37.60881333333333,"longitude":-122.06099833333333,"timestamp":1695686502688},{"latitude":37.608938333333334,"longitude":-122.06087166666667,"timestamp":1695686506305},{"latitude":37.608936666666665,"longitude":-122.06070166666667,"timestamp":1695686509313},{"latitude":37.608935,"longitude":-122.06053166666666,"timestamp":1695686512312},{"latitude":37.60893333333333,"longitude":-122.06036166666667,"timestamp":1695686515312},{"latitude":37.60893,"longitude":-122.06019166666667,"timestamp":1695686518301},{"latitude":37.50747,"longitude":-121.99996,"timestamp":1695686521671},{"latitude":37.50743833333333,"longitude":-121.99981166666667,"timestamp":1695686524813},{"latitude":37.507415,"longitude":-121.99970166666667,"timestamp":1695686527814},{"latitude":37.50739166666666,"longitude":-121.99959166666666,"timestamp":1695686530812},{"latitude":37.50736833333333,"longitude":-121.99948166666667,"timestamp":1695686533813},{"latitude":37.507443333333335,"longitude":-121.99941166666666,"timestamp":1695686537892},{"latitude":37.507554999999996,"longitude":-121.99937666666666,"timestamp":1695686541814},{"latitude":37.507578333333335,"longitude":-121.99924166666666,"timestamp":1695686545813},{"latitude":37.507531666666665,"longitude":-121.99906666666666,"timestamp":1695686548813},{"latitude":37.50749,"longitude":-121.99890166666667,"timestamp":1695686551804},{"latitude":37.50744666666667,"longitude":-121.99872333333333,"timestamp":1695686554806},{"latitude":37.507403333333336,"longitude":-121.99854666666667,"timestamp":1695686557812},{"latitude":37.50736,"longitude":-121.99837,"timestamp":1695686560813},{"latitude":37.50731666666667,"longitude":-121.99819166666667,"timestamp":1695686563813},{"latitude":37.50727333333333,"longitude":-121.998015,"timestamp":1695686566804},{"latitude":37.50723,"longitude":-121.99783166666667,"timestamp":1695686569929},{"latitude":37.50718666666667,"longitude":-121.99765333333333,"timestamp":1695686572832},{"latitude":37.50714166666667,"longitude":-121.99747666666667,"timestamp":1695686575811},{"latitude":37.50709833333333,"longitude":-121.9973,"timestamp":1695686578811},{"latitude":37.507055,"longitude":-121.99712333333333,"timestamp":1695686581805},{"latitude":37.507016666666665,"longitude":-121.99696,"timestamp":1695686584670}] at timestamp: 2023-09-26 00:18:02
+--- H-IAAC - CST COLLECTOR TESTER ---
+server is running on port 8089
+Received values body: [
+	{
+		"latitude": -22.7875773,
+		"longitude": -47.1808291,
+		"timestamp": 1695721617254
+	},
+	{
+		"latitude": -22.787404,
+		"longitude": -47.1807956,
+		"timestamp": 1695721657393
+	},
+	{
+		"latitude": -22.7875907,
+		"longitude": -47.180836,
+		"timestamp": 1695721697551
+	},
+	{
+		"latitude": -22.7876605,
+		"longitude": -47.180772,
+		"timestamp": 1695721777538
+	},
+	{
+		"latitude": -22.7837066,
+		"longitude": -47.1765838,
+		"timestamp": 1695721856546
+	},
+	{
+		"latitude": -22.7877815,
+		"longitude": -47.1808236,
+		"timestamp": 1695721863259
+	},
+	{
+		"latitude": -22.7876469,
+		"longitude": -47.1806871,
+		"timestamp": 1695721903314
+	},
+	{
+		"latitude": -22.7877507,
+		"longitude": -47.1807479,
+		"timestamp": 1695721943351
+	},
+	{
+		"latitude": -22.7896848,
+		"longitude": -47.1799654,
+		"timestamp": 1695721983417
+	},
+	{
+		"latitude": -22.7876736,
+		"longitude": -47.1806135,
+		"timestamp": 1695722043498
+	},
+	{
+		"latitude": -22.7877457,
+		"longitude": -47.1807482,
+		"timestamp": 1695722083549
+	},
+	{
+		"latitude": -22.7869135,
+		"longitude": -47.1799567,
+		"timestamp": 1695722103541
+	},
+	{
+		"latitude": -22.7877507,
+		"longitude": -47.1807479,
+		"timestamp": 1695722123549
+	},
+	{
+		"latitude": -22.7873561,
+		"longitude": -47.1807345,
+		"timestamp": 1695722143590
+	},
+	{
+		"latitude": -22.78720407327126,
+		"longitude": -47.180932220383134,
+		"timestamp": 1695722151652
+	},
+	{
+		"latitude": -22.786995848376193,
+		"longitude": -47.18083698165769,
+		"timestamp": 1695722155999
+	},
+	{
+		"latitude": -22.786886322818066,
+		"longitude": -47.18109589292659,
+		"timestamp": 1695722158999
+	},
+	{
+		"latitude": -22.786737263709355,
+		"longitude": -47.18125120044427,
+		"timestamp": 1695722161999
+	},
+	{
+		"latitude": -22.7870518,
+		"longitude": -47.1811606,
+		"timestamp": 1695722163621
+	},
+	{
+		"latitude": -22.786598894209096,
+		"longitude": -47.18137755635403,
+		"timestamp": 1695722164999
+	},
+	{
+		"latitude": -22.786497142299382,
+		"longitude": -47.18139276288,
+		"timestamp": 1695722172999
+	},
+	{
+		"latitude": -22.786347156852155,
+		"longitude": -47.18130391986011,
+		"timestamp": 1695722175999
+	},
+	{
+		"latitude": -22.786145404247865,
+		"longitude": -47.18112781624116,
+		"timestamp": 1695722178999
+	},
+	{
+		"latitude": -22.785901917462205,
+		"longitude": -47.18092054628099,
+		"timestamp": 1695722181999
+	},
+	{
+		"latitude": -22.7873038,
+		"longitude": -47.1806945,
+		"timestamp": 1695722183607
+	},
+	{
+		"latitude": -22.785653641177163,
+		"longitude": -47.18070418542793,
+		"timestamp": 1695722184999
+	},
+	{
+		"latitude": -22.785409879979177,
+		"longitude": -47.18049515845944,
+		"timestamp": 1695722187999
+	},
+	{
+		"latitude": -22.785162908095558,
+		"longitude": -47.18028527911545,
+		"timestamp": 1695722190999
+	},
+	{
+		"latitude": -22.784923541426192,
+		"longitude": -47.18007568246724,
+		"timestamp": 1695722193999
+	},
+	{
+		"latitude": -22.784679773012247,
+		"longitude": -47.179890016753234,
+		"timestamp": 1695722196999
+	},
+	{
+		"latitude": -22.784422332775083,
+		"longitude": -47.179728508523965,
+		"timestamp": 1695722199999
+	},
+	{
+		"latitude": -22.78416419533881,
+		"longitude": -47.17957640686038,
+		"timestamp": 1695722202999
+	},
+	{
+		"latitude": -22.7840013,
+		"longitude": -47.1795438,
+		"timestamp": 1695722203671
+	},
+	{
+		"latitude": -22.783908813580855,
+		"longitude": -47.17942546248979,
+		"timestamp": 1695722205999
+	},
+	{
+		"latitude": -22.783651376823702,
+		"longitude": -47.17927446769241,
+		"timestamp": 1695722208999
+	},
+	{
+		"latitude": -22.78339861033535,
+		"longitude": -47.179126782314555,
+		"timestamp": 1695722211999
+	},
+	{
+		"latitude": -22.78314906880372,
+		"longitude": -47.17898165090067,
+		"timestamp": 1695722214999
+	},
+	{
+		"latitude": -22.78290047173352,
+		"longitude": -47.178839099558694,
+		"timestamp": 1695722217999
+	},
+	{
+		"latitude": -22.782689916386268,
+		"longitude": -47.17871243151993,
+		"timestamp": 1695722220999
+	},
+	{
+		"latitude": -22.78255346819991,
+		"longitude": -47.17861956812214,
+		"timestamp": 1695722223999
+	},
+	{
+		"latitude": -22.7806272,
+		"longitude": -47.1748771,
+		"timestamp": 1695722223692
+	},
+	{
+		"latitude": -22.782486580157688,
+		"longitude": -47.17854428438286,
+		"timestamp": 1695722232999
+	},
+	{
+		"latitude": -22.782403607444852,
+		"longitude": -47.17847120664307,
+		"timestamp": 1695722236999
+	},
+	{
+		"latitude": -22.782276921655278,
+		"longitude": -47.178399991279534,
+		"timestamp": 1695722239999
+	},
+	{
+		"latitude": -22.78201419172587,
+		"longitude": -47.17845606477576,
+		"timestamp": 1695722242999
+	},
+	{
+		"latitude": -22.781752373792433,
+		"longitude": -47.17852591653109,
+		"timestamp": 1695722245999
+	},
+	{
+		"latitude": -22.781565665472108,
+		"longitude": -47.17857697628811,
+		"timestamp": 1695722248999
+	},
+	{
+		"latitude": -22.78143568870776,
+		"longitude": -47.178613009139674,
+		"timestamp": 1695722251999
+	},
+	{
+		"latitude": -22.7844642,
+		"longitude": -47.180017,
+		"timestamp": 1695722263761
+	},
+	{
+		"latitude": -22.781345871489158,
+		"longitude": -47.17864273952722,
+		"timestamp": 1695722271999
+	},
+	{
+		"latitude": -22.781256557214324,
+		"longitude": -47.17866647727682,
+		"timestamp": 1695722276999
+	},
+	{
+		"latitude": -22.78116662167821,
+		"longitude": -47.17869337912497,
+		"timestamp": 1695722288999
+	},
+	{
+		"latitude": -22.781072158382507,
+		"longitude": -47.178721092457785,
+		"timestamp": 1695722295999
+	},
+	{
+		"latitude": -22.780973801114637,
+		"longitude": -47.178743168547136,
+		"timestamp": 1695722306999
+	},
+	{
+		"latitude": -22.780862250876563,
+		"longitude": -47.178742334757715,
+		"timestamp": 1695722316999
+	},
+	{
+		"latitude": -22.780759068080215,
+		"longitude": -47.17871333184723,
+		"timestamp": 1695722320999
+	},
+	{
+		"latitude": -22.78060800699491,
+		"longitude": -47.17858852816266,
+		"timestamp": 1695722323999
+	},
+	{
+		"latitude": -22.780559915109045,
+		"longitude": -47.17831116137027,
+		"timestamp": 1695722326999
+	},
+	{
+		"latitude": -22.78067018664429,
+		"longitude": -47.177920962444155,
+		"timestamp": 1695722329999
+	},
+	{
+		"latitude": -22.78079866018964,
+		"longitude": -47.17749313938913,
+		"timestamp": 1695722332999
+	},
+	{
+		"latitude": -22.780919488667628,
+		"longitude": -47.17709098138328,
+		"timestamp": 1695722335999
+	},
+	{
+		"latitude": -22.781021471030552,
+		"longitude": -47.17675248889607,
+		"timestamp": 1695722338999
+	},
+	{
+		"latitude": -22.7810942844813,
+		"longitude": -47.176504144554315,
+		"timestamp": 1695722341999
+	},
+	{
+		"latitude": -22.7810219,
+		"longitude": -47.1759524,
+		"timestamp": 1695722343848
+	},
+	{
+		"latitude": -22.781144149902936,
+		"longitude": -47.176328418102486,
+		"timestamp": 1695722344999
+	},
+	{
+		"latitude": -22.781177595068403,
+		"longitude": -47.17622179403163,
+		"timestamp": 1695722347999
+	},
+	{
+		"latitude": -22.781213319575848,
+		"longitude": -47.176101271352785,
+		"timestamp": 1695722359999
+	},
+	{
+		"latitude": -22.781246745927756,
+		"longitude": -47.175985227872644,
+		"timestamp": 1695722362999
+	},
+	{
+		"latitude": -22.7809054,
+		"longitude": -47.1759411,
+		"timestamp": 1695722363929
+	},
+	{
+		"latitude": -22.781277994724846,
+		"longitude": -47.17587495615825,
+		"timestamp": 1695722365999
+	},
+	{
+		"latitude": -22.781308122665926,
+		"longitude": -47.17577905575797,
+		"timestamp": 1695722380999
+	},
+	{
+		"latitude": -22.781084,
+		"longitude": -47.1757184,
+		"timestamp": 1695722383950
+	},
+	{
+		"latitude": -22.78133857926076,
+		"longitude": -47.175675033457644,
+		"timestamp": 1695722384999
+	},
+	{
+		"latitude": -22.781367634724575,
+		"longitude": -47.17557803193628,
+		"timestamp": 1695722388999
+	},
+	{
+		"latitude": -22.78139733529523,
+		"longitude": -47.175476527764346,
+		"timestamp": 1695722393999
+	},
+	{
+		"latitude": -22.781427651256244,
+		"longitude": -47.17537731604233,
+		"timestamp": 1695722397999
+	},
+	{
+		"latitude": -22.781455841577912,
+		"longitude": -47.17527145848838,
+		"timestamp": 1695722401999
+	},
+	{
+		"latitude": -22.7809606,
+		"longitude": -47.1747851,
+		"timestamp": 1695722403997
+	},
+	{
+		"latitude": -22.781484541558303,
+		"longitude": -47.175167175767164,
+		"timestamp": 1695722407999
+	},
+	{
+		"latitude": -22.78151317408134,
+		"longitude": -47.17507067307531,
+		"timestamp": 1695722415999
+	},
+	{
+		"latitude": -22.78155396483931,
+		"longitude": -47.17494291418844,
+		"timestamp": 1695722422999
+	},
+	{
+		"latitude": -22.7810283,
+		"longitude": -47.1746721,
+		"timestamp": 1695722424012
+	},
+	{
+		"latitude": -22.78160128307857,
+		"longitude": -47.17485992689127,
+		"timestamp": 1695722431999
+	},
+	{
+		"latitude": -22.78171328012927,
+		"longitude": -47.17482778129695,
+		"timestamp": 1695722434999
+	},
+	{
+		"latitude": -22.78185655523518,
+		"longitude": -47.17471720010276,
+		"timestamp": 1695722437999
+	},
+	{
+		"latitude": -22.781904244433868,
+		"longitude": -47.17460895339423,
+		"timestamp": 1695722440999
+	},
+	{
+		"latitude": -22.781902692472798,
+		"longitude": -47.174371907527906,
+		"timestamp": 1695722443999
+	},
+	{
+		"latitude": -22.7811989,
+		"longitude": -47.1744461,
+		"timestamp": 1695722444036
+	},
+	{
+		"latitude": -22.78166776383963,
+		"longitude": -47.17420359357871,
+		"timestamp": 1695722446999
+	},
+	{
+		"latitude": -22.781375392868256,
+		"longitude": -47.174201542422566,
+		"timestamp": 1695722449999
+	},
+	{
+		"latitude": -22.781118117974952,
+		"longitude": -47.1740344959911,
+		"timestamp": 1695722452999
+	},
+	{
+		"latitude": -22.780851699874354,
+		"longitude": -47.173806012215714,
+		"timestamp": 1695722455999
+	},
+	{
+		"latitude": -22.78058696325405,
+		"longitude": -47.173580612185354,
+		"timestamp": 1695722458999
+	},
+	{
+		"latitude": -22.780357077646958,
+		"longitude": -47.1733841225396,
+		"timestamp": 1695722461999
+	},
+	{
+		"latitude": -22.7802651,
+		"longitude": -47.1733851,
+		"timestamp": 1695722464087
+	},
+	{
+		"latitude": -22.78021495477963,
+		"longitude": -47.17326434992503,
+		"timestamp": 1695722464999
+	},
+	{
+		"latitude": -22.7800167775405,
+		"longitude": -47.17310224175166,
+		"timestamp": 1695722467999
+	},
+	{
+		"latitude": -22.779774983555154,
+		"longitude": -47.17290016832353,
+		"timestamp": 1695722470999
+	},
+	{
+		"latitude": -22.779521432545664,
+		"longitude": -47.17268214739589,
+		"timestamp": 1695722473999
+	},
+	{
+		"latitude": -22.77927265367733,
+		"longitude": -47.17245521973576,
+		"timestamp": 1695722476999
+	},
+	{
+		"latitude": -22.77902747715547,
+		"longitude": -47.17222877624064,
+		"timestamp": 1695722479999
+	},
+	{
+		"latitude": -22.778764392569745,
+		"longitude": -47.1720031862797,
+		"timestamp": 1695722482999
+	},
+	{
+		"latitude": -22.7786536,
+		"longitude": -47.1720156,
+		"timestamp": 1695722484094
+	},
+	{
+		"latitude": -22.7785109731475,
+		"longitude": -47.17178980512234,
+		"timestamp": 1695722485999
+	},
+	{
+		"latitude": -22.7782979733938,
+		"longitude": -47.17161026657504,
+		"timestamp": 1695722488999
+	},
+	{
+		"latitude": -22.778187089939728,
+		"longitude": -47.17140631880451,
+		"timestamp": 1695722491999
+	},
+	{
+		"latitude": -22.77820536036429,
+		"longitude": -47.17109010910519,
+		"timestamp": 1695722494999
+	},
+	{
+		"latitude": -22.778249837381274,
+		"longitude": -47.170698020405645,
+		"timestamp": 1695722497999
+	},
+	{
+		"latitude": -22.778302995240928,
+		"longitude": -47.17028819901065,
+		"timestamp": 1695722500999
+	},
+	{
+		"latitude": -22.77835464576847,
+		"longitude": -47.16987657880929,
+		"timestamp": 1695722503999
+	},
+	{
+		"latitude": -22.7784086108302,
+		"longitude": -47.16946257014839,
+		"timestamp": 1695722506999
+	},
+	{
+		"latitude": -22.77845646750283,
+		"longitude": -47.16903447179182,
+		"timestamp": 1695722509999
+	},
+	{
+		"latitude": -22.778504039724766,
+		"longitude": -47.16861062026384,
+		"timestamp": 1695722512999
+	},
+	{
+		"latitude": -22.778540292975187,
+		"longitude": -47.16825197310406,
+		"timestamp": 1695722515999
+	},
+	{
+		"latitude": -22.77856317364852,
+		"longitude": -47.16804658055687,
+		"timestamp": 1695722518999
+	},
+	{
+		"latitude": -22.778582722210498,
+		"longitude": -47.16791118418837,
+		"timestamp": 1695722522999
+	},
+	{
+		"latitude": -22.778619582528606,
+		"longitude": -47.167625869504846,
+		"timestamp": 1695722525999
+	},
+	{
+		"latitude": -22.778656211693917,
+		"longitude": -47.167282228408105,
+		"timestamp": 1695722528999
+	},
+	{
+		"latitude": -22.778700754154276,
+		"longitude": -47.166922531429236,
+		"timestamp": 1695722531999
+	},
+	{
+		"latitude": -22.778750041333208,
+		"longitude": -47.16655733012348,
+		"timestamp": 1695722534999
+	},
+	{
+		"latitude": -22.778795217480646,
+		"longitude": -47.16617800400842,
+		"timestamp": 1695722537999
+	},
+	{
+		"latitude": -22.77883513265597,
+		"longitude": -47.16583200255764,
+		"timestamp": 1695722540999
+	},
+	{
+		"latitude": -22.77886592124551,
+		"longitude": -47.165530303432895,
+		"timestamp": 1695722543999
+	},
+	{
+		"latitude": -22.77889785562391,
+		"longitude": -47.16534717869276,
+		"timestamp": 1695722546999
+	},
+	{
+		"latitude": -22.778914654712974,
+		"longitude": -47.16523421993516,
+		"timestamp": 1695722549999
+	},
+	{
+		"latitude": -22.77878193426548,
+		"longitude": -47.16507377131681,
+		"timestamp": 1695722552999
+	},
+	{
+		"latitude": -22.77870967073517,
+		"longitude": -47.164882477196194,
+		"timestamp": 1695722555999
+	},
+	{
+		"latitude": -22.77884136424572,
+		"longitude": -47.164771309803285,
+		"timestamp": 1695722558999
+	},
+	{
+		"latitude": -22.779097490018767,
+		"longitude": -47.16471050646198,
+		"timestamp": 1695722561999
+	},
+	{
+		"latitude": -22.779400082601832,
+		"longitude": -47.164562485510224,
+		"timestamp": 1695722564999
+	},
+	{
+		"latitude": -22.779708618412776,
+		"longitude": -47.164305140038756,
+		"timestamp": 1695722567999
+	},
+	{
+		"latitude": -22.779955983646918,
+		"longitude": -47.16396112871045,
+		"timestamp": 1695722570999
+	},
+	{
+		"latitude": -22.78013270992109,
+		"longitude": -47.16356476057636,
+		"timestamp": 1695722573999
+	},
+	{
+		"latitude": -22.780302006979923,
+		"longitude": -47.1631612904267,
+		"timestamp": 1695722576999
+	},
+	{
+		"latitude": -22.78047782888658,
+		"longitude": -47.16274488621221,
+		"timestamp": 1695722579999
+	},
+	{
+		"latitude": -22.78065691859085,
+		"longitude": -47.16233358615779,
+		"timestamp": 1695722582999
+	},
+	{
+		"latitude": -22.780831602856367,
+		"longitude": -47.16193207790065,
+		"timestamp": 1695722585999
+	},
+	{
+		"latitude": -22.78100518177537,
+		"longitude": -47.16153237651782,
+		"timestamp": 1695722588999
+	},
+	{
+		"latitude": -22.781184291475363,
+		"longitude": -47.16111903881815,
+		"timestamp": 1695722591999
+	},
+	{
+		"latitude": -22.781366561868737,
+		"longitude": -47.16069961316969,
+		"timestamp": 1695722594999
+	},
+	{
+		"latitude": -22.78155499593564,
+		"longitude": -47.160263247706254,
+		"timestamp": 1695722597999
+	},
+	{
+		"latitude": -22.781748878878478,
+		"longitude": -47.159811088049516,
+		"timestamp": 1695722600999
+	},
+	{
+		"latitude": -22.781937489429726,
+		"longitude": -47.15941818695855,
+		"timestamp": 1695722603999
+	},
+	{
+		"latitude": -22.78215556499587,
+		"longitude": -47.15911259328263,
+		"timestamp": 1695722606999
+	},
+	{
+		"latitude": -22.782350184607736,
+		"longitude": -47.158924130064946,
+		"timestamp": 1695722609999
+	},
+	{
+		"latitude": -22.782462108233464,
+		"longitude": -47.15884189922597,
+		"timestamp": 1695722612999
+	},
+	{
+		"latitude": -22.78255221556613,
+		"longitude": -47.158801412046586,
+		"timestamp": 1695722622999
+	},
+	{
+		"latitude": -22.782657912030658,
+		"longitude": -47.158754986317334,
+		"timestamp": 1695722626999
+	},
+	{
+		"latitude": -22.782887073622486,
+		"longitude": -47.15868177776635,
+		"timestamp": 1695722629999
+	},
+	{
+		"latitude": -22.783119939446063,
+		"longitude": -47.15848526949533,
+		"timestamp": 1695722632999
+	},
+	{
+		"latitude": -22.7831969246685,
+		"longitude": -47.1581758664801,
+		"timestamp": 1695722635999
+	},
+	{
+		"latitude": -22.783144152956915,
+		"longitude": -47.157854239986065,
+		"timestamp": 1695722638999
+	},
+	{
+		"latitude": -22.783137474201514,
+		"longitude": -47.15752487331904,
+		"timestamp": 1695722641999
+	},
+	{
+		"latitude": -22.7832754446726,
+		"longitude": -47.157181893785385,
+		"timestamp": 1695722644999
+	},
+	{
+		"latitude": -22.783458849195085,
+		"longitude": -47.15681310719794,
+		"timestamp": 1695722647999
+	},
+	{
+		"latitude": -22.783661158064643,
+		"longitude": -47.15640985791773,
+		"timestamp": 1695722650999
+	},
+	{
+		"latitude": -22.783871941337125,
+		"longitude": -47.155989391361324,
+		"timestamp": 1695722653999
+	},
+	{
+		"latitude": -22.784087784864642,
+		"longitude": -47.15555645487006,
+		"timestamp": 1695722656999
+	},
+	{
+		"latitude": -22.784283654869544,
+		"longitude": -47.1551017369069,
+		"timestamp": 1695722659999
+	},
+	{
+		"latitude": -22.78437460527447,
+		"longitude": -47.15460342385906,
+		"timestamp": 1695722662999
+	},
+	{
+		"latitude": -22.78440533736355,
+		"longitude": -47.15409332641565,
+		"timestamp": 1695722665999
+	},
+	{
+		"latitude": -22.784430522136052,
+		"longitude": -47.15362120678014,
+		"timestamp": 1695722668999
+	},
+	{
+		"latitude": -22.78444900844297,
+		"longitude": -47.153279709435594,
+		"timestamp": 1695722671999
+	},
+	{
+		"latitude": -22.784503544466403,
+		"longitude": -47.15302039788265,
+		"timestamp": 1695722674999
+	},
+	{
+		"latitude": -22.784655574353472,
+		"longitude": -47.15277907909133,
+		"timestamp": 1695722677999
+	},
+	{
+		"latitude": -22.784609040644042,
+		"longitude": -47.152477552026795,
+		"timestamp": 1695722680999
+	},
+	{
+		"latitude": -22.784528954666794,
+		"longitude": -47.152159807683454,
+		"timestamp": 1695722683999
+	},
+	{
+		"latitude": -22.784550924008585,
+		"longitude": -47.15175930460469,
+		"timestamp": 1695722686999
+	},
+	{
+		"latitude": -22.78457261831992,
+		"longitude": -47.15131007433995,
+		"timestamp": 1695722689999
+	},
+	{
+		"latitude": -22.784596195304786,
+		"longitude": -47.15083013677604,
+		"timestamp": 1695722692999
+	},
+	{
+		"latitude": -22.784622743749853,
+		"longitude": -47.150325296231564,
+		"timestamp": 1695722695999
+	},
+	{
+		"latitude": -22.78465096819607,
+		"longitude": -47.149801935339624,
+		"timestamp": 1695722698999
+	},
+	{
+		"latitude": -22.784689330861447,
+		"longitude": -47.14925923516722,
+		"timestamp": 1695722701999
+	},
+	{
+		"latitude": -22.784764781647436,
+		"longitude": -47.148718957811454,
+		"timestamp": 1695722704999
+	},
+	{
+		"latitude": -22.784874442540353,
+		"longitude": -47.148193757091306,
+		"timestamp": 1695722707999
+	},
+	{
+		"latitude": -22.78501775402223,
+		"longitude": -47.147675811541845,
+		"timestamp": 1695722710999
+	},
+	{
+		"latitude": -22.785193756913085,
+		"longitude": -47.14716273568295,
+		"timestamp": 1695722713999
+	},
+	{
+		"latitude": -22.785401513814755,
+		"longitude": -47.14666045004295,
+		"timestamp": 1695722716999
+	},
+	{
+		"latitude": -22.785637333887554,
+		"longitude": -47.146178453668135,
+		"timestamp": 1695722719999
+	},
+	{
+		"latitude": -22.78589393615174,
+		"longitude": -47.145714320741256,
+		"timestamp": 1695722722999
+	},
+	{
+		"latitude": -22.78616679330785,
+		"longitude": -47.145249939047005,
+		"timestamp": 1695722725999
+	},
+	{
+		"latitude": -22.78643456279197,
+		"longitude": -47.14476247020143,
+		"timestamp": 1695722728999
+	},
+	{
+		"latitude": -22.786733619602735,
+		"longitude": -47.14426297518668,
+		"timestamp": 1695722731999
+	},
+	{
+		"latitude": -22.787038061653615,
+		"longitude": -47.143746608222415,
+		"timestamp": 1695722734999
+	},
+	{
+		"latitude": -22.787343936615233,
+		"longitude": -47.14323275132028,
+		"timestamp": 1695722737999
+	},
+	{
+		"latitude": -22.78765611104007,
+		"longitude": -47.14271232419515,
+		"timestamp": 1695722740999
+	},
+	{
+		"latitude": -22.787950907617837,
+		"longitude": -47.142220047745944,
+		"timestamp": 1695722743999
+	},
+	{
+		"latitude": -22.788165828984756,
+		"longitude": -47.141761375331605,
+		"timestamp": 1695722746999
+	},
+	{
+		"latitude": -22.78825433512471,
+		"longitude": -47.141327237130966,
+		"timestamp": 1695722749999
+	},
+	{
+		"latitude": -22.788276635975738,
+		"longitude": -47.14097958492254,
+		"timestamp": 1695722752999
+	},
+	{
+		"latitude": -22.78832344690189,
+		"longitude": -47.14077692763867,
+		"timestamp": 1695722755999
+	},
+	{
+		"latitude": -22.788387637838138,
+		"longitude": -47.14063793390861,
+		"timestamp": 1695722758999
+	},
+	{
+		"latitude": -22.788522120837094,
+		"longitude": -47.140417394382,
+		"timestamp": 1695722761999
+	},
+	{
+		"latitude": -22.78865760569722,
+		"longitude": -47.140120099962104,
+		"timestamp": 1695722764999
+	},
+	{
+		"latitude": -22.788588781273617,
+		"longitude": -47.13977386797443,
+		"timestamp": 1695722767999
+	},
+	{
+		"latitude": -22.78832101373873,
+		"longitude": -47.139542999026396,
+		"timestamp": 1695722770999
+	},
+	{
+		"latitude": -22.787975604753544,
+		"longitude": -47.13952988208433,
+		"timestamp": 1695722773999
+	},
+	{
+		"latitude": -22.78764526021487,
+		"longitude": -47.13960455891436,
+		"timestamp": 1695722776999
+	},
+	{
+		"latitude": -22.78740275785567,
+		"longitude": -47.13966915624599,
+		"timestamp": 1695722779999
+	},
+	{
+		"latitude": -22.78726129372442,
+		"longitude": -47.139701217529876,
+		"timestamp": 1695722782999
+	},
+	{
+		"latitude": -22.78709225716702,
+		"longitude": -47.13973988786529,
+		"timestamp": 1695722785999
+	},
+	{
+		"latitude": -22.786821438123766,
+		"longitude": -47.13983274811148,
+		"timestamp": 1695722788999
+	},
+	{
+		"latitude": -22.78654216836733,
+		"longitude": -47.13995073580584,
+		"timestamp": 1695722791999
+	},
+	{
+		"latitude": -22.786422109089678,
+		"longitude": -47.14001297953774,
+		"timestamp": 1695722794999
+	},
+	{
+		"latitude": -22.78632218499226,
+		"longitude": -47.14006913797342,
+		"timestamp": 1695722801999
+	},
+	{
+		"latitude": -22.78614716586479,
+		"longitude": -47.140177643336514,
+		"timestamp": 1695722804999
+	},
+	{
+		"latitude": -22.78585441324462,
+		"longitude": -47.140358560947945,
+		"timestamp": 1695722807999
+	},
+	{
+		"latitude": -22.785494085456044,
+		"longitude": -47.140576232686804,
+		"timestamp": 1695722810999
+	},
+	{
+		"latitude": -22.78510188371546,
+		"longitude": -47.140815613203024,
+		"timestamp": 1695722813999
+	},
+	{
+		"latitude": -22.78470172353756,
+		"longitude": -47.14105453499329,
+		"timestamp": 1695722816999
+	},
+	{
+		"latitude": -22.784318407419732,
+		"longitude": -47.14125211998911,
+		"timestamp": 1695722819999
+	},
+	{
+		"latitude": -22.78395259064734,
+		"longitude": -47.14141014897395,
+		"timestamp": 1695722822999
+	},
+	{
+		"latitude": -22.78364785175413,
+		"longitude": -47.14153552620238,
+		"timestamp": 1695722825999
+	},
+	{
+		"latitude": -22.783349960185035,
+		"longitude": -47.14165504971631,
+		"timestamp": 1695722828999
+	},
+	{
+		"latitude": -22.783087886765315,
+		"longitude": -47.14173668189165,
+		"timestamp": 1695722831999
+	},
+	{
+		"latitude": -22.78289268712691,
+		"longitude": -47.14173091842299,
+		"timestamp": 1695722834999
+	},
+	{
+		"latitude": -22.7827649706134,
+		"longitude": -47.14151320393462,
+		"timestamp": 1695722837999
+	},
+	{
+		"latitude": -22.782668251702884,
+		"longitude": -47.14123495989942,
+		"timestamp": 1695722840999
+	},
+	{
+		"latitude": -22.78256802514959,
+		"longitude": -47.14094461817606,
+		"timestamp": 1695722843999
+	},
+	{
+		"latitude": -22.782474425654488,
+		"longitude": -47.1406560576638,
+		"timestamp": 1695722846999
+	},
+	{
+		"latitude": -22.782400076803874,
+		"longitude": -47.14042619278731,
+		"timestamp": 1695722849999
+	},
+	{
+		"latitude": -22.782338568823768,
+		"longitude": -47.14032227128653,
+		"timestamp": 1695722852999
+	},
+	{
+		"latitude": -22.78228648627801,
+		"longitude": -47.14040801135811,
+		"timestamp": 1695722855999
+	},
+	{
+		"latitude": -22.78231516382843,
+		"longitude": -47.140555150784785,
+		"timestamp": 1695722858999
+	},
+	{
+		"latitude": -22.782341468708545,
+		"longitude": -47.140655175927016,
+		"timestamp": 1695723080999
+	},
+	{
+		"latitude": -22.782409284854214,
+		"longitude": -47.14080429886473,
+		"timestamp": 1695723083999
+	},
+	{
+		"latitude": -22.78249579844449,
+		"longitude": -47.14101290648809,
+		"timestamp": 1695723086999
+	},
+	{
+		"latitude": -22.782585631179895,
+		"longitude": -47.1412503016337,
+		"timestamp": 1695723089999
+	},
+	{
+		"latitude": -22.782677211147703,
+		"longitude": -47.141485932100274,
+		"timestamp": 1695723092999
+	},
+	{
+		"latitude": -22.782740599472667,
+		"longitude": -47.141690885891364,
+		"timestamp": 1695723095999
+	},
+	{
+		"latitude": -22.78277830023932,
+		"longitude": -47.14180139926044,
+		"timestamp": 1695723103999
+	},
+	{
+		"latitude": -22.782760059827915,
+		"longitude": -47.14194054235246,
+		"timestamp": 1695723111999
+	},
+	{
+		"latitude": -22.782561831300296,
+		"longitude": -47.14203317128873,
+		"timestamp": 1695723114999
+	},
+	{
+		"latitude": -22.78225675950776,
+		"longitude": -47.14216436634076,
+		"timestamp": 1695723117999
+	},
+	{
+		"latitude": -22.781898667622077,
+		"longitude": -47.14232755688655,
+		"timestamp": 1695723120999
+	},
+	{
+		"latitude": -22.78154435999176,
+		"longitude": -47.14246214034799,
+		"timestamp": 1695723123999
+	},
+	{
+		"latitude": -22.781228505051292,
+		"longitude": -47.14258623433249,
+		"timestamp": 1695723126999
+	},
+	{
+		"latitude": -22.7809832201115,
+		"longitude": -47.14268126022546,
+		"timestamp": 1695723129999
+	},
+	{
+		"latitude": -22.780843400163853,
+		"longitude": -47.142736101073474,
+		"timestamp": 1695723132999
+	},
+	{
+		"latitude": -22.780594504120597,
+		"longitude": -47.1428354575136,
+		"timestamp": 1695723135999
+	},
+	{
+		"latitude": -22.780356917591124,
+		"longitude": -47.142943420323675,
+		"timestamp": 1695723138999
+	},
+	{
+		"latitude": -22.78018951767457,
+		"longitude": -47.14301765694393,
+		"timestamp": 1695723141999
+	},
+	{
+		"latitude": -22.780178715123636,
+		"longitude": -47.143122566081004,
+		"timestamp": 1695723156999
+	},
+	{
+		"latitude": -22.780327801380125,
+		"longitude": -47.143114248494136,
+		"timestamp": 1695723159999
+	},
+	{
+		"latitude": -22.78058149046999,
+		"longitude": -47.1429907955663,
+		"timestamp": 1695723162999
+	},
+	{
+		"latitude": -22.780842342255678,
+		"longitude": -47.14287354715305,
+		"timestamp": 1695723165999
+	},
+	{
+		"latitude": -22.780986890834683,
+		"longitude": -47.14280940009844,
+		"timestamp": 1695723168999
+	},
+	{
+		"latitude": -22.781217626559766,
+		"longitude": -47.142709396778415,
+		"timestamp": 1695723171999
+	},
+	{
+		"latitude": -22.781541638519148,
+		"longitude": -47.14257409198951,
+		"timestamp": 1695723174999
+	},
+	{
+		"latitude": -22.781924031682028,
+		"longitude": -47.14243574558067,
+		"timestamp": 1695723177999
+	},
+	{
+		"latitude": -22.782304028942523,
+		"longitude": -47.14228304370394,
+		"timestamp": 1695723180999
+	},
+	{
+		"latitude": -22.782673103961784,
+		"longitude": -47.142126544461796,
+		"timestamp": 1695723183999
+	},
+	{
+		"latitude": -22.783052576434777,
+		"longitude": -47.14197246612319,
+		"timestamp": 1695723186999
+	},
+	{
+		"latitude": -22.78343571095465,
+		"longitude": -47.141812916392986,
+		"timestamp": 1695723189999
+	},
+	{
+		"latitude": -22.783831840127405,
+		"longitude": -47.14165021697377,
+		"timestamp": 1695723192999
+	},
+	{
+		"latitude": -22.784225283004904,
+		"longitude": -47.14147903283812,
+		"timestamp": 1695723195999
+	},
+	{
+		"latitude": -22.784626682995842,
+		"longitude": -47.14128087140775,
+		"timestamp": 1695723198999
+	},
+	{
+		"latitude": -22.785014671547913,
+		"longitude": -47.14105166988609,
+		"timestamp": 1695723201999
+	},
+	{
+		"latitude": -22.785406172261638,
+		"longitude": -47.14081594113106,
+		"timestamp": 1695723204999
+	},
+	{
+		"latitude": -22.7857829292666,
+		"longitude": -47.140584196819034,
+		"timestamp": 1695723207999
+	},
+	{
+		"latitude": -22.786154047378115,
+		"longitude": -47.14035992916603,
+		"timestamp": 1695723210999
+	},
+	{
+		"latitude": -22.786520033151078,
+		"longitude": -47.14014633066554,
+		"timestamp": 1695723213999
+	},
+	{
+		"latitude": -22.786916447746133,
+		"longitude": -47.13998341504747,
+		"timestamp": 1695723216999
+	},
+	{
+		"latitude": -22.787274949023985,
+		"longitude": -47.139919154968375,
+		"timestamp": 1695723219999
+	},
+	{
+		"latitude": -22.78757109692522,
+		"longitude": -47.14005144710861,
+		"timestamp": 1695723222999
+	},
+	{
+		"latitude": -22.787756576892896,
+		"longitude": -47.14036714978538,
+		"timestamp": 1695723225999
+	},
+	{
+		"latitude": -22.787992282915965,
+		"longitude": -47.14063573064838,
+		"timestamp": 1695723228999
+	},
+	{
+		"latitude": -22.788123289833326,
+		"longitude": -47.14095183265901,
+		"timestamp": 1695723231999
+	},
+	{
+		"latitude": -22.788124370877384,
+		"longitude": -47.14135566011716,
+		"timestamp": 1695723234999
+	},
+	{
+		"latitude": -22.788022959648163,
+		"longitude": -47.14177450450737,
+		"timestamp": 1695723237999
+	},
+	{
+		"latitude": -22.78781916715274,
+		"longitude": -47.1421788827885,
+		"timestamp": 1695723240999
+	},
+	{
+		"latitude": -22.787568705683906,
+		"longitude": -47.14259158272853,
+		"timestamp": 1695723243999
+	},
+	{
+		"latitude": -22.787314160909588,
+		"longitude": -47.14301974354813,
+		"timestamp": 1695723246999
+	},
+	{
+		"latitude": -22.78704632737219,
+		"longitude": -47.14347043638748,
+		"timestamp": 1695723249999
+	},
+	{
+		"latitude": -22.78677118147603,
+		"longitude": -47.143935837276175,
+		"timestamp": 1695723252999
+	},
+	{
+		"latitude": -22.786495747748404,
+		"longitude": -47.14439068070326,
+		"timestamp": 1695723255999
+	},
+	{
+		"latitude": -22.78623044518811,
+		"longitude": -47.144836688201984,
+		"timestamp": 1695723258999
+	},
+	{
+		"latitude": -22.785966481042067,
+		"longitude": -47.14528085540596,
+		"timestamp": 1695723261999
+	},
+	{
+		"latitude": -22.78570133483594,
+		"longitude": -47.14572939105936,
+		"timestamp": 1695723264999
+	},
+	{
+		"latitude": -22.785444148667786,
+		"longitude": -47.14618163300926,
+		"timestamp": 1695723267999
+	},
+	{
+		"latitude": -22.785209525235455,
+		"longitude": -47.14664403839522,
+		"timestamp": 1695723270999
+	},
+	{
+		"latitude": -22.785008055751877,
+		"longitude": -47.147117720696066,
+		"timestamp": 1695723273999
+	},
+	{
+		"latitude": -22.784832471287142,
+		"longitude": -47.147613934263134,
+		"timestamp": 1695723276999
+	},
+	{
+		"latitude": -22.784687359440525,
+		"longitude": -47.14812742002173,
+		"timestamp": 1695723279999
+	},
+	{
+		"latitude": -22.784576162148795,
+		"longitude": -47.14864196127483,
+		"timestamp": 1695723282999
+	},
+	{
+		"latitude": -22.784497739162077,
+		"longitude": -47.14915517780484,
+		"timestamp": 1695723285999
+	},
+	{
+		"latitude": -22.784447451763373,
+		"longitude": -47.14965265106951,
+		"timestamp": 1695723288999
+	},
+	{
+		"latitude": -22.784421698503337,
+		"longitude": -47.15014588558419,
+		"timestamp": 1695723291999
+	},
+	{
+		"latitude": -22.78440275044211,
+		"longitude": -47.15063605556505,
+		"timestamp": 1695723294999
+	},
+	{
+		"latitude": -22.784381461436766,
+		"longitude": -47.1511137703062,
+		"timestamp": 1695723297999
+	},
+	{
+		"latitude": -22.78435576049526,
+		"longitude": -47.15157017180142,
+		"timestamp": 1695723300999
+	},
+	{
+		"latitude": -22.784335759341978,
+		"longitude": -47.15195114281269,
+		"timestamp": 1695723303999
+	},
+	{
+		"latitude": -22.784321488542293,
+		"longitude": -47.15218810718553,
+		"timestamp": 1695723306999
+	},
+	{
+		"latitude": -22.78430859009274,
+		"longitude": -47.152291745650835,
+		"timestamp": 1695723309999
+	},
+	{
+		"latitude": -22.784236296990755,
+		"longitude": -47.152438077788624,
+		"timestamp": 1695723312999
+	},
+	{
+		"latitude": -22.78411692837729,
+		"longitude": -47.152623163211,
+		"timestamp": 1695723315999
+	},
+	{
+		"latitude": -22.784147850570562,
+		"longitude": -47.152877009949314,
+		"timestamp": 1695723318999
+	},
+	{
+		"latitude": -22.784283702862744,
+		"longitude": -47.153168434765234,
+		"timestamp": 1695723321999
+	},
+	{
+		"latitude": -22.78428768172953,
+		"longitude": -47.15359240688814,
+		"timestamp": 1695723324999
+	},
+	{
+		"latitude": -22.784262308760738,
+		"longitude": -47.154067280778435,
+		"timestamp": 1695723327999
+	},
+	{
+		"latitude": -22.784236882867468,
+		"longitude": -47.15457644235792,
+		"timestamp": 1695723330999
+	},
+	{
+		"latitude": -22.784155959209876,
+		"longitude": -47.15507591872373,
+		"timestamp": 1695723333999
+	},
+	{
+		"latitude": -22.783962679756943,
+		"longitude": -47.15552970259167,
+		"timestamp": 1695723336999
+	},
+	{
+		"latitude": -22.7837398918166,
+		"longitude": -47.15596161670937,
+		"timestamp": 1695723339999
+	},
+	{
+		"latitude": -22.78352976453628,
+		"longitude": -47.156370101335035,
+		"timestamp": 1695723342999
+	},
+	{
+		"latitude": -22.783334131188617,
+		"longitude": -47.156753197110724,
+		"timestamp": 1695723345999
+	},
+	{
+		"latitude": -22.783156298340376,
+		"longitude": -47.15710517093107,
+		"timestamp": 1695723348999
+	},
+	{
+		"latitude": -22.782995385355374,
+		"longitude": -47.15740286470285,
+		"timestamp": 1695723351999
+	},
+	{
+		"latitude": -22.782836611953254,
+		"longitude": -47.15755051233647,
+		"timestamp": 1695723354999
+	},
+	{
+		"latitude": -22.782658037473624,
+		"longitude": -47.157636687566914,
+		"timestamp": 1695723357999
+	},
+	{
+		"latitude": -22.782369350392646,
+		"longitude": -47.15777806280451,
+		"timestamp": 1695723360999
+	},
+	{
+		"latitude": -22.782192111587733,
+		"longitude": -47.15807493820966,
+		"timestamp": 1695723363999
+	},
+	{
+		"latitude": -22.788962,
+		"longitude": -47.1794265,
+		"timestamp": 1695723365344
+	},
+	{
+		"latitude": -22.782224638484212,
+		"longitude": -47.15843592256469,
+		"timestamp": 1695723366999
+	},
+	{
+		"latitude": -22.78248710944207,
+		"longitude": -47.15867220481396,
+		"timestamp": 1695723369999
+	},
+	{
+		"latitude": -22.782840184302287,
+		"longitude": -47.15880018928512,
+		"timestamp": 1695723372999
+	},
+	{
+		"latitude": -22.78313199538808,
+		"longitude": -47.15910763576532,
+		"timestamp": 1695723375999
+	},
+	{
+		"latitude": -22.783410717944,
+		"longitude": -47.159534276753234,
+		"timestamp": 1695723378999
+	},
+	{
+		"latitude": -22.783705635521574,
+		"longitude": -47.15999493686411,
+		"timestamp": 1695723381999
+	},
+	{
+		"latitude": -22.784004029334167,
+		"longitude": -47.1604681076097,
+		"timestamp": 1695723384999
+	},
+	{
+		"latitude": -22.784298321284478,
+		"longitude": -47.16096601294659,
+		"timestamp": 1695723387999
+	},
+	{
+		"latitude": -22.784588459194975,
+		"longitude": -47.161442438608574,
+		"timestamp": 1695723390999
+	},
+	{
+		"latitude": -22.78489244802578,
+		"longitude": -47.16191890554439,
+		"timestamp": 1695723393999
+	},
+	{
+		"latitude": -22.78522740130985,
+		"longitude": -47.162410899651235,
+		"timestamp": 1695723396999
+	},
+	{
+		"latitude": -22.785554440732597,
+		"longitude": -47.1629446319594,
+		"timestamp": 1695723399999
+	},
+	{
+		"latitude": -22.785870780470894,
+		"longitude": -47.16346708500704,
+		"timestamp": 1695723402999
+	},
+	{
+		"latitude": -22.786196819770364,
+		"longitude": -47.16398268265486,
+		"timestamp": 1695723405999
+	},
+	{
+		"latitude": -22.78651673812247,
+		"longitude": -47.16449464510135,
+		"timestamp": 1695723408999
+	},
+	{
+		"latitude": -22.786825424513513,
+		"longitude": -47.164978552225264,
+		"timestamp": 1695723411999
+	},
+	{
+		"latitude": -22.78710102476337,
+		"longitude": -47.165411006398855,
+		"timestamp": 1695723414999
+	},
+	{
+		"latitude": -22.787354412130778,
+		"longitude": -47.16579976049676,
+		"timestamp": 1695723417999
+	},
+	{
+		"latitude": -22.787564301165066,
+		"longitude": -47.16612684399378,
+		"timestamp": 1695723420999
+	},
+	{
+		"latitude": -22.787699718473302,
+		"longitude": -47.16635005637211,
+		"timestamp": 1695723423999
+	},
+	{
+		"latitude": -22.7865784,
+		"longitude": -47.1687916,
+		"timestamp": 1695723425431
+	},
+	{
+		"latitude": -22.787760217497897,
+		"longitude": -47.166478350412355,
+		"timestamp": 1695723426999
+	},
+	{
+		"latitude": -22.787786112358457,
+		"longitude": -47.16658549724598,
+		"timestamp": 1695723429999
+	},
+	{
+		"latitude": -22.787794077560445,
+		"longitude": -47.16681582558741,
+		"timestamp": 1695723432999
+	},
+	{
+		"latitude": -22.78778561319276,
+		"longitude": -47.16712112985041,
+		"timestamp": 1695723435999
+	},
+	{
+		"latitude": -22.787853438177155,
+		"longitude": -47.16744523948925,
+		"timestamp": 1695723438999
+	},
+	{
+		"latitude": -22.78777986541008,
+		"longitude": -47.16780161643887,
+		"timestamp": 1695723441999
+	},
+	{
+		"latitude": -22.787548280264843,
+		"longitude": -47.16818281717011,
+		"timestamp": 1695723444999
+	},
+	{
+		"latitude": -22.7863682,
+		"longitude": -47.1694181,
+		"timestamp": 1695723445459
+	},
+	{
+		"latitude": -22.78728169205239,
+		"longitude": -47.16860986610096,
+		"timestamp": 1695723447999
+	},
+	{
+		"latitude": -22.787006764087646,
+		"longitude": -47.169059616293374,
+		"timestamp": 1695723450999
+	},
+	{
+		"latitude": -22.78673969463,
+		"longitude": -47.16951122034093,
+		"timestamp": 1695723453999
+	},
+	{
+		"latitude": -22.786490285302047,
+		"longitude": -47.16999734334377,
+		"timestamp": 1695723456999
+	},
+	{
+		"latitude": -22.786306627231863,
+		"longitude": -47.17055971990164,
+		"timestamp": 1695723459999
+	},
+	{
+		"latitude": -22.78612543740406,
+		"longitude": -47.1711351485095,
+		"timestamp": 1695723462999
+	},
+	{
+		"latitude": -22.7855481,
+		"longitude": -47.1718066,
+		"timestamp": 1695723465497
+	},
+	{
+		"latitude": -22.78595154298872,
+		"longitude": -47.17169561239469,
+		"timestamp": 1695723465999
+	},
+	{
+		"latitude": -22.785790488064865,
+		"longitude": -47.17222462872948,
+		"timestamp": 1695723469000
+	},
+	{
+		"latitude": -22.785632659909304,
+		"longitude": -47.17272971621229,
+		"timestamp": 1695723472000
+	},
+	{
+		"latitude": -22.785383830230476,
+		"longitude": -47.17320647443045,
+		"timestamp": 1695723475000
+	},
+	{
+		"latitude": -22.785012961813294,
+		"longitude": -47.173567401484426,
+		"timestamp": 1695723478000
+	},
+	{
+		"latitude": -22.784577290040755,
+		"longitude": -47.17377828621231,
+		"timestamp": 1695723481000
+	},
+	{
+		"latitude": -22.784101605107914,
+		"longitude": -47.173893526606946,
+		"timestamp": 1695723484000
+	},
+	{
+		"latitude": -22.7837516,
+		"longitude": -47.1742809,
+		"timestamp": 1695723485512
+	},
+	{
+		"latitude": -22.783631723089577,
+		"longitude": -47.1740071453825,
+		"timestamp": 1695723487000
+	},
+	{
+		"latitude": -22.78318011628996,
+		"longitude": -47.174116765272544,
+		"timestamp": 1695723490000
+	},
+	{
+		"latitude": -22.78277078627983,
+		"longitude": -47.1742137496579,
+		"timestamp": 1695723493000
+	},
+	{
+		"latitude": -22.782425719368756,
+		"longitude": -47.17429924640515,
+		"timestamp": 1695723496000
+	},
+	{
+		"latitude": -22.782197679072407,
+		"longitude": -47.17435540426063,
+		"timestamp": 1695723499000
+	},
+	{
+		"latitude": -22.78209688099228,
+		"longitude": -47.17437463821983,
+		"timestamp": 1695723505000
+	},
+	{
+		"latitude": -22.7812975,
+		"longitude": -47.1746881,
+		"timestamp": 1695723505552
+	},
+	{
+		"latitude": -22.782002121174482,
+		"longitude": -47.17439460685442,
+		"timestamp": 1695723509000
+	},
+	{
+		"latitude": -22.78189649190786,
+		"longitude": -47.17439698343778,
+		"timestamp": 1695723522000
+	},
+	{
+		"latitude": -22.781754086830297,
+		"longitude": -47.17427644380879,
+		"timestamp": 1695723525000
+	},
+	{
+		"latitude": -22.7809572,
+		"longitude": -47.1747238,
+		"timestamp": 1695723525575
+	},
+	{
+		"latitude": -22.7815506298705,
+		"longitude": -47.174224743553935,
+		"timestamp": 1695723528000
+	},
+	{
+		"latitude": -22.7813653718829,
+		"longitude": -47.174338348282376,
+		"timestamp": 1695723531000
+	},
+	{
+		"latitude": -22.78129493144501,
+		"longitude": -47.174580950370924,
+		"timestamp": 1695723534000
+	},
+	{
+		"latitude": -22.78141354684105,
+		"longitude": -47.174817794298086,
+		"timestamp": 1695723537000
+	},
+	{
+		"latitude": -22.781637698475055,
+		"longitude": -47.17488373791666,
+		"timestamp": 1695723540000
+	},
+	{
+		"latitude": -22.78188845193497,
+		"longitude": -47.17489758669756,
+		"timestamp": 1695723543000
+	},
+	{
+		"latitude": -22.782154942474364,
+		"longitude": -47.17508366012001,
+		"timestamp": 1695723546000
+	},
+	{
+		"latitude": -22.7818755,
+		"longitude": -47.1744289,
+		"timestamp": 1695723545589
+	},
+	{
+		"latitude": -22.782440624823057,
+		"longitude": -47.17532499577781,
+		"timestamp": 1695723549000
+	},
+	{
+		"latitude": -22.78267403812496,
+		"longitude": -47.175522664922696,
+		"timestamp": 1695723552000
+	},
+	{
+		"latitude": -22.782800439589078,
+		"longitude": -47.1756321939798,
+		"timestamp": 1695723555000
+	},
+	{
+		"latitude": -22.78299306197744,
+		"longitude": -47.17579684875833,
+		"timestamp": 1695723558000
+	},
+	{
+		"latitude": -22.78326556344891,
+		"longitude": -47.176028314455536,
+		"timestamp": 1695723561000
+	},
+	{
+		"latitude": -22.783571499353478,
+		"longitude": -47.176289395960495,
+		"timestamp": 1695723564000
+	},
+	{
+		"latitude": -22.7838499,
+		"longitude": -47.1761411,
+		"timestamp": 1695723565610
+	},
+	{
+		"latitude": -22.78387464378679,
+		"longitude": -47.17654794598196,
+		"timestamp": 1695723567000
+	},
+	{
+		"latitude": -22.784181556383295,
+		"longitude": -47.176807326113654,
+		"timestamp": 1695723570000
+	},
+	{
+		"latitude": -22.784477563132103,
+		"longitude": -47.17705988239304,
+		"timestamp": 1695723573000
+	},
+	{
+		"latitude": -22.784740928046194,
+		"longitude": -47.177284050989016,
+		"timestamp": 1695723576000
+	},
+	{
+		"latitude": -22.78489820925876,
+		"longitude": -47.17742424873701,
+		"timestamp": 1695723579000
+	},
+	{
+		"latitude": -22.78497795541562,
+		"longitude": -47.17760483250632,
+		"timestamp": 1695723582000
+	},
+	{
+		"latitude": -22.785044779949594,
+		"longitude": -47.17786398630427,
+		"timestamp": 1695723585000
+	},
+	{
+		"latitude": -22.785076,
+		"longitude": -47.1780774,
+		"timestamp": 1695723585638
+	},
+	{
+		"latitude": -22.78525653558114,
+		"longitude": -47.17801762500661,
+		"timestamp": 1695723588000
+	},
+	{
+		"latitude": -22.78550497458167,
+		"longitude": -47.17796861673688,
+		"timestamp": 1695723591000
+	},
+	{
+		"latitude": -22.785715442401493,
+		"longitude": -47.178100153826435,
+		"timestamp": 1695723594000
+	},
+	{
+		"latitude": -22.78595036643839,
+		"longitude": -47.17831631348098,
+		"timestamp": 1695723597000
+	},
+	{
+		"latitude": -22.78621488593668,
+		"longitude": -47.178551472780796,
+		"timestamp": 1695723600000
+	},
+	{
+		"latitude": -22.786487592811387,
+		"longitude": -47.17879289721103,
+		"timestamp": 1695723603000
+	},
+	{
+		"latitude": -22.786747524083275,
+		"longitude": -47.179024647545155,
+		"timestamp": 1695723606000
+	},
+	{
+		"latitude": -22.7868996,
+		"longitude": -47.1788356,
+		"timestamp": 1695723605651
+	},
+	{
+		"latitude": -22.78691688162939,
+		"longitude": -47.17917047449974,
+		"timestamp": 1695723609000
+	},
+	{
+		"latitude": -22.787033640687547,
+		"longitude": -47.179272167733814,
+		"timestamp": 1695723612000
+	},
+	{
+		"latitude": -22.787146595940378,
+		"longitude": -47.17937047369983,
+		"timestamp": 1695723615000
+	},
+	{
+		"latitude": -22.78735438757474,
+		"longitude": -47.179543325872665,
+		"timestamp": 1695723618000
+	},
+	{
+		"latitude": -22.787583065076124,
+		"longitude": -47.17974374645722,
+		"timestamp": 1695723621000
+	},
+	{
+		"latitude": -22.787657047861316,
+		"longitude": -47.179931714576895,
+		"timestamp": 1695723624000
+	},
+	{
+		"latitude": -22.7874328,
+		"longitude": -47.1805469,
+		"timestamp": 1695723625662
+	},
+	{
+		"latitude": -22.7875363955165,
+		"longitude": -47.18008067147985,
+		"timestamp": 1695723627000
+	},
+	{
+		"latitude": -22.78740797210744,
+		"longitude": -47.18023114086094,
+		"timestamp": 1695723630000
+	},
+	{
+		"latitude": -22.78736029470962,
+		"longitude": -47.180342728415226,
+		"timestamp": 1695723633000
+	},
+	{
+		"latitude": -22.78743557279307,
+		"longitude": -47.18040449965828,
+		"timestamp": 1695723640000
+	},
+	{
+		"latitude": -22.787540984457753,
+		"longitude": -47.18043535111191,
+		"timestamp": 1695723644000
+	},
+	{
+		"latitude": -22.7870087,
+		"longitude": -47.1799014,
+		"timestamp": 1695723645691
+	},
+	{
+		"latitude": -22.787654410869237,
+		"longitude": -47.180453357247764,
+		"timestamp": 1695723648000
+	},
+	{
+		"latitude": -22.7876231,
+		"longitude": -47.180562,
+		"timestamp": 1695723665729
+	},
+	{
+		"latitude": -22.787745085706213,
+		"longitude": -47.18043610304985,
+		"timestamp": 1695723671000
+	},
+	{
+		"latitude": -22.78776507438722,
+		"longitude": -47.180338687537045,
+		"timestamp": 1695723676000
+	},
+	{
+		"latitude": -22.787793167892445,
+		"longitude": -47.18023262946773,
+		"timestamp": 1695723681000
+	},
+	{
+		"latitude": -22.787826472577084,
+		"longitude": -47.180123386652205,
+		"timestamp": 1695723686000
+	},
+	{
+		"latitude": -22.787737,
+		"longitude": -47.1807398,
+		"timestamp": 1695723725820
+	}
+] at timestamp: 2023-09-26 11:46:39
+/home/hiaac/CSTCollector/CSTCollectorTester/index.js:57
+    return new Date(Date.now() - tzoffset)).toISOString().replace(/T/, ' ').replace(/\..+/, '');
+                                          ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1195:20)
+    at Module._compile (node:internal/modules/cjs/loader:1239:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v19.8.1
+--- H-IAAC - CST COLLECTOR TESTER ---
+server is running on port 8089
+Received values body: [
+	{
+		"latitude": -22.7875773,
+		"longitude": -47.1808291,
+		"timestamp": 1695721617254
+	},
+	{
+		"latitude": -22.787404,
+		"longitude": -47.1807956,
+		"timestamp": 1695721657393
+	},
+	{
+		"latitude": -22.7875907,
+		"longitude": -47.180836,
+		"timestamp": 1695721697551
+	},
+	{
+		"latitude": -22.7876605,
+		"longitude": -47.180772,
+		"timestamp": 1695721777538
+	},
+	{
+		"latitude": -22.7837066,
+		"longitude": -47.1765838,
+		"timestamp": 1695721856546
+	},
+	{
+		"latitude": -22.7877815,
+		"longitude": -47.1808236,
+		"timestamp": 1695721863259
+	},
+	{
+		"latitude": -22.7876469,
+		"longitude": -47.1806871,
+		"timestamp": 1695721903314
+	},
+	{
+		"latitude": -22.7877507,
+		"longitude": -47.1807479,
+		"timestamp": 1695721943351
+	},
+	{
+		"latitude": -22.7896848,
+		"longitude": -47.1799654,
+		"timestamp": 1695721983417
+	},
+	{
+		"latitude": -22.7876736,
+		"longitude": -47.1806135,
+		"timestamp": 1695722043498
+	},
+	{
+		"latitude": -22.7877457,
+		"longitude": -47.1807482,
+		"timestamp": 1695722083549
+	},
+	{
+		"latitude": -22.7869135,
+		"longitude": -47.1799567,
+		"timestamp": 1695722103541
+	},
+	{
+		"latitude": -22.7877507,
+		"longitude": -47.1807479,
+		"timestamp": 1695722123549
+	},
+	{
+		"latitude": -22.7873561,
+		"longitude": -47.1807345,
+		"timestamp": 1695722143590
+	},
+	{
+		"latitude": -22.78720407327126,
+		"longitude": -47.180932220383134,
+		"timestamp": 1695722151652
+	},
+	{
+		"latitude": -22.786995848376193,
+		"longitude": -47.18083698165769,
+		"timestamp": 1695722155999
+	},
+	{
+		"latitude": -22.786886322818066,
+		"longitude": -47.18109589292659,
+		"timestamp": 1695722158999
+	},
+	{
+		"latitude": -22.786737263709355,
+		"longitude": -47.18125120044427,
+		"timestamp": 1695722161999
+	},
+	{
+		"latitude": -22.7870518,
+		"longitude": -47.1811606,
+		"timestamp": 1695722163621
+	},
+	{
+		"latitude": -22.786598894209096,
+		"longitude": -47.18137755635403,
+		"timestamp": 1695722164999
+	},
+	{
+		"latitude": -22.786497142299382,
+		"longitude": -47.18139276288,
+		"timestamp": 1695722172999
+	},
+	{
+		"latitude": -22.786347156852155,
+		"longitude": -47.18130391986011,
+		"timestamp": 1695722175999
+	},
+	{
+		"latitude": -22.786145404247865,
+		"longitude": -47.18112781624116,
+		"timestamp": 1695722178999
+	},
+	{
+		"latitude": -22.785901917462205,
+		"longitude": -47.18092054628099,
+		"timestamp": 1695722181999
+	},
+	{
+		"latitude": -22.7873038,
+		"longitude": -47.1806945,
+		"timestamp": 1695722183607
+	},
+	{
+		"latitude": -22.785653641177163,
+		"longitude": -47.18070418542793,
+		"timestamp": 1695722184999
+	},
+	{
+		"latitude": -22.785409879979177,
+		"longitude": -47.18049515845944,
+		"timestamp": 1695722187999
+	},
+	{
+		"latitude": -22.785162908095558,
+		"longitude": -47.18028527911545,
+		"timestamp": 1695722190999
+	},
+	{
+		"latitude": -22.784923541426192,
+		"longitude": -47.18007568246724,
+		"timestamp": 1695722193999
+	},
+	{
+		"latitude": -22.784679773012247,
+		"longitude": -47.179890016753234,
+		"timestamp": 1695722196999
+	},
+	{
+		"latitude": -22.784422332775083,
+		"longitude": -47.179728508523965,
+		"timestamp": 1695722199999
+	},
+	{
+		"latitude": -22.78416419533881,
+		"longitude": -47.17957640686038,
+		"timestamp": 1695722202999
+	},
+	{
+		"latitude": -22.7840013,
+		"longitude": -47.1795438,
+		"timestamp": 1695722203671
+	},
+	{
+		"latitude": -22.783908813580855,
+		"longitude": -47.17942546248979,
+		"timestamp": 1695722205999
+	},
+	{
+		"latitude": -22.783651376823702,
+		"longitude": -47.17927446769241,
+		"timestamp": 1695722208999
+	},
+	{
+		"latitude": -22.78339861033535,
+		"longitude": -47.179126782314555,
+		"timestamp": 1695722211999
+	},
+	{
+		"latitude": -22.78314906880372,
+		"longitude": -47.17898165090067,
+		"timestamp": 1695722214999
+	},
+	{
+		"latitude": -22.78290047173352,
+		"longitude": -47.178839099558694,
+		"timestamp": 1695722217999
+	},
+	{
+		"latitude": -22.782689916386268,
+		"longitude": -47.17871243151993,
+		"timestamp": 1695722220999
+	},
+	{
+		"latitude": -22.78255346819991,
+		"longitude": -47.17861956812214,
+		"timestamp": 1695722223999
+	},
+	{
+		"latitude": -22.7806272,
+		"longitude": -47.1748771,
+		"timestamp": 1695722223692
+	},
+	{
+		"latitude": -22.782486580157688,
+		"longitude": -47.17854428438286,
+		"timestamp": 1695722232999
+	},
+	{
+		"latitude": -22.782403607444852,
+		"longitude": -47.17847120664307,
+		"timestamp": 1695722236999
+	},
+	{
+		"latitude": -22.782276921655278,
+		"longitude": -47.178399991279534,
+		"timestamp": 1695722239999
+	},
+	{
+		"latitude": -22.78201419172587,
+		"longitude": -47.17845606477576,
+		"timestamp": 1695722242999
+	},
+	{
+		"latitude": -22.781752373792433,
+		"longitude": -47.17852591653109,
+		"timestamp": 1695722245999
+	},
+	{
+		"latitude": -22.781565665472108,
+		"longitude": -47.17857697628811,
+		"timestamp": 1695722248999
+	},
+	{
+		"latitude": -22.78143568870776,
+		"longitude": -47.178613009139674,
+		"timestamp": 1695722251999
+	},
+	{
+		"latitude": -22.7844642,
+		"longitude": -47.180017,
+		"timestamp": 1695722263761
+	},
+	{
+		"latitude": -22.781345871489158,
+		"longitude": -47.17864273952722,
+		"timestamp": 1695722271999
+	},
+	{
+		"latitude": -22.781256557214324,
+		"longitude": -47.17866647727682,
+		"timestamp": 1695722276999
+	},
+	{
+		"latitude": -22.78116662167821,
+		"longitude": -47.17869337912497,
+		"timestamp": 1695722288999
+	},
+	{
+		"latitude": -22.781072158382507,
+		"longitude": -47.178721092457785,
+		"timestamp": 1695722295999
+	},
+	{
+		"latitude": -22.780973801114637,
+		"longitude": -47.178743168547136,
+		"timestamp": 1695722306999
+	},
+	{
+		"latitude": -22.780862250876563,
+		"longitude": -47.178742334757715,
+		"timestamp": 1695722316999
+	},
+	{
+		"latitude": -22.780759068080215,
+		"longitude": -47.17871333184723,
+		"timestamp": 1695722320999
+	},
+	{
+		"latitude": -22.78060800699491,
+		"longitude": -47.17858852816266,
+		"timestamp": 1695722323999
+	},
+	{
+		"latitude": -22.780559915109045,
+		"longitude": -47.17831116137027,
+		"timestamp": 1695722326999
+	},
+	{
+		"latitude": -22.78067018664429,
+		"longitude": -47.177920962444155,
+		"timestamp": 1695722329999
+	},
+	{
+		"latitude": -22.78079866018964,
+		"longitude": -47.17749313938913,
+		"timestamp": 1695722332999
+	},
+	{
+		"latitude": -22.780919488667628,
+		"longitude": -47.17709098138328,
+		"timestamp": 1695722335999
+	},
+	{
+		"latitude": -22.781021471030552,
+		"longitude": -47.17675248889607,
+		"timestamp": 1695722338999
+	},
+	{
+		"latitude": -22.7810942844813,
+		"longitude": -47.176504144554315,
+		"timestamp": 1695722341999
+	},
+	{
+		"latitude": -22.7810219,
+		"longitude": -47.1759524,
+		"timestamp": 1695722343848
+	},
+	{
+		"latitude": -22.781144149902936,
+		"longitude": -47.176328418102486,
+		"timestamp": 1695722344999
+	},
+	{
+		"latitude": -22.781177595068403,
+		"longitude": -47.17622179403163,
+		"timestamp": 1695722347999
+	},
+	{
+		"latitude": -22.781213319575848,
+		"longitude": -47.176101271352785,
+		"timestamp": 1695722359999
+	},
+	{
+		"latitude": -22.781246745927756,
+		"longitude": -47.175985227872644,
+		"timestamp": 1695722362999
+	},
+	{
+		"latitude": -22.7809054,
+		"longitude": -47.1759411,
+		"timestamp": 1695722363929
+	},
+	{
+		"latitude": -22.781277994724846,
+		"longitude": -47.17587495615825,
+		"timestamp": 1695722365999
+	},
+	{
+		"latitude": -22.781308122665926,
+		"longitude": -47.17577905575797,
+		"timestamp": 1695722380999
+	},
+	{
+		"latitude": -22.781084,
+		"longitude": -47.1757184,
+		"timestamp": 1695722383950
+	},
+	{
+		"latitude": -22.78133857926076,
+		"longitude": -47.175675033457644,
+		"timestamp": 1695722384999
+	},
+	{
+		"latitude": -22.781367634724575,
+		"longitude": -47.17557803193628,
+		"timestamp": 1695722388999
+	},
+	{
+		"latitude": -22.78139733529523,
+		"longitude": -47.175476527764346,
+		"timestamp": 1695722393999
+	},
+	{
+		"latitude": -22.781427651256244,
+		"longitude": -47.17537731604233,
+		"timestamp": 1695722397999
+	},
+	{
+		"latitude": -22.781455841577912,
+		"longitude": -47.17527145848838,
+		"timestamp": 1695722401999
+	},
+	{
+		"latitude": -22.7809606,
+		"longitude": -47.1747851,
+		"timestamp": 1695722403997
+	},
+	{
+		"latitude": -22.781484541558303,
+		"longitude": -47.175167175767164,
+		"timestamp": 1695722407999
+	},
+	{
+		"latitude": -22.78151317408134,
+		"longitude": -47.17507067307531,
+		"timestamp": 1695722415999
+	},
+	{
+		"latitude": -22.78155396483931,
+		"longitude": -47.17494291418844,
+		"timestamp": 1695722422999
+	},
+	{
+		"latitude": -22.7810283,
+		"longitude": -47.1746721,
+		"timestamp": 1695722424012
+	},
+	{
+		"latitude": -22.78160128307857,
+		"longitude": -47.17485992689127,
+		"timestamp": 1695722431999
+	},
+	{
+		"latitude": -22.78171328012927,
+		"longitude": -47.17482778129695,
+		"timestamp": 1695722434999
+	},
+	{
+		"latitude": -22.78185655523518,
+		"longitude": -47.17471720010276,
+		"timestamp": 1695722437999
+	},
+	{
+		"latitude": -22.781904244433868,
+		"longitude": -47.17460895339423,
+		"timestamp": 1695722440999
+	},
+	{
+		"latitude": -22.781902692472798,
+		"longitude": -47.174371907527906,
+		"timestamp": 1695722443999
+	},
+	{
+		"latitude": -22.7811989,
+		"longitude": -47.1744461,
+		"timestamp": 1695722444036
+	},
+	{
+		"latitude": -22.78166776383963,
+		"longitude": -47.17420359357871,
+		"timestamp": 1695722446999
+	},
+	{
+		"latitude": -22.781375392868256,
+		"longitude": -47.174201542422566,
+		"timestamp": 1695722449999
+	},
+	{
+		"latitude": -22.781118117974952,
+		"longitude": -47.1740344959911,
+		"timestamp": 1695722452999
+	},
+	{
+		"latitude": -22.780851699874354,
+		"longitude": -47.173806012215714,
+		"timestamp": 1695722455999
+	},
+	{
+		"latitude": -22.78058696325405,
+		"longitude": -47.173580612185354,
+		"timestamp": 1695722458999
+	},
+	{
+		"latitude": -22.780357077646958,
+		"longitude": -47.1733841225396,
+		"timestamp": 1695722461999
+	},
+	{
+		"latitude": -22.7802651,
+		"longitude": -47.1733851,
+		"timestamp": 1695722464087
+	},
+	{
+		"latitude": -22.78021495477963,
+		"longitude": -47.17326434992503,
+		"timestamp": 1695722464999
+	},
+	{
+		"latitude": -22.7800167775405,
+		"longitude": -47.17310224175166,
+		"timestamp": 1695722467999
+	},
+	{
+		"latitude": -22.779774983555154,
+		"longitude": -47.17290016832353,
+		"timestamp": 1695722470999
+	},
+	{
+		"latitude": -22.779521432545664,
+		"longitude": -47.17268214739589,
+		"timestamp": 1695722473999
+	},
+	{
+		"latitude": -22.77927265367733,
+		"longitude": -47.17245521973576,
+		"timestamp": 1695722476999
+	},
+	{
+		"latitude": -22.77902747715547,
+		"longitude": -47.17222877624064,
+		"timestamp": 1695722479999
+	},
+	{
+		"latitude": -22.778764392569745,
+		"longitude": -47.1720031862797,
+		"timestamp": 1695722482999
+	},
+	{
+		"latitude": -22.7786536,
+		"longitude": -47.1720156,
+		"timestamp": 1695722484094
+	},
+	{
+		"latitude": -22.7785109731475,
+		"longitude": -47.17178980512234,
+		"timestamp": 1695722485999
+	},
+	{
+		"latitude": -22.7782979733938,
+		"longitude": -47.17161026657504,
+		"timestamp": 1695722488999
+	},
+	{
+		"latitude": -22.778187089939728,
+		"longitude": -47.17140631880451,
+		"timestamp": 1695722491999
+	},
+	{
+		"latitude": -22.77820536036429,
+		"longitude": -47.17109010910519,
+		"timestamp": 1695722494999
+	},
+	{
+		"latitude": -22.778249837381274,
+		"longitude": -47.170698020405645,
+		"timestamp": 1695722497999
+	},
+	{
+		"latitude": -22.778302995240928,
+		"longitude": -47.17028819901065,
+		"timestamp": 1695722500999
+	},
+	{
+		"latitude": -22.77835464576847,
+		"longitude": -47.16987657880929,
+		"timestamp": 1695722503999
+	},
+	{
+		"latitude": -22.7784086108302,
+		"longitude": -47.16946257014839,
+		"timestamp": 1695722506999
+	},
+	{
+		"latitude": -22.77845646750283,
+		"longitude": -47.16903447179182,
+		"timestamp": 1695722509999
+	},
+	{
+		"latitude": -22.778504039724766,
+		"longitude": -47.16861062026384,
+		"timestamp": 1695722512999
+	},
+	{
+		"latitude": -22.778540292975187,
+		"longitude": -47.16825197310406,
+		"timestamp": 1695722515999
+	},
+	{
+		"latitude": -22.77856317364852,
+		"longitude": -47.16804658055687,
+		"timestamp": 1695722518999
+	},
+	{
+		"latitude": -22.778582722210498,
+		"longitude": -47.16791118418837,
+		"timestamp": 1695722522999
+	},
+	{
+		"latitude": -22.778619582528606,
+		"longitude": -47.167625869504846,
+		"timestamp": 1695722525999
+	},
+	{
+		"latitude": -22.778656211693917,
+		"longitude": -47.167282228408105,
+		"timestamp": 1695722528999
+	},
+	{
+		"latitude": -22.778700754154276,
+		"longitude": -47.166922531429236,
+		"timestamp": 1695722531999
+	},
+	{
+		"latitude": -22.778750041333208,
+		"longitude": -47.16655733012348,
+		"timestamp": 1695722534999
+	},
+	{
+		"latitude": -22.778795217480646,
+		"longitude": -47.16617800400842,
+		"timestamp": 1695722537999
+	},
+	{
+		"latitude": -22.77883513265597,
+		"longitude": -47.16583200255764,
+		"timestamp": 1695722540999
+	},
+	{
+		"latitude": -22.77886592124551,
+		"longitude": -47.165530303432895,
+		"timestamp": 1695722543999
+	},
+	{
+		"latitude": -22.77889785562391,
+		"longitude": -47.16534717869276,
+		"timestamp": 1695722546999
+	},
+	{
+		"latitude": -22.778914654712974,
+		"longitude": -47.16523421993516,
+		"timestamp": 1695722549999
+	},
+	{
+		"latitude": -22.77878193426548,
+		"longitude": -47.16507377131681,
+		"timestamp": 1695722552999
+	},
+	{
+		"latitude": -22.77870967073517,
+		"longitude": -47.164882477196194,
+		"timestamp": 1695722555999
+	},
+	{
+		"latitude": -22.77884136424572,
+		"longitude": -47.164771309803285,
+		"timestamp": 1695722558999
+	},
+	{
+		"latitude": -22.779097490018767,
+		"longitude": -47.16471050646198,
+		"timestamp": 1695722561999
+	},
+	{
+		"latitude": -22.779400082601832,
+		"longitude": -47.164562485510224,
+		"timestamp": 1695722564999
+	},
+	{
+		"latitude": -22.779708618412776,
+		"longitude": -47.164305140038756,
+		"timestamp": 1695722567999
+	},
+	{
+		"latitude": -22.779955983646918,
+		"longitude": -47.16396112871045,
+		"timestamp": 1695722570999
+	},
+	{
+		"latitude": -22.78013270992109,
+		"longitude": -47.16356476057636,
+		"timestamp": 1695722573999
+	},
+	{
+		"latitude": -22.780302006979923,
+		"longitude": -47.1631612904267,
+		"timestamp": 1695722576999
+	},
+	{
+		"latitude": -22.78047782888658,
+		"longitude": -47.16274488621221,
+		"timestamp": 1695722579999
+	},
+	{
+		"latitude": -22.78065691859085,
+		"longitude": -47.16233358615779,
+		"timestamp": 1695722582999
+	},
+	{
+		"latitude": -22.780831602856367,
+		"longitude": -47.16193207790065,
+		"timestamp": 1695722585999
+	},
+	{
+		"latitude": -22.78100518177537,
+		"longitude": -47.16153237651782,
+		"timestamp": 1695722588999
+	},
+	{
+		"latitude": -22.781184291475363,
+		"longitude": -47.16111903881815,
+		"timestamp": 1695722591999
+	},
+	{
+		"latitude": -22.781366561868737,
+		"longitude": -47.16069961316969,
+		"timestamp": 1695722594999
+	},
+	{
+		"latitude": -22.78155499593564,
+		"longitude": -47.160263247706254,
+		"timestamp": 1695722597999
+	},
+	{
+		"latitude": -22.781748878878478,
+		"longitude": -47.159811088049516,
+		"timestamp": 1695722600999
+	},
+	{
+		"latitude": -22.781937489429726,
+		"longitude": -47.15941818695855,
+		"timestamp": 1695722603999
+	},
+	{
+		"latitude": -22.78215556499587,
+		"longitude": -47.15911259328263,
+		"timestamp": 1695722606999
+	},
+	{
+		"latitude": -22.782350184607736,
+		"longitude": -47.158924130064946,
+		"timestamp": 1695722609999
+	},
+	{
+		"latitude": -22.782462108233464,
+		"longitude": -47.15884189922597,
+		"timestamp": 1695722612999
+	},
+	{
+		"latitude": -22.78255221556613,
+		"longitude": -47.158801412046586,
+		"timestamp": 1695722622999
+	},
+	{
+		"latitude": -22.782657912030658,
+		"longitude": -47.158754986317334,
+		"timestamp": 1695722626999
+	},
+	{
+		"latitude": -22.782887073622486,
+		"longitude": -47.15868177776635,
+		"timestamp": 1695722629999
+	},
+	{
+		"latitude": -22.783119939446063,
+		"longitude": -47.15848526949533,
+		"timestamp": 1695722632999
+	},
+	{
+		"latitude": -22.7831969246685,
+		"longitude": -47.1581758664801,
+		"timestamp": 1695722635999
+	},
+	{
+		"latitude": -22.783144152956915,
+		"longitude": -47.157854239986065,
+		"timestamp": 1695722638999
+	},
+	{
+		"latitude": -22.783137474201514,
+		"longitude": -47.15752487331904,
+		"timestamp": 1695722641999
+	},
+	{
+		"latitude": -22.7832754446726,
+		"longitude": -47.157181893785385,
+		"timestamp": 1695722644999
+	},
+	{
+		"latitude": -22.783458849195085,
+		"longitude": -47.15681310719794,
+		"timestamp": 1695722647999
+	},
+	{
+		"latitude": -22.783661158064643,
+		"longitude": -47.15640985791773,
+		"timestamp": 1695722650999
+	},
+	{
+		"latitude": -22.783871941337125,
+		"longitude": -47.155989391361324,
+		"timestamp": 1695722653999
+	},
+	{
+		"latitude": -22.784087784864642,
+		"longitude": -47.15555645487006,
+		"timestamp": 1695722656999
+	},
+	{
+		"latitude": -22.784283654869544,
+		"longitude": -47.1551017369069,
+		"timestamp": 1695722659999
+	},
+	{
+		"latitude": -22.78437460527447,
+		"longitude": -47.15460342385906,
+		"timestamp": 1695722662999
+	},
+	{
+		"latitude": -22.78440533736355,
+		"longitude": -47.15409332641565,
+		"timestamp": 1695722665999
+	},
+	{
+		"latitude": -22.784430522136052,
+		"longitude": -47.15362120678014,
+		"timestamp": 1695722668999
+	},
+	{
+		"latitude": -22.78444900844297,
+		"longitude": -47.153279709435594,
+		"timestamp": 1695722671999
+	},
+	{
+		"latitude": -22.784503544466403,
+		"longitude": -47.15302039788265,
+		"timestamp": 1695722674999
+	},
+	{
+		"latitude": -22.784655574353472,
+		"longitude": -47.15277907909133,
+		"timestamp": 1695722677999
+	},
+	{
+		"latitude": -22.784609040644042,
+		"longitude": -47.152477552026795,
+		"timestamp": 1695722680999
+	},
+	{
+		"latitude": -22.784528954666794,
+		"longitude": -47.152159807683454,
+		"timestamp": 1695722683999
+	},
+	{
+		"latitude": -22.784550924008585,
+		"longitude": -47.15175930460469,
+		"timestamp": 1695722686999
+	},
+	{
+		"latitude": -22.78457261831992,
+		"longitude": -47.15131007433995,
+		"timestamp": 1695722689999
+	},
+	{
+		"latitude": -22.784596195304786,
+		"longitude": -47.15083013677604,
+		"timestamp": 1695722692999
+	},
+	{
+		"latitude": -22.784622743749853,
+		"longitude": -47.150325296231564,
+		"timestamp": 1695722695999
+	},
+	{
+		"latitude": -22.78465096819607,
+		"longitude": -47.149801935339624,
+		"timestamp": 1695722698999
+	},
+	{
+		"latitude": -22.784689330861447,
+		"longitude": -47.14925923516722,
+		"timestamp": 1695722701999
+	},
+	{
+		"latitude": -22.784764781647436,
+		"longitude": -47.148718957811454,
+		"timestamp": 1695722704999
+	},
+	{
+		"latitude": -22.784874442540353,
+		"longitude": -47.148193757091306,
+		"timestamp": 1695722707999
+	},
+	{
+		"latitude": -22.78501775402223,
+		"longitude": -47.147675811541845,
+		"timestamp": 1695722710999
+	},
+	{
+		"latitude": -22.785193756913085,
+		"longitude": -47.14716273568295,
+		"timestamp": 1695722713999
+	},
+	{
+		"latitude": -22.785401513814755,
+		"longitude": -47.14666045004295,
+		"timestamp": 1695722716999
+	},
+	{
+		"latitude": -22.785637333887554,
+		"longitude": -47.146178453668135,
+		"timestamp": 1695722719999
+	},
+	{
+		"latitude": -22.78589393615174,
+		"longitude": -47.145714320741256,
+		"timestamp": 1695722722999
+	},
+	{
+		"latitude": -22.78616679330785,
+		"longitude": -47.145249939047005,
+		"timestamp": 1695722725999
+	},
+	{
+		"latitude": -22.78643456279197,
+		"longitude": -47.14476247020143,
+		"timestamp": 1695722728999
+	},
+	{
+		"latitude": -22.786733619602735,
+		"longitude": -47.14426297518668,
+		"timestamp": 1695722731999
+	},
+	{
+		"latitude": -22.787038061653615,
+		"longitude": -47.143746608222415,
+		"timestamp": 1695722734999
+	},
+	{
+		"latitude": -22.787343936615233,
+		"longitude": -47.14323275132028,
+		"timestamp": 1695722737999
+	},
+	{
+		"latitude": -22.78765611104007,
+		"longitude": -47.14271232419515,
+		"timestamp": 1695722740999
+	},
+	{
+		"latitude": -22.787950907617837,
+		"longitude": -47.142220047745944,
+		"timestamp": 1695722743999
+	},
+	{
+		"latitude": -22.788165828984756,
+		"longitude": -47.141761375331605,
+		"timestamp": 1695722746999
+	},
+	{
+		"latitude": -22.78825433512471,
+		"longitude": -47.141327237130966,
+		"timestamp": 1695722749999
+	},
+	{
+		"latitude": -22.788276635975738,
+		"longitude": -47.14097958492254,
+		"timestamp": 1695722752999
+	},
+	{
+		"latitude": -22.78832344690189,
+		"longitude": -47.14077692763867,
+		"timestamp": 1695722755999
+	},
+	{
+		"latitude": -22.788387637838138,
+		"longitude": -47.14063793390861,
+		"timestamp": 1695722758999
+	},
+	{
+		"latitude": -22.788522120837094,
+		"longitude": -47.140417394382,
+		"timestamp": 1695722761999
+	},
+	{
+		"latitude": -22.78865760569722,
+		"longitude": -47.140120099962104,
+		"timestamp": 1695722764999
+	},
+	{
+		"latitude": -22.788588781273617,
+		"longitude": -47.13977386797443,
+		"timestamp": 1695722767999
+	},
+	{
+		"latitude": -22.78832101373873,
+		"longitude": -47.139542999026396,
+		"timestamp": 1695722770999
+	},
+	{
+		"latitude": -22.787975604753544,
+		"longitude": -47.13952988208433,
+		"timestamp": 1695722773999
+	},
+	{
+		"latitude": -22.78764526021487,
+		"longitude": -47.13960455891436,
+		"timestamp": 1695722776999
+	},
+	{
+		"latitude": -22.78740275785567,
+		"longitude": -47.13966915624599,
+		"timestamp": 1695722779999
+	},
+	{
+		"latitude": -22.78726129372442,
+		"longitude": -47.139701217529876,
+		"timestamp": 1695722782999
+	},
+	{
+		"latitude": -22.78709225716702,
+		"longitude": -47.13973988786529,
+		"timestamp": 1695722785999
+	},
+	{
+		"latitude": -22.786821438123766,
+		"longitude": -47.13983274811148,
+		"timestamp": 1695722788999
+	},
+	{
+		"latitude": -22.78654216836733,
+		"longitude": -47.13995073580584,
+		"timestamp": 1695722791999
+	},
+	{
+		"latitude": -22.786422109089678,
+		"longitude": -47.14001297953774,
+		"timestamp": 1695722794999
+	},
+	{
+		"latitude": -22.78632218499226,
+		"longitude": -47.14006913797342,
+		"timestamp": 1695722801999
+	},
+	{
+		"latitude": -22.78614716586479,
+		"longitude": -47.140177643336514,
+		"timestamp": 1695722804999
+	},
+	{
+		"latitude": -22.78585441324462,
+		"longitude": -47.140358560947945,
+		"timestamp": 1695722807999
+	},
+	{
+		"latitude": -22.785494085456044,
+		"longitude": -47.140576232686804,
+		"timestamp": 1695722810999
+	},
+	{
+		"latitude": -22.78510188371546,
+		"longitude": -47.140815613203024,
+		"timestamp": 1695722813999
+	},
+	{
+		"latitude": -22.78470172353756,
+		"longitude": -47.14105453499329,
+		"timestamp": 1695722816999
+	},
+	{
+		"latitude": -22.784318407419732,
+		"longitude": -47.14125211998911,
+		"timestamp": 1695722819999
+	},
+	{
+		"latitude": -22.78395259064734,
+		"longitude": -47.14141014897395,
+		"timestamp": 1695722822999
+	},
+	{
+		"latitude": -22.78364785175413,
+		"longitude": -47.14153552620238,
+		"timestamp": 1695722825999
+	},
+	{
+		"latitude": -22.783349960185035,
+		"longitude": -47.14165504971631,
+		"timestamp": 1695722828999
+	},
+	{
+		"latitude": -22.783087886765315,
+		"longitude": -47.14173668189165,
+		"timestamp": 1695722831999
+	},
+	{
+		"latitude": -22.78289268712691,
+		"longitude": -47.14173091842299,
+		"timestamp": 1695722834999
+	},
+	{
+		"latitude": -22.7827649706134,
+		"longitude": -47.14151320393462,
+		"timestamp": 1695722837999
+	},
+	{
+		"latitude": -22.782668251702884,
+		"longitude": -47.14123495989942,
+		"timestamp": 1695722840999
+	},
+	{
+		"latitude": -22.78256802514959,
+		"longitude": -47.14094461817606,
+		"timestamp": 1695722843999
+	},
+	{
+		"latitude": -22.782474425654488,
+		"longitude": -47.1406560576638,
+		"timestamp": 1695722846999
+	},
+	{
+		"latitude": -22.782400076803874,
+		"longitude": -47.14042619278731,
+		"timestamp": 1695722849999
+	},
+	{
+		"latitude": -22.782338568823768,
+		"longitude": -47.14032227128653,
+		"timestamp": 1695722852999
+	},
+	{
+		"latitude": -22.78228648627801,
+		"longitude": -47.14040801135811,
+		"timestamp": 1695722855999
+	},
+	{
+		"latitude": -22.78231516382843,
+		"longitude": -47.140555150784785,
+		"timestamp": 1695722858999
+	},
+	{
+		"latitude": -22.782341468708545,
+		"longitude": -47.140655175927016,
+		"timestamp": 1695723080999
+	},
+	{
+		"latitude": -22.782409284854214,
+		"longitude": -47.14080429886473,
+		"timestamp": 1695723083999
+	},
+	{
+		"latitude": -22.78249579844449,
+		"longitude": -47.14101290648809,
+		"timestamp": 1695723086999
+	},
+	{
+		"latitude": -22.782585631179895,
+		"longitude": -47.1412503016337,
+		"timestamp": 1695723089999
+	},
+	{
+		"latitude": -22.782677211147703,
+		"longitude": -47.141485932100274,
+		"timestamp": 1695723092999
+	},
+	{
+		"latitude": -22.782740599472667,
+		"longitude": -47.141690885891364,
+		"timestamp": 1695723095999
+	},
+	{
+		"latitude": -22.78277830023932,
+		"longitude": -47.14180139926044,
+		"timestamp": 1695723103999
+	},
+	{
+		"latitude": -22.782760059827915,
+		"longitude": -47.14194054235246,
+		"timestamp": 1695723111999
+	},
+	{
+		"latitude": -22.782561831300296,
+		"longitude": -47.14203317128873,
+		"timestamp": 1695723114999
+	},
+	{
+		"latitude": -22.78225675950776,
+		"longitude": -47.14216436634076,
+		"timestamp": 1695723117999
+	},
+	{
+		"latitude": -22.781898667622077,
+		"longitude": -47.14232755688655,
+		"timestamp": 1695723120999
+	},
+	{
+		"latitude": -22.78154435999176,
+		"longitude": -47.14246214034799,
+		"timestamp": 1695723123999
+	},
+	{
+		"latitude": -22.781228505051292,
+		"longitude": -47.14258623433249,
+		"timestamp": 1695723126999
+	},
+	{
+		"latitude": -22.7809832201115,
+		"longitude": -47.14268126022546,
+		"timestamp": 1695723129999
+	},
+	{
+		"latitude": -22.780843400163853,
+		"longitude": -47.142736101073474,
+		"timestamp": 1695723132999
+	},
+	{
+		"latitude": -22.780594504120597,
+		"longitude": -47.1428354575136,
+		"timestamp": 1695723135999
+	},
+	{
+		"latitude": -22.780356917591124,
+		"longitude": -47.142943420323675,
+		"timestamp": 1695723138999
+	},
+	{
+		"latitude": -22.78018951767457,
+		"longitude": -47.14301765694393,
+		"timestamp": 1695723141999
+	},
+	{
+		"latitude": -22.780178715123636,
+		"longitude": -47.143122566081004,
+		"timestamp": 1695723156999
+	},
+	{
+		"latitude": -22.780327801380125,
+		"longitude": -47.143114248494136,
+		"timestamp": 1695723159999
+	},
+	{
+		"latitude": -22.78058149046999,
+		"longitude": -47.1429907955663,
+		"timestamp": 1695723162999
+	},
+	{
+		"latitude": -22.780842342255678,
+		"longitude": -47.14287354715305,
+		"timestamp": 1695723165999
+	},
+	{
+		"latitude": -22.780986890834683,
+		"longitude": -47.14280940009844,
+		"timestamp": 1695723168999
+	},
+	{
+		"latitude": -22.781217626559766,
+		"longitude": -47.142709396778415,
+		"timestamp": 1695723171999
+	},
+	{
+		"latitude": -22.781541638519148,
+		"longitude": -47.14257409198951,
+		"timestamp": 1695723174999
+	},
+	{
+		"latitude": -22.781924031682028,
+		"longitude": -47.14243574558067,
+		"timestamp": 1695723177999
+	},
+	{
+		"latitude": -22.782304028942523,
+		"longitude": -47.14228304370394,
+		"timestamp": 1695723180999
+	},
+	{
+		"latitude": -22.782673103961784,
+		"longitude": -47.142126544461796,
+		"timestamp": 1695723183999
+	},
+	{
+		"latitude": -22.783052576434777,
+		"longitude": -47.14197246612319,
+		"timestamp": 1695723186999
+	},
+	{
+		"latitude": -22.78343571095465,
+		"longitude": -47.141812916392986,
+		"timestamp": 1695723189999
+	},
+	{
+		"latitude": -22.783831840127405,
+		"longitude": -47.14165021697377,
+		"timestamp": 1695723192999
+	},
+	{
+		"latitude": -22.784225283004904,
+		"longitude": -47.14147903283812,
+		"timestamp": 1695723195999
+	},
+	{
+		"latitude": -22.784626682995842,
+		"longitude": -47.14128087140775,
+		"timestamp": 1695723198999
+	},
+	{
+		"latitude": -22.785014671547913,
+		"longitude": -47.14105166988609,
+		"timestamp": 1695723201999
+	},
+	{
+		"latitude": -22.785406172261638,
+		"longitude": -47.14081594113106,
+		"timestamp": 1695723204999
+	},
+	{
+		"latitude": -22.7857829292666,
+		"longitude": -47.140584196819034,
+		"timestamp": 1695723207999
+	},
+	{
+		"latitude": -22.786154047378115,
+		"longitude": -47.14035992916603,
+		"timestamp": 1695723210999
+	},
+	{
+		"latitude": -22.786520033151078,
+		"longitude": -47.14014633066554,
+		"timestamp": 1695723213999
+	},
+	{
+		"latitude": -22.786916447746133,
+		"longitude": -47.13998341504747,
+		"timestamp": 1695723216999
+	},
+	{
+		"latitude": -22.787274949023985,
+		"longitude": -47.139919154968375,
+		"timestamp": 1695723219999
+	},
+	{
+		"latitude": -22.78757109692522,
+		"longitude": -47.14005144710861,
+		"timestamp": 1695723222999
+	},
+	{
+		"latitude": -22.787756576892896,
+		"longitude": -47.14036714978538,
+		"timestamp": 1695723225999
+	},
+	{
+		"latitude": -22.787992282915965,
+		"longitude": -47.14063573064838,
+		"timestamp": 1695723228999
+	},
+	{
+		"latitude": -22.788123289833326,
+		"longitude": -47.14095183265901,
+		"timestamp": 1695723231999
+	},
+	{
+		"latitude": -22.788124370877384,
+		"longitude": -47.14135566011716,
+		"timestamp": 1695723234999
+	},
+	{
+		"latitude": -22.788022959648163,
+		"longitude": -47.14177450450737,
+		"timestamp": 1695723237999
+	},
+	{
+		"latitude": -22.78781916715274,
+		"longitude": -47.1421788827885,
+		"timestamp": 1695723240999
+	},
+	{
+		"latitude": -22.787568705683906,
+		"longitude": -47.14259158272853,
+		"timestamp": 1695723243999
+	},
+	{
+		"latitude": -22.787314160909588,
+		"longitude": -47.14301974354813,
+		"timestamp": 1695723246999
+	},
+	{
+		"latitude": -22.78704632737219,
+		"longitude": -47.14347043638748,
+		"timestamp": 1695723249999
+	},
+	{
+		"latitude": -22.78677118147603,
+		"longitude": -47.143935837276175,
+		"timestamp": 1695723252999
+	},
+	{
+		"latitude": -22.786495747748404,
+		"longitude": -47.14439068070326,
+		"timestamp": 1695723255999
+	},
+	{
+		"latitude": -22.78623044518811,
+		"longitude": -47.144836688201984,
+		"timestamp": 1695723258999
+	},
+	{
+		"latitude": -22.785966481042067,
+		"longitude": -47.14528085540596,
+		"timestamp": 1695723261999
+	},
+	{
+		"latitude": -22.78570133483594,
+		"longitude": -47.14572939105936,
+		"timestamp": 1695723264999
+	},
+	{
+		"latitude": -22.785444148667786,
+		"longitude": -47.14618163300926,
+		"timestamp": 1695723267999
+	},
+	{
+		"latitude": -22.785209525235455,
+		"longitude": -47.14664403839522,
+		"timestamp": 1695723270999
+	},
+	{
+		"latitude": -22.785008055751877,
+		"longitude": -47.147117720696066,
+		"timestamp": 1695723273999
+	},
+	{
+		"latitude": -22.784832471287142,
+		"longitude": -47.147613934263134,
+		"timestamp": 1695723276999
+	},
+	{
+		"latitude": -22.784687359440525,
+		"longitude": -47.14812742002173,
+		"timestamp": 1695723279999
+	},
+	{
+		"latitude": -22.784576162148795,
+		"longitude": -47.14864196127483,
+		"timestamp": 1695723282999
+	},
+	{
+		"latitude": -22.784497739162077,
+		"longitude": -47.14915517780484,
+		"timestamp": 1695723285999
+	},
+	{
+		"latitude": -22.784447451763373,
+		"longitude": -47.14965265106951,
+		"timestamp": 1695723288999
+	},
+	{
+		"latitude": -22.784421698503337,
+		"longitude": -47.15014588558419,
+		"timestamp": 1695723291999
+	},
+	{
+		"latitude": -22.78440275044211,
+		"longitude": -47.15063605556505,
+		"timestamp": 1695723294999
+	},
+	{
+		"latitude": -22.784381461436766,
+		"longitude": -47.1511137703062,
+		"timestamp": 1695723297999
+	},
+	{
+		"latitude": -22.78435576049526,
+		"longitude": -47.15157017180142,
+		"timestamp": 1695723300999
+	},
+	{
+		"latitude": -22.784335759341978,
+		"longitude": -47.15195114281269,
+		"timestamp": 1695723303999
+	},
+	{
+		"latitude": -22.784321488542293,
+		"longitude": -47.15218810718553,
+		"timestamp": 1695723306999
+	},
+	{
+		"latitude": -22.78430859009274,
+		"longitude": -47.152291745650835,
+		"timestamp": 1695723309999
+	},
+	{
+		"latitude": -22.784236296990755,
+		"longitude": -47.152438077788624,
+		"timestamp": 1695723312999
+	},
+	{
+		"latitude": -22.78411692837729,
+		"longitude": -47.152623163211,
+		"timestamp": 1695723315999
+	},
+	{
+		"latitude": -22.784147850570562,
+		"longitude": -47.152877009949314,
+		"timestamp": 1695723318999
+	},
+	{
+		"latitude": -22.784283702862744,
+		"longitude": -47.153168434765234,
+		"timestamp": 1695723321999
+	},
+	{
+		"latitude": -22.78428768172953,
+		"longitude": -47.15359240688814,
+		"timestamp": 1695723324999
+	},
+	{
+		"latitude": -22.784262308760738,
+		"longitude": -47.154067280778435,
+		"timestamp": 1695723327999
+	},
+	{
+		"latitude": -22.784236882867468,
+		"longitude": -47.15457644235792,
+		"timestamp": 1695723330999
+	},
+	{
+		"latitude": -22.784155959209876,
+		"longitude": -47.15507591872373,
+		"timestamp": 1695723333999
+	},
+	{
+		"latitude": -22.783962679756943,
+		"longitude": -47.15552970259167,
+		"timestamp": 1695723336999
+	},
+	{
+		"latitude": -22.7837398918166,
+		"longitude": -47.15596161670937,
+		"timestamp": 1695723339999
+	},
+	{
+		"latitude": -22.78352976453628,
+		"longitude": -47.156370101335035,
+		"timestamp": 1695723342999
+	},
+	{
+		"latitude": -22.783334131188617,
+		"longitude": -47.156753197110724,
+		"timestamp": 1695723345999
+	},
+	{
+		"latitude": -22.783156298340376,
+		"longitude": -47.15710517093107,
+		"timestamp": 1695723348999
+	},
+	{
+		"latitude": -22.782995385355374,
+		"longitude": -47.15740286470285,
+		"timestamp": 1695723351999
+	},
+	{
+		"latitude": -22.782836611953254,
+		"longitude": -47.15755051233647,
+		"timestamp": 1695723354999
+	},
+	{
+		"latitude": -22.782658037473624,
+		"longitude": -47.157636687566914,
+		"timestamp": 1695723357999
+	},
+	{
+		"latitude": -22.782369350392646,
+		"longitude": -47.15777806280451,
+		"timestamp": 1695723360999
+	},
+	{
+		"latitude": -22.782192111587733,
+		"longitude": -47.15807493820966,
+		"timestamp": 1695723363999
+	},
+	{
+		"latitude": -22.788962,
+		"longitude": -47.1794265,
+		"timestamp": 1695723365344
+	},
+	{
+		"latitude": -22.782224638484212,
+		"longitude": -47.15843592256469,
+		"timestamp": 1695723366999
+	},
+	{
+		"latitude": -22.78248710944207,
+		"longitude": -47.15867220481396,
+		"timestamp": 1695723369999
+	},
+	{
+		"latitude": -22.782840184302287,
+		"longitude": -47.15880018928512,
+		"timestamp": 1695723372999
+	},
+	{
+		"latitude": -22.78313199538808,
+		"longitude": -47.15910763576532,
+		"timestamp": 1695723375999
+	},
+	{
+		"latitude": -22.783410717944,
+		"longitude": -47.159534276753234,
+		"timestamp": 1695723378999
+	},
+	{
+		"latitude": -22.783705635521574,
+		"longitude": -47.15999493686411,
+		"timestamp": 1695723381999
+	},
+	{
+		"latitude": -22.784004029334167,
+		"longitude": -47.1604681076097,
+		"timestamp": 1695723384999
+	},
+	{
+		"latitude": -22.784298321284478,
+		"longitude": -47.16096601294659,
+		"timestamp": 1695723387999
+	},
+	{
+		"latitude": -22.784588459194975,
+		"longitude": -47.161442438608574,
+		"timestamp": 1695723390999
+	},
+	{
+		"latitude": -22.78489244802578,
+		"longitude": -47.16191890554439,
+		"timestamp": 1695723393999
+	},
+	{
+		"latitude": -22.78522740130985,
+		"longitude": -47.162410899651235,
+		"timestamp": 1695723396999
+	},
+	{
+		"latitude": -22.785554440732597,
+		"longitude": -47.1629446319594,
+		"timestamp": 1695723399999
+	},
+	{
+		"latitude": -22.785870780470894,
+		"longitude": -47.16346708500704,
+		"timestamp": 1695723402999
+	},
+	{
+		"latitude": -22.786196819770364,
+		"longitude": -47.16398268265486,
+		"timestamp": 1695723405999
+	},
+	{
+		"latitude": -22.78651673812247,
+		"longitude": -47.16449464510135,
+		"timestamp": 1695723408999
+	},
+	{
+		"latitude": -22.786825424513513,
+		"longitude": -47.164978552225264,
+		"timestamp": 1695723411999
+	},
+	{
+		"latitude": -22.78710102476337,
+		"longitude": -47.165411006398855,
+		"timestamp": 1695723414999
+	},
+	{
+		"latitude": -22.787354412130778,
+		"longitude": -47.16579976049676,
+		"timestamp": 1695723417999
+	},
+	{
+		"latitude": -22.787564301165066,
+		"longitude": -47.16612684399378,
+		"timestamp": 1695723420999
+	},
+	{
+		"latitude": -22.787699718473302,
+		"longitude": -47.16635005637211,
+		"timestamp": 1695723423999
+	},
+	{
+		"latitude": -22.7865784,
+		"longitude": -47.1687916,
+		"timestamp": 1695723425431
+	},
+	{
+		"latitude": -22.787760217497897,
+		"longitude": -47.166478350412355,
+		"timestamp": 1695723426999
+	},
+	{
+		"latitude": -22.787786112358457,
+		"longitude": -47.16658549724598,
+		"timestamp": 1695723429999
+	},
+	{
+		"latitude": -22.787794077560445,
+		"longitude": -47.16681582558741,
+		"timestamp": 1695723432999
+	},
+	{
+		"latitude": -22.78778561319276,
+		"longitude": -47.16712112985041,
+		"timestamp": 1695723435999
+	},
+	{
+		"latitude": -22.787853438177155,
+		"longitude": -47.16744523948925,
+		"timestamp": 1695723438999
+	},
+	{
+		"latitude": -22.78777986541008,
+		"longitude": -47.16780161643887,
+		"timestamp": 1695723441999
+	},
+	{
+		"latitude": -22.787548280264843,
+		"longitude": -47.16818281717011,
+		"timestamp": 1695723444999
+	},
+	{
+		"latitude": -22.7863682,
+		"longitude": -47.1694181,
+		"timestamp": 1695723445459
+	},
+	{
+		"latitude": -22.78728169205239,
+		"longitude": -47.16860986610096,
+		"timestamp": 1695723447999
+	},
+	{
+		"latitude": -22.787006764087646,
+		"longitude": -47.169059616293374,
+		"timestamp": 1695723450999
+	},
+	{
+		"latitude": -22.78673969463,
+		"longitude": -47.16951122034093,
+		"timestamp": 1695723453999
+	},
+	{
+		"latitude": -22.786490285302047,
+		"longitude": -47.16999734334377,
+		"timestamp": 1695723456999
+	},
+	{
+		"latitude": -22.786306627231863,
+		"longitude": -47.17055971990164,
+		"timestamp": 1695723459999
+	},
+	{
+		"latitude": -22.78612543740406,
+		"longitude": -47.1711351485095,
+		"timestamp": 1695723462999
+	},
+	{
+		"latitude": -22.7855481,
+		"longitude": -47.1718066,
+		"timestamp": 1695723465497
+	},
+	{
+		"latitude": -22.78595154298872,
+		"longitude": -47.17169561239469,
+		"timestamp": 1695723465999
+	},
+	{
+		"latitude": -22.785790488064865,
+		"longitude": -47.17222462872948,
+		"timestamp": 1695723469000
+	},
+	{
+		"latitude": -22.785632659909304,
+		"longitude": -47.17272971621229,
+		"timestamp": 1695723472000
+	},
+	{
+		"latitude": -22.785383830230476,
+		"longitude": -47.17320647443045,
+		"timestamp": 1695723475000
+	},
+	{
+		"latitude": -22.785012961813294,
+		"longitude": -47.173567401484426,
+		"timestamp": 1695723478000
+	},
+	{
+		"latitude": -22.784577290040755,
+		"longitude": -47.17377828621231,
+		"timestamp": 1695723481000
+	},
+	{
+		"latitude": -22.784101605107914,
+		"longitude": -47.173893526606946,
+		"timestamp": 1695723484000
+	},
+	{
+		"latitude": -22.7837516,
+		"longitude": -47.1742809,
+		"timestamp": 1695723485512
+	},
+	{
+		"latitude": -22.783631723089577,
+		"longitude": -47.1740071453825,
+		"timestamp": 1695723487000
+	},
+	{
+		"latitude": -22.78318011628996,
+		"longitude": -47.174116765272544,
+		"timestamp": 1695723490000
+	},
+	{
+		"latitude": -22.78277078627983,
+		"longitude": -47.1742137496579,
+		"timestamp": 1695723493000
+	},
+	{
+		"latitude": -22.782425719368756,
+		"longitude": -47.17429924640515,
+		"timestamp": 1695723496000
+	},
+	{
+		"latitude": -22.782197679072407,
+		"longitude": -47.17435540426063,
+		"timestamp": 1695723499000
+	},
+	{
+		"latitude": -22.78209688099228,
+		"longitude": -47.17437463821983,
+		"timestamp": 1695723505000
+	},
+	{
+		"latitude": -22.7812975,
+		"longitude": -47.1746881,
+		"timestamp": 1695723505552
+	},
+	{
+		"latitude": -22.782002121174482,
+		"longitude": -47.17439460685442,
+		"timestamp": 1695723509000
+	},
+	{
+		"latitude": -22.78189649190786,
+		"longitude": -47.17439698343778,
+		"timestamp": 1695723522000
+	},
+	{
+		"latitude": -22.781754086830297,
+		"longitude": -47.17427644380879,
+		"timestamp": 1695723525000
+	},
+	{
+		"latitude": -22.7809572,
+		"longitude": -47.1747238,
+		"timestamp": 1695723525575
+	},
+	{
+		"latitude": -22.7815506298705,
+		"longitude": -47.174224743553935,
+		"timestamp": 1695723528000
+	},
+	{
+		"latitude": -22.7813653718829,
+		"longitude": -47.174338348282376,
+		"timestamp": 1695723531000
+	},
+	{
+		"latitude": -22.78129493144501,
+		"longitude": -47.174580950370924,
+		"timestamp": 1695723534000
+	},
+	{
+		"latitude": -22.78141354684105,
+		"longitude": -47.174817794298086,
+		"timestamp": 1695723537000
+	},
+	{
+		"latitude": -22.781637698475055,
+		"longitude": -47.17488373791666,
+		"timestamp": 1695723540000
+	},
+	{
+		"latitude": -22.78188845193497,
+		"longitude": -47.17489758669756,
+		"timestamp": 1695723543000
+	},
+	{
+		"latitude": -22.782154942474364,
+		"longitude": -47.17508366012001,
+		"timestamp": 1695723546000
+	},
+	{
+		"latitude": -22.7818755,
+		"longitude": -47.1744289,
+		"timestamp": 1695723545589
+	},
+	{
+		"latitude": -22.782440624823057,
+		"longitude": -47.17532499577781,
+		"timestamp": 1695723549000
+	},
+	{
+		"latitude": -22.78267403812496,
+		"longitude": -47.175522664922696,
+		"timestamp": 1695723552000
+	},
+	{
+		"latitude": -22.782800439589078,
+		"longitude": -47.1756321939798,
+		"timestamp": 1695723555000
+	},
+	{
+		"latitude": -22.78299306197744,
+		"longitude": -47.17579684875833,
+		"timestamp": 1695723558000
+	},
+	{
+		"latitude": -22.78326556344891,
+		"longitude": -47.176028314455536,
+		"timestamp": 1695723561000
+	},
+	{
+		"latitude": -22.783571499353478,
+		"longitude": -47.176289395960495,
+		"timestamp": 1695723564000
+	},
+	{
+		"latitude": -22.7838499,
+		"longitude": -47.1761411,
+		"timestamp": 1695723565610
+	},
+	{
+		"latitude": -22.78387464378679,
+		"longitude": -47.17654794598196,
+		"timestamp": 1695723567000
+	},
+	{
+		"latitude": -22.784181556383295,
+		"longitude": -47.176807326113654,
+		"timestamp": 1695723570000
+	},
+	{
+		"latitude": -22.784477563132103,
+		"longitude": -47.17705988239304,
+		"timestamp": 1695723573000
+	},
+	{
+		"latitude": -22.784740928046194,
+		"longitude": -47.177284050989016,
+		"timestamp": 1695723576000
+	},
+	{
+		"latitude": -22.78489820925876,
+		"longitude": -47.17742424873701,
+		"timestamp": 1695723579000
+	},
+	{
+		"latitude": -22.78497795541562,
+		"longitude": -47.17760483250632,
+		"timestamp": 1695723582000
+	},
+	{
+		"latitude": -22.785044779949594,
+		"longitude": -47.17786398630427,
+		"timestamp": 1695723585000
+	},
+	{
+		"latitude": -22.785076,
+		"longitude": -47.1780774,
+		"timestamp": 1695723585638
+	},
+	{
+		"latitude": -22.78525653558114,
+		"longitude": -47.17801762500661,
+		"timestamp": 1695723588000
+	},
+	{
+		"latitude": -22.78550497458167,
+		"longitude": -47.17796861673688,
+		"timestamp": 1695723591000
+	},
+	{
+		"latitude": -22.785715442401493,
+		"longitude": -47.178100153826435,
+		"timestamp": 1695723594000
+	},
+	{
+		"latitude": -22.78595036643839,
+		"longitude": -47.17831631348098,
+		"timestamp": 1695723597000
+	},
+	{
+		"latitude": -22.78621488593668,
+		"longitude": -47.178551472780796,
+		"timestamp": 1695723600000
+	},
+	{
+		"latitude": -22.786487592811387,
+		"longitude": -47.17879289721103,
+		"timestamp": 1695723603000
+	},
+	{
+		"latitude": -22.786747524083275,
+		"longitude": -47.179024647545155,
+		"timestamp": 1695723606000
+	},
+	{
+		"latitude": -22.7868996,
+		"longitude": -47.1788356,
+		"timestamp": 1695723605651
+	},
+	{
+		"latitude": -22.78691688162939,
+		"longitude": -47.17917047449974,
+		"timestamp": 1695723609000
+	},
+	{
+		"latitude": -22.787033640687547,
+		"longitude": -47.179272167733814,
+		"timestamp": 1695723612000
+	},
+	{
+		"latitude": -22.787146595940378,
+		"longitude": -47.17937047369983,
+		"timestamp": 1695723615000
+	},
+	{
+		"latitude": -22.78735438757474,
+		"longitude": -47.179543325872665,
+		"timestamp": 1695723618000
+	},
+	{
+		"latitude": -22.787583065076124,
+		"longitude": -47.17974374645722,
+		"timestamp": 1695723621000
+	},
+	{
+		"latitude": -22.787657047861316,
+		"longitude": -47.179931714576895,
+		"timestamp": 1695723624000
+	},
+	{
+		"latitude": -22.7874328,
+		"longitude": -47.1805469,
+		"timestamp": 1695723625662
+	},
+	{
+		"latitude": -22.7875363955165,
+		"longitude": -47.18008067147985,
+		"timestamp": 1695723627000
+	},
+	{
+		"latitude": -22.78740797210744,
+		"longitude": -47.18023114086094,
+		"timestamp": 1695723630000
+	},
+	{
+		"latitude": -22.78736029470962,
+		"longitude": -47.180342728415226,
+		"timestamp": 1695723633000
+	},
+	{
+		"latitude": -22.78743557279307,
+		"longitude": -47.18040449965828,
+		"timestamp": 1695723640000
+	},
+	{
+		"latitude": -22.787540984457753,
+		"longitude": -47.18043535111191,
+		"timestamp": 1695723644000
+	},
+	{
+		"latitude": -22.7870087,
+		"longitude": -47.1799014,
+		"timestamp": 1695723645691
+	},
+	{
+		"latitude": -22.787654410869237,
+		"longitude": -47.180453357247764,
+		"timestamp": 1695723648000
+	},
+	{
+		"latitude": -22.7876231,
+		"longitude": -47.180562,
+		"timestamp": 1695723665729
+	},
+	{
+		"latitude": -22.787745085706213,
+		"longitude": -47.18043610304985,
+		"timestamp": 1695723671000
+	},
+	{
+		"latitude": -22.78776507438722,
+		"longitude": -47.180338687537045,
+		"timestamp": 1695723676000
+	},
+	{
+		"latitude": -22.787793167892445,
+		"longitude": -47.18023262946773,
+		"timestamp": 1695723681000
+	},
+	{
+		"latitude": -22.787826472577084,
+		"longitude": -47.180123386652205,
+		"timestamp": 1695723686000
+	},
+	{
+		"latitude": -22.787737,
+		"longitude": -47.1807398,
+		"timestamp": 1695723725820
+	}
+] at timestamp: 2023-09-26 09:11:26
