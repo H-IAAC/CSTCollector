@@ -48,6 +48,10 @@ public class Db {
         return syncedDao.getOnGoingStates();
     }
 
+    public List<SyncedData> getUnSynced() {
+        return syncedDao.getUnSynced();
+    }
+
     public List<CollectionStats> getDataCollectionStatistics() {
         return collectedDao.getLocationStats();
     }

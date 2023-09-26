@@ -57,7 +57,7 @@ public class StatsListAdapter extends ArrayAdapter<CollectionInfo> {
         numberOfElementsTxt.setText(listData.getNumberOfItems() + "");
 
         if (listData.getSyncedState() == Constants.SYNCED_DATA.YES) {
-            isSyncedTxt.setTextColor(Color.GREEN);
+            isSyncedTxt.setTextColor(Color.BLACK);
             isSyncedTxt.setText(R.string.synced);
         } else if (listData.getSyncedState() == Constants.SYNCED_DATA.NO) {
             isSyncedTxt.setTextColor(Color.RED);

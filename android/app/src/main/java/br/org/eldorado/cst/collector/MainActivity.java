@@ -46,6 +46,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Vector;
 
+import br.org.eldorado.cst.collector.domain.DataCollectionModel;
 import br.org.eldorado.cst.collector.foreground.ForegroundService;
 import br.org.eldorado.cst.collector.foreground.handler.ServiceHandler;
 import br.org.eldorado.cst.collector.utils.Dialogs;
@@ -69,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText addressTxt = null;
     private EditText portTxt = null;
     private Preferences preferences;
+    private DataCollectionModel dataCollectionModel;
 
     private final Vector<String> REQUIRED_PERMISSIONS = new Vector<>(Arrays.asList(ACCESS_NETWORK_STATE,
                                                                                    FOREGROUND_SERVICE,
@@ -82,6 +84,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         setTitle("CST Collector");
+
+        // If there are pending data (no send/synced to server), try to send it.
+        dataCollectionModel = new DataCollectionModel(this);
+        dataCollectionModel.sendUnSyncedData();
 
         // Set class attributes
         alertTxt = findViewById(R.id.alertTxt);

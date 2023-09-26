@@ -37,27 +37,22 @@ public class Collector {
     }
 
     public void collect() {
-        if (deviceMonitor.checkRules()) {
-            Log.d(TAG, "Collecting data...");
-            CollectionState data = deviceMonitor.getState();
+        Log.d(TAG, "Collecting data...");
+        CollectionState data = deviceMonitor.getState();
 
-            // When starting Location Service, Android may return invalid GPS data
-            // with timestamp as '0'. We need to check if data is valid, and discard it
-            // when timestamp is '0'.
-            if (data.getLocation().getTimestamp() == 0) {
-                Log.w(TAG, "Data timestamp is '0'. Ignoring this data. ");
-                return;
-            }
-
-            collectionModel.insert(data, Constants.SYNCED_DATA.ON_GOING);
-
-            //Log.d(TAG, "TOTAL ---> " + db.getRepository().getLocationInfoPojo().numberOfItems + " " +
-            //        "startDate: " + db.getRepository().getLocationInfoPojo().startDate +
-            //        "endDate: " + db.getRepository().getLocationInfoPojo().endDate);
-
-        } else {
-            Log.d(TAG, "Rules don't match, not collecting...");
+        // When starting Location Service, Android may return invalid GPS data
+        // with timestamp as '0'. We need to check if data is valid, and discard it
+        // when timestamp is '0'.
+        if (data.getLocation().getTimestamp() == 0) {
+            Log.w(TAG, "Data timestamp is '0'. Ignoring this data. ");
+            return;
         }
+
+        collectionModel.insert(data, Constants.SYNCED_DATA.ON_GOING);
+
+        //Log.d(TAG, "TOTAL ---> " + db.getRepository().getLocationInfoPojo().numberOfItems + " " +
+        //        "startDate: " + db.getRepository().getLocationInfoPojo().startDate +
+        //        "endDate: " + db.getRepository().getLocationInfoPojo().endDate);
     }
 
 }
