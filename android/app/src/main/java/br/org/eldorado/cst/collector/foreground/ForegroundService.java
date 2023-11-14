@@ -13,6 +13,7 @@ import android.os.Process;
 import android.util.Log;
 import android.widget.Toast;
 
+import br.org.eldorado.cst.collector.agent.AgentMind;
 import br.org.eldorado.cst.collector.foreground.handler.ServiceHandler;
 import br.org.eldorado.cst.collector.foreground.notification.ForegroundNotification;
 
@@ -29,6 +30,8 @@ public class ForegroundService extends Service {
     public static Boolean isRunning = false;
     private ServiceHandler serviceHandler;
     private HandlerThread thread;
+
+    //private AgentMind agentMind;
 
     @Override
     public void onCreate() {
@@ -48,6 +51,7 @@ public class ForegroundService extends Service {
 
         // Start HandlerThread's Looper, and use it as service Handler
         serviceHandler = new ServiceHandler(getApplicationContext(), thread);
+        //agentMind = new AgentMind(getApplicationContext(), "127.0.0.1");
     }
 
     @Override
@@ -63,6 +67,9 @@ public class ForegroundService extends Service {
                     case ACTION_START_FOREGROUND_SERVICE:
                         ForegroundService.isRunning = true;
                         ServiceHandler.sendMessage(intent.getExtras());
+
+                        //agentMind.mountMind();
+                        //agentMind.start();
                         break;
                 }
             }
@@ -84,6 +91,7 @@ public class ForegroundService extends Service {
     public void onDestroy() {
         Log.d(TAG, "Service destroy");
         thread.quitSafely();
+        //agentMind.shutDown();
         ForegroundService.isRunning = false;
         Toast.makeText(this, "CST Collect finish", Toast.LENGTH_SHORT).show();
     }

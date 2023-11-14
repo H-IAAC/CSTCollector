@@ -46,6 +46,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Vector;
 
+import br.org.eldorado.cst.collector.agent.AgentMind;
 import br.org.eldorado.cst.collector.domain.DataCollectionModel;
 import br.org.eldorado.cst.collector.foreground.ForegroundService;
 import br.org.eldorado.cst.collector.foreground.handler.ServiceHandler;
@@ -78,6 +79,8 @@ public class MainActivity extends AppCompatActivity {
                                                                                    ACCESS_FINE_LOCATION,
                                                                                    ACCESS_COARSE_LOCATION));
 
+    private AgentMind agentMind;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -86,8 +89,14 @@ public class MainActivity extends AppCompatActivity {
         setTitle("CST Collector");
 
         // If there are pending data (no send/synced to server), try to send it.
+        //beware
         dataCollectionModel = new DataCollectionModel(this);
         dataCollectionModel.sendUnSyncedData();
+
+        agentMind = new AgentMind(this, "127.0.0.1");
+        agentMind.mountMind();
+        agentMind.start();
+        //agentMind.shutDown();
 
         // Set class attributes
         alertTxt = findViewById(R.id.alertTxt);
