@@ -55,9 +55,9 @@ public class AgentMind extends Mind {
         //insertCodelet(labelsSensor);
 
 
-        GPSSender gpsSender = new GPSSender(this.apiURL);
+        GPSSender gpsSender = new GPSSender(this.apiURL, this.context);
         gpsSender.addInput(sensorMO);
-        //gpsSender.addInput(statusMO);
+        gpsSender.addInput(statusMO);
         insertCodelet(gpsSender);
 
         PopupGen popupGen = new PopupGen(this.apiURL);
