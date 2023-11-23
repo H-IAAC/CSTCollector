@@ -8,6 +8,7 @@ import android.util.Log;
 import com.google.gson.Gson;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -46,20 +47,22 @@ public class GPSSender extends HttpCodelet {
 
     @Override
     public void proc() {
-        if(statusMO.getEvaluation() == 1.0){
-            //List<List<CollectedData>> fullData = (List<List<CollectedData>>) sensorMO.getI();
-            List<CollectedData> fullData = (List<CollectedData>) sensorMO.getI();
-            //String response = " API POST request failed!";
-            if(fullData != null){
+        if(statusMO.getI() != null) {
+            if ((boolean) statusMO.getI()) {
+                //List<List<CollectedData>> fullData = (List<List<CollectedData>>) sensorMO.getI();
+                ArrayList<CollectedData> fullData = (ArrayList<CollectedData>) sensorMO.getI();
+                //String response = " API POST request failed!";
+                if (fullData != null) {
 
-                for (CollectedData data : fullData) {
-                    Log.d(TAG, "Sending data from uuid: " + data.uuid + ".");
-                    dataCollectionModel.send(data.uuid);
+                    for (CollectedData data : fullData) {
+                        Log.d(TAG, "Sending data from uuid: " + data.uuid + ".");
+                        dataCollectionModel.send(data.uuid);
+                    }
+                    //dsend();
+
+                    sensorMO.setI(null);
+                    //System.out.println(response);
                 }
-                //dsend();
-
-                sensorMO.setI(null);
-                //System.out.println(response);
             }
         }
 

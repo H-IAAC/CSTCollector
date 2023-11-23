@@ -42,16 +42,17 @@ public class AgentMind extends Mind {
         gpsSensor.addOutput(sensorMO);
         insertCodelet(gpsSensor);
 
-        //StatusSensor statusSensor = new StatusSensor();
-        //statusSensor.addOutput(statusMO);
-        //insertCodelet(statusSensor);
+        StatusSensor statusSensor = new StatusSensor();
+        statusSensor.addInput(sensorMO);
+        statusSensor.addOutput(statusMO);
+        insertCodelet(statusSensor);
 
-        UserInput userInput = new UserInput();
-        userInput.addOutput(userMO);
+        //UserInput userInput = new UserInput();
+        //userInput.addOutput(userMO);
         //insertCodelet(userInput);
 
-        LabelsSensor labelsSensor = new LabelsSensor(this.apiURL);
-        labelsSensor.addInput(userMO);
+        //LabelsSensor labelsSensor = new LabelsSensor(this.apiURL);
+        //labelsSensor.addInput(userMO);
         //insertCodelet(labelsSensor);
 
 
