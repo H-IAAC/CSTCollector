@@ -38,12 +38,17 @@ public class CollectedData {
     @ColumnInfo(name = "longitude")
     public double longitude;
 
-    public CollectedData(@NonNull long uuid, int batteryLevel, boolean wifiState, long timestamp, double latitude, double longitude) {
+    @NonNull
+    @ColumnInfo(name = "sent")
+    public boolean sent;
+
+    public CollectedData(@NonNull long uuid, int batteryLevel, boolean wifiState, long timestamp, double latitude, double longitude, boolean sent) {
         this.uuid = uuid;
         this.batteryLevel = batteryLevel;
         this.wifiState = wifiState;
         this.timestamp = timestamp;
         this.latitude = latitude;
         this.longitude = longitude;
+        this.sent = sent;
     }
 }

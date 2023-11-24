@@ -11,6 +11,8 @@ import androidx.room.Query;
 import java.util.List;
 
 import br.org.eldorado.cst.collector.constants.Constants;
+import br.org.eldorado.cst.collector.data.db.room.dao.entities.CollectedData;
+import br.org.eldorado.cst.collector.data.db.room.dao.entities.CollectionStats;
 import br.org.eldorado.cst.collector.data.db.room.dao.entities.SyncedData;
 
 @Dao

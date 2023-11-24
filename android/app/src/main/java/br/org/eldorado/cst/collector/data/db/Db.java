@@ -27,7 +27,8 @@ public class Db {
                 data.getWifi().isConnected(),
                 data.getLocation().getTimestamp(),
                 data.getLocation().getLatitude(),
-                data.getLocation().getLongitude()));
+                data.getLocation().getLongitude(),
+                false));
         syncedDao.insert(new SyncedData(data.uuid, synced));
     }
 
@@ -40,11 +41,22 @@ public class Db {
          return collectedDao.getByUuid(uuid);
     }
 
+    public List<CollectedData> getNotSent(long uuid) {
+        return collectedDao.getByUuid(uuid, false);
+    }
+
+    public void updateCollectedDataSend(List<CollectedData> collectedData, boolean sendStatus) {
+        for (CollectedData data : collectedData) {
+            data.sent = sendStatus;
+            collectedDao.updateCollected(data);
+        }
+    }
+
     public void updateSynced(long uuid, int synced) {
         syncedDao.insert(new SyncedData(uuid, synced));
     }
 
-    public List<SyncedData> getSyncedAsOnGoing() {
+    public List<SyncedData> getOnGoing() {
         return syncedDao.getOnGoingStates();
     }
 

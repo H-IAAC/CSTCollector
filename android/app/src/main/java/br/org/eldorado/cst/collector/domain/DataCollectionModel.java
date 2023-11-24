@@ -67,6 +67,7 @@ public class DataCollectionModel {
             @Override
             public void onResponse(Call<JsonObject> call, Response<JsonObject> response) {
                 Log.d(TAG, "API onResponse: " + response.message());
+                syncedModel.updateCollectedDataSend(collectedData, true);
                 syncedModel.updateSynced(uuid, Constants.SYNCED_DATA.YES);
             }
             @Override
