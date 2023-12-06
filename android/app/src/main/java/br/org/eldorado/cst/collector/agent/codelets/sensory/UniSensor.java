@@ -49,7 +49,8 @@ public class UniSensor extends Codelet {
     @Override
     public void proc() {
 
-        List<SyncedData> unSyncedData = db.getUnSynced();
+        //List<SyncedData> unSyncedData = db.getUnSynced();
+        List<SyncedData> unSyncedData = db.getOnGoing();
         //List<List<CollectedData>> fullData = new ArrayList<>();
 
         /*for (Long aLong : db.getAllUuids()) {

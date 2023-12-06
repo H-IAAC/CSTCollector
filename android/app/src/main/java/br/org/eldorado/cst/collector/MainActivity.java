@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                                                                                    ACCESS_FINE_LOCATION,
                                                                                    ACCESS_COARSE_LOCATION));
 
-    private AgentMind agentMind;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,10 +93,7 @@ public class MainActivity extends AppCompatActivity {
         dataCollectionModel = new DataCollectionModel(this);
         dataCollectionModel.sendUnSyncedData();
 
-        agentMind = new AgentMind(this, "127.0.0.1");
-        agentMind.mountMind();
-        agentMind.start();
-        //agentMind.shutDown();
+
 
         // Set class attributes
         alertTxt = findViewById(R.id.alertTxt);
@@ -294,4 +291,10 @@ public class MainActivity extends AppCompatActivity {
 
         return missingPermissions;
     }
+
+    /*@Override
+    protected void onDestroy() {
+        agentMind.shutDown();
+        super.onDestroy();
+    }*/
 }

@@ -31,7 +31,7 @@ public class ForegroundService extends Service {
     private ServiceHandler serviceHandler;
     private HandlerThread thread;
 
-    //private AgentMind agentMind;
+    private AgentMind agentMind;
 
     @Override
     public void onCreate() {
@@ -51,7 +51,11 @@ public class ForegroundService extends Service {
 
         // Start HandlerThread's Looper, and use it as service Handler
         serviceHandler = new ServiceHandler(getApplicationContext(), thread);
-        //agentMind = new AgentMind(getApplicationContext(), "127.0.0.1");
+
+        agentMind = new AgentMind(this, "http://vm.hiaac.ic.unicamp.br:8089/");
+        agentMind.mountMind();
+        agentMind.start();
+        //agentMind.shutDown();
     }
 
     @Override
@@ -91,7 +95,7 @@ public class ForegroundService extends Service {
     public void onDestroy() {
         Log.d(TAG, "Service destroy");
         thread.quitSafely();
-        //agentMind.shutDown();
+        agentMind.shutDown();
         ForegroundService.isRunning = false;
         Toast.makeText(this, "CST Collect finish", Toast.LENGTH_SHORT).show();
     }

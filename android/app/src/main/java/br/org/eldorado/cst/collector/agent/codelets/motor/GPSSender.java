@@ -26,7 +26,7 @@ public class GPSSender extends HttpCodelet {
 
     DataCollectionModel dataCollectionModel;
     public GPSSender(String apiURL, Context context){
-        this.postURL = apiURL + "/gps_data";
+        this.postURL = apiURL; // + "/gps_data";
         dataCollectionModel = new DataCollectionModel(context);
     }
     @Override
