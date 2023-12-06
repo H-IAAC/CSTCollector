@@ -4,7 +4,7 @@ android {
     compileSdkVersion 33
     defaultConfig {
         applicationId "br.org.eldorado.cst.collector"
-        minSdkVersion 28
+        minSdkVersion 31
         targetSdkVersion 33
         versionCode 1
         versionName "0.1"
