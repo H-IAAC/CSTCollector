@@ -1,6 +1,10 @@
 package br.org.eldorado.cst.collector.domain;
 
+import static br.org.eldorado.cst.collector.data.db.room.dao.entities.CollectedData.TABLE_NAME;
+
 import android.content.Context;
+
+import androidx.room.Query;
 
 import java.util.List;
 
@@ -17,6 +21,10 @@ public class SyncedModel {
     public SyncedModel(Context context) {
         db = new Db(context);
         checkDataConsistency(context);
+    }
+
+    public SyncedData get(long uuid) {
+        return db.getSyncedData(uuid);
     }
 
     public void updateCollectedDataSend (List<CollectedData> collectedData, boolean sendStatus) {

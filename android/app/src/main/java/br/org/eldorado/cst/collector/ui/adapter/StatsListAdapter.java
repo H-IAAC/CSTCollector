@@ -43,6 +43,7 @@ public class StatsListAdapter extends ArrayAdapter<CollectionInfo> {
 
         TextView periodTxt = view.findViewById(R.id.periodTxt);
         TextView numberOfElementsTxt = view.findViewById(R.id.numberOfElementsTxt);
+        TextView numberOfNotSentElementsTxt = view.findViewById(R.id.numberOfNotSentElementsTxt);
         TextView isSyncedTxt = view.findViewById(R.id.isSyncedTxt);
         ImageButton syncBtn = view.findViewById(R.id.syncBtn);
         ImageButton deleteBtn = view.findViewById(R.id.deleteBtn);
@@ -55,6 +56,8 @@ public class StatsListAdapter extends ArrayAdapter<CollectionInfo> {
 
         periodTxt.setText(dateFormatStart.format(startDate) + dateFormatEnd.format(endDate));
         numberOfElementsTxt.setText(listData.getNumberOfItems() + "");
+
+        numberOfNotSentElementsTxt.setText(listData.getNumberOfNotSentItems() + "");
 
         if (listData.getSyncedState() == Constants.SYNCED_DATA.YES) {
             isSyncedTxt.setTextColor(Color.BLACK);
@@ -81,7 +84,17 @@ public class StatsListAdapter extends ArrayAdapter<CollectionInfo> {
             }
         });
 
-        syncBtn.setOnClickListener(view1 -> statsReport.send(listData.getUuid()));
+        syncBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int numberOfElementsSent = statsReport.send(listData.getUuid());
+
+                if (numberOfElementsSent == 0)
+                    Toast.makeText(context, "No new items to send.", Toast.LENGTH_SHORT).show();
+                else
+                    Toast.makeText(context, numberOfElementsSent + " new items to be sent.", Toast.LENGTH_SHORT).show();
+            }
+        });
 
         return view;
     }

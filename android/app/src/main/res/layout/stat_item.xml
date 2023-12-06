@@ -65,11 +65,36 @@ android:layout_height="wrap_content">
                 android:maxLines="1" />
         </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/notSentSamples"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:layout_below="@id/itemSamples">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:text="Samples not sent: " />
+
+            <TextView
+                android:id="@+id/numberOfNotSentElementsTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:ellipsize="end"
+                android:maxLines="1" />
+        </LinearLayout>
+
         <TextView
             android:id="@+id/isSyncedTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/itemSamples"
+            android:layout_below="@id/notSentSamples"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="5dp"

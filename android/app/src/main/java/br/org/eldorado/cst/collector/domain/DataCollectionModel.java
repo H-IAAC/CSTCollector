@@ -52,10 +52,19 @@ public class DataCollectionModel {
         }
     }
 
-    public void send(long uuid) {
+    public List<CollectedData> getNotSent(long uuid) {
+        return db.getNotSent(uuid);
+    }
+
+    public int send(long uuid) {
         // Get the collected data related to the uuid
-        List<CollectedData> collectedData = db.get(uuid);
+        List<CollectedData> collectedData = getNotSent(uuid);
         List<CollectedDataRequest> request = new ArrayList<>();
+
+        if (collectedData.size() == 0) {
+            updateCollectionStatus(uuid);
+            return 0;
+        }
 
         for (CollectedData data : collectedData) {
             request.add(new CollectedDataRequest(data.timestamp, data.latitude, data.longitude));
@@ -68,7 +77,8 @@ public class DataCollectionModel {
             public void onResponse(Call<JsonObject> call, Response<JsonObject> response) {
                 Log.d(TAG, "API onResponse: " + response.message());
                 syncedModel.updateCollectedDataSend(collectedData, true);
-                syncedModel.updateSynced(uuid, Constants.SYNCED_DATA.YES);
+
+                updateCollectionStatus(uuid);
             }
             @Override
             public void onFailure(Call<JsonObject> call, Throwable t) {
@@ -76,6 +86,16 @@ public class DataCollectionModel {
                 call.cancel();
             }
         });
+
+        return collectedData.size();
+    }
+
+    private void updateCollectionStatus(long uuid) {
+        int numberOfElementsNotSent = db.getNotSent(uuid).size();
+
+        if (syncedModel.get(uuid).synced == Constants.SYNCED_DATA.NO &&
+            numberOfElementsNotSent == 0)
+            syncedModel.updateSynced(uuid, Constants.SYNCED_DATA.YES);
     }
 
     public List<CollectionStats> getListOfCollectedData() {

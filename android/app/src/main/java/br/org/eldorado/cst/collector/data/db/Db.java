@@ -41,6 +41,10 @@ public class Db {
          return collectedDao.getByUuid(uuid);
     }
 
+    public SyncedData getSyncedData(long uuid) {
+        return syncedDao.getSynced(uuid);
+    }
+
     public List<CollectedData> getNotSent(long uuid) {
         return collectedDao.getByUuid(uuid, false);
     }

@@ -5,6 +5,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.widget.ListView;
 
@@ -89,8 +90,9 @@ public class StatsActivity extends AppCompatActivity {
     private void setAdapterData() {
         dataArrayList.clear();
 
-        for (CollectionStats location : statsReport.getListOfCollectedData()){
-            dataArrayList.add(new CollectionInfo(location.uuid, location.startDate, location.endDate, location.numberOfItems, location.synced));
+        for (CollectionStats location : statsReport.getListOfCollectedData()) {
+            Log.e("saulo", "location.numberOfItemsNotSent: " + location.numberOfItemsNotSent);
+            dataArrayList.add(new CollectionInfo(location.uuid, location.startDate, location.endDate, location.numberOfItems, location.numberOfItemsNotSent, location.synced));
         }
 
         listAdapter = new StatsListAdapter(StatsActivity.this, dataArrayList, statsReport);

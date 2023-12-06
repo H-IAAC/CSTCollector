@@ -45,7 +45,11 @@ public class Collector {
         //UniSensor cod = (UniSensor) agentMind.getCodeRack().getAllCodelets().stream().filter(codelet -> codelet.getName().equals("UniSensor")).findAny().orElse(null);
 
         //assert cod != null;
-        syncedModel.updateSynced(deviceMonitor.uuid, Constants.SYNCED_DATA.NO);
+        long uuid = deviceMonitor.uuid;
+        if(collectionModel.getNotSent(uuid).size() == 0)
+            syncedModel.updateSynced(deviceMonitor.uuid, Constants.SYNCED_DATA.YES);
+        else
+            syncedModel.updateSynced(deviceMonitor.uuid, Constants.SYNCED_DATA.NO);
         //syncedModel.updateSynced(cod.getDeviceMonitor().uuid, Constants.SYNCED_DATA.NO);
     }
 

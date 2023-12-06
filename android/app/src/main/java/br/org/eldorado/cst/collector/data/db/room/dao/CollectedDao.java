@@ -29,10 +29,11 @@ public interface CollectedDao {
     @Query("SELECT * FROM " + TABLE_NAME + " WHERE uuid = :uuid AND sent = :sent")
     List<CollectedData> getByUuid(long uuid, boolean sent);
 
-    @Query("SELECT loc.uuid, COUNT(loc.uuid) as numberOfItems, MIN(timestamp) AS startDate, MAX(timestamp) AS endDate, sync.synced" +
-            " FROM " + TABLE_NAME + " as loc," +
-            SyncedData.TABLE_NAME + " as sync" +
-            " WHERE loc.uuid = sync.uuid" +
+    @Query("SELECT loc.uuid, COUNT(loc.uuid) as numberOfItems, SUM(IIF(sent = 0, 1, 0)) as numberOfItemsNotSent, MIN(timestamp) AS startDate, MAX(timestamp) AS endDate, sync.synced" +
+            " FROM " + TABLE_NAME + " as loc " +
+            //SyncedData.TABLE_NAME + " as sync" +
+            " INNER JOIN " + SyncedData.TABLE_NAME + " as sync on sync.uuid = loc.uuid" +
+            //" WHERE loc.uuid = sync.uuid" +
             " GROUP BY loc.uuid" +
             " ORDER BY startDate DESC")
     List<CollectionStats> getLocationStats();
