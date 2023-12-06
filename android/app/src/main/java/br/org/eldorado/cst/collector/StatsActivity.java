@@ -1,5 +1,7 @@
 package br.org.eldorado.cst.collector;
 
+import static br.org.eldorado.cst.collector.constants.Constants.TAG;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
@@ -91,7 +93,7 @@ public class StatsActivity extends AppCompatActivity {
         dataArrayList.clear();
 
         for (CollectionStats location : statsReport.getListOfCollectedData()) {
-            Log.e("saulo", "location.numberOfItemsNotSent: " + location.numberOfItemsNotSent);
+            Log.i(TAG, "uuid: " + location.uuid + " numberOfItemsNotSent: " + location.numberOfItemsNotSent + " numberOfItems: " + location.numberOfItems);
             dataArrayList.add(new CollectionInfo(location.uuid, location.startDate, location.endDate, location.numberOfItems, location.numberOfItemsNotSent, location.synced));
         }
 
