@@ -1,6 +1,9 @@
 package br.org.eldorado.cst.collector.data.db;
 
+import static br.org.eldorado.cst.collector.constants.Constants.TAG;
+
 import android.content.Context;
+import android.util.Log;
 
 import java.util.List;
 
@@ -22,14 +25,26 @@ public class Db {
     }
 
     public void insert(CollectionState data, int synced) {
-        collectedDao.insert(new CollectedData(data.uuid,
-                data.getBattery().getLevel(),
-                data.getWifi().isConnected(),
-                data.getLocation().getTimestamp(),
-                data.getLocation().getLatitude(),
-                data.getLocation().getLongitude(),
-                false));
-        syncedDao.insert(new SyncedData(data.uuid, synced));
+        // Check it data is not already stored, it happens when android sent
+        // repeated broadcast for same data.
+        if (itExits(data.uuid,
+                    data.getBattery().getLevel(),
+                    data.getWifi().isConnected(),
+                    data.getLocation().getTimestamp(),
+                    data.getLocation().getLatitude(),
+                    data.getLocation().getLongitude()).size() == 0) {
+            // As size is 0, this data is new, so insert it.
+            collectedDao.insert(new CollectedData(data.uuid,
+                    data.getBattery().getLevel(),
+                    data.getWifi().isConnected(),
+                    data.getLocation().getTimestamp(),
+                    data.getLocation().getLatitude(),
+                    data.getLocation().getLongitude(),
+                    false));
+            syncedDao.insert(new SyncedData(data.uuid, synced));
+        } else {
+            Log.i(TAG, "Ignoring repeated data.");
+        }
     }
 
     public void delete(long uuid) {
@@ -39,6 +54,10 @@ public class Db {
 
     public List<CollectedData> get(long uuid) {
          return collectedDao.getByUuid(uuid);
+    }
+
+    public List<CollectedData> itExits(long uuid, int batteryLevel, boolean wifiState, long timestamp, double latitude, double longitude) {
+        return collectedDao.itExists(uuid, batteryLevel, wifiState, timestamp, latitude, longitude);
     }
 
     public SyncedData getSyncedData(long uuid) {

@@ -20,10 +20,13 @@ public interface CollectedDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insert(CollectedData data);
 
+    @Query("SELECT * FROM " + TABLE_NAME + " WHERE uuid = :uuid AND batteryLevel = :batteryLevel AND wifiState = :wifiState AND timestamp = :timestamp AND latitude = :latitude AND longitude = :longitude")
+    List<CollectedData> itExists(long uuid, int batteryLevel, boolean wifiState, long timestamp, double latitude, double longitude);
+
     @Query("DELETE FROM " + TABLE_NAME + " WHERE uuid = :uuid")
     void deleteByUuid(long uuid);
 
-    @Query("SELECT * FROM " + TABLE_NAME + " WHERE uuid = :uuid")
+    @Query("SELECT * FROM " + TABLE_NAME + " WHERE uuid = :uuid ORDER BY timestamp ASC")
     List<CollectedData> getByUuid(long uuid);
 
     @Query("SELECT * FROM " + TABLE_NAME + " WHERE uuid = :uuid AND sent = :sent")
